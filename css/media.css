@@ -1,0 +1,79 @@
+/* Para movil */
+@media only screen and (min-width: 520px){
+
+}
+
+/* Table screen*/
+@media only screen and (min-width: 768px){
+    header{
+        height: 70px;
+        display: inline-block;
+    }
+
+    header h1{
+        width: 20%;
+        margin: 0px;
+        height: 70px;
+        line-height: 70px;
+        min-width: 200px;
+        margin-left: 50px;
+    }
+    
+    header nav{
+        display: inline-block;
+        vertical-align: center; 
+        background: none;
+        width: 100%;
+        top: 0px;
+        left: 10px;
+        text-align: right;
+        position: absolute;
+    }
+    
+    header nav #cerrarMenu{
+        display: none;
+    }
+    
+    header nav .menuTarjeta{
+        background: none;
+        border: none;
+        position: relative;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        text-align: right;
+        padding-bottom: 0px;  
+        height: 70px;
+    }
+    
+    header nav .menuTarjeta ul{
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+        height: 70px;
+    }
+    
+    header nav .menuTarjeta ul li{
+        display: inline-block;
+        width: 160px;
+        text-align: center;
+        font-size: 1.2em;
+        margin: 0px 0px;
+        border: none;
+        line-height: 70px;
+        padding: 0px;
+    }
+    
+    header nav .menuTarjeta ul li a{
+        color: white;
+        line-height: normal;
+    }
+    
+    header nav .menuTarjeta ul li:hover{
+        background: #23457b;
+    }
+}
+
+
+@media screen and (min-width: 950px){
+}

@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
+
+
+body{
+    font-size: 16px;
+    font-family: 'Titillium Web', sans-serif;
+    background: #e7e7e7;
+}
+
+header{
+    width: 100%;
+    height: 35px;
+    background: #353a43;
+    top: 0px;
+    position: absolute;
+}
+
+header >*{
+    display: inline-block;
+}
+
+header h1{
+    color: white;
+    left: 20px;
+    text-align: left;
+    position: absolute;
+    top: 0px;
+    height: 35px;
+    font-size: 30px;
+    margin: 0px;
+    width: 20%;
+}
+
+header nav{
+    position: absolute;
+    width: 70%;
+    right:0px;
+    height: 35px;
+}
+
+header nav #cerrarMenu{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 90%;
+    z-index: 200;
+    top: 5px;
+}
+
+header nav #cerrarMenu:before{
+    font-family: "untitled-font-1";
+    content: "\64";
+    color: white;
+    position: relative;
+    font-size: 1.5em;
+    left: 2px;    
+}
+
+header nav #cerrarMenu:hover{
+    cursor: pointer;
+}
+
+
+header nav .menuTarjeta{
+    position: absolute;
+    width: 240px;
+    top: 35px;
+    right: 0px;
+    border: 1px solid #333436;
+    z-index: 100;
+    padding-bottom: 30px;
+    display: none;
+    border-bottom-left-radius: 20px;
+    background: #353a43;
+    -webkit-animation: 0.5s hacerFadeOn 1;
+    -moz-animation: 0.5s hacerFadeOn 1;
+}
+
+.quitarFade{
+     -webkit-animation: 0.5s hacerFadeOff 1;
+}
+
+@-webkit-keyframes hacerFadeOn{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.7;
+    }
+}
+
+@-webkit-keyframes hacerFadeOff{
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+}
+
+header nav .menuTarjeta ul{
+    margin-top: 0px;
+    position: relative;
+}
+
+header nav .menuTarjeta ul li{
+    list-style: none;
+    font-size: 1.5em;
+    line-height: 40px;
+    text-align: center;
+    position: relative;
+    right: 40px;
+    margin: 0px;
+    border-bottom: 1px solid #333436;
+    width: 240px;
+}
+header nav .menuTarjeta ul li:hover{
+    background: #516d9a;
+}
+
+header nav .menuTarjeta ul li a{
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px;
+    padding: 0px;
+    cursor: pointer;
+    text-align: center;
+}
