@@ -1,0 +1,121 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.header {
+    padding: 0;
+   margin: 0px;
+    width:100%;
+    background: black
+    
+}
+
+.contenedor {
+    max-width: 1200px;
+    margin: 0 auto 0 auto;
+}
+
+.navegacion{
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+.navegacion ul{
+    padding: 0;
+    margin: 0;
+      text-decoration: none;
+}
+
+.navegacion ul li{
+    display: inline-block;
+    padding: 0;
+    margin: 1em;  
+
+
+}
+
+.navegacion ul li a{
+   color: white;
+    display: block;
+    padding: 10px;
+   
+      text-decoration: none;
+}
+
+img{
+    width: 25%;
+    padding: 0;
+    margin: 0;
+    background: #ffffff;
+    align-content: center;
+}
+
+.barra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+  
+    padding: 0;
+}
+
+.navegacion a:hover {
+    color: dodgerblue;
+    background: #000000;
+       background: #ffffff;
+}
+.isei:hover{
+     color: dodgerblue;
+    background: #ffffff;
+}
+
+.navegacion a:last-of-type {
+    margin: 0;
+}
+
+.isei{
+    color: white;
+    font-size: 4rem;
+    padding: 0;
+    margin: 0;
+      text-decoration: none;
+
+}
+
+
+/*esto es de la pagina*/
+.medio{
+    display: block;
+    background: white;
+  
+    align-items: center;
+    padding: 0px;
+    margin: 1rem;
+    width: 34rem;
+   
+align-items: center;
+   
+}
+
+P{
+    text-align: justify;
+}
+.direc{
+    padding: 0;
+    margin: 6rem;
+    display: block;
+}
+
+/*ESTO TAMBIEN LO TENGO QUE COPIAR DESPUES EN LAS SIGUIENTES PAGINAS*/
+.foot{
+    background: #6f6767;
+    padding: 0;
+    margin: 0;
+    
+}
+
