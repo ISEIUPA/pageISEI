@@ -6,72 +6,58 @@
     margin: 0px;
 }
 
-html {
+html, body {
     font-family: 'Lato', sans-serif;
     font-size: 20px;
     font-weight: 300;
     text-rendering: optimizeLegibility;
 }
 
-.header {
+header {
     padding: 0;
     margin: 0px;
     width:100%;
+    height: 70px;
     background: black;
-    
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 
-.titulo{
-    margin-top: 0;
-    margin-bottom: 20px;
-    color: #000000;
-    font-size: 150%;
-    font-weight: 100;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    word-spacing: 3px;
+header .isei{
+    color: white;
+    font-size: 2rem;
+    text-decoration: none;
 }
 
-
-
-.contenedor {
-    max-width: 1200px;
-    margin: 0 auto 0 auto;
-}
-
-.navegacion{
-    padding: 0;
-    margin: 0;
-    display: block;
-}
 .navegacion ul{
-    padding: 0;
-    margin: 0;
-      text-decoration: none;
+    text-decoration: none;
+    float: right;
 }
 
 .navegacion ul li{
     display: inline-block;
     padding: 0;
-    margin: 1em;  
-
-
+    margin: 1em 1em;  
 }
 
-.navegacion ul li a{
-   color: white;
-    display: block;
-    padding: 10px;
-   
-      text-decoration: none;
+
+
+.navegacion li a:link,
+.navegacion li a:visited {
+    padding: 8px 0;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    -webkit-transition: border-bottom 0.2s;
+    transition: border-bottom 0.2s;
 }
 
-img{
-    width: 25%;
-    padding: 0;
-    margin: 0;
-    background: #ffffff;
-    align-content: center;
+.navegacion li a:hover,
+.navegacion li a:active {
+    border-bottom: 2px solid #1e44e5;
 }
 
 .barra {
@@ -79,31 +65,55 @@ img{
     justify-content:flex-start;
     align-items: center;
     padding-top: 30px;
-  
     padding: 0;
 }
 
-.navegacion a:hover {
-    color: dodgerblue;
-    background: #000000;
-    background: #ffffff;
-}
-
-.isei:hover{
-    color: dodgerblue;
-    background: #ffffff;
-}
 
 .navegacion a:last-of-type {
     margin: 0;
 }
 
-.isei{
-    color: white;
-    font-size: 4rem;
+
+/*esto es de la pagina*/
+.direc{
     padding: 0;
-    margin: 0;
-    text-decoration: none;
+    margin: 0rem 5rem;
+    display: block;
+}
+
+.renglon{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1{
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #000000;
+    font-size: 120%;
+    font-weight:400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    text-align: center;
+}
+
+h2{
+    margin-top: 1rem;
+    margin-bottom: 20px;
+    color: #000000;
+    font-size: 160%;
+    font-weight:400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    text-align: center;
+}
+
+.todo{
+    display: flex;
+    justify-content: space-between;
+    margin: 1px;
 }
 
 .imagen
@@ -114,33 +124,22 @@ img{
     background: url(../img/campus.jpg);
     width: 50%;
 }
-.todo{
-    display: flex;
-    justify-content: space-between;
-    margin: 1px;
-}
 
 
-/*esto es de la pagina*/
 .medio{
     display: block;
     background: white;
-  
     align-items: center;
     padding: 0px;
     margin: 1rem;
-    width: 34rem;
+    width: 35rem;
     align-items: center;
 }
 
-P{
+p{
     text-align: justify;
 }
-.direc{
-    padding: 0;
-    margin: 6rem;
-    display: block;
-}
+
 
 /*ESTO TAMBIEN LO TENGO QUE COPIAR DESPUES EN LAS SIGUIENTES PAGINAS*/
 .foot{

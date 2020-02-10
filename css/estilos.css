@@ -1,129 +1,197 @@
 @import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Nunito:300,400,700&display=swap');
 
-body{
-    font-size: 16px;
-    /*font-family: 'Titillium Web', sans-serif;*/
-    font-family: 'Nunito', sans-serif;
-    background: #e7e7e7;
-}
-
-header{
-    width: 100%;
-    height: 35px;
-    background: #353a43;
-    top: 0px;
-    position: absolute;
-}
-
-header >*{
-    display: inline-block;
-}
-
-header h1{
-    color: white;
-    left: 20px;
-    text-align: left;
-    position: absolute;
-    top: 0px;
-    height: 35px;
-    font-size: 30px;
-    margin: 0px;
-    width: 20%;
-}
-
-header nav{
-    position: absolute;
-    width: 70%;
-    right:0px;
-    height: 35px;
-}
-
-header nav #cerrarMenu{
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    left: 90%;
-    z-index: 200;
-    top: 5px;
-}
-
-header nav #cerrarMenu:before{
-    font-family: "untitled-font-1";
-    content: "\64";
-    color: white;
-    position: relative;
-    font-size: 1.5em;
-    left: 2px;    
-}
-
-header nav #cerrarMenu:hover{
-    cursor: pointer;
-}
-
-
-header nav .menuTarjeta{
-    position: absolute;
-    width: 240px;
-    top: 35px;
-    right: 0px;
-    border: 1px solid #333436;
-    z-index: 100;
-    padding-bottom: 30px;
-    display: none;
-    border-bottom-left-radius: 20px;
-    background: #353a43;
-    -webkit-animation: 0.5s hacerFadeOn 1;
-    -moz-animation: 0.5s hacerFadeOn 1;
-}
-
-.quitarFade{
-     -webkit-animation: 0.5s hacerFadeOff 1;
-}
-
-@-webkit-keyframes hacerFadeOn{
-    0%{
-        opacity: 0;
-    }
-    50%{
-        opacity: 0.7;
-    }
-}
-
-@-webkit-keyframes hacerFadeOff{
-    0%{
-        opacity: 1;
-    }
-    50%{
-        opacity: 0;
-    }
-}
-
-header nav .menuTarjeta ul{
-    margin-top: 0px;
-    position: relative;
-}
-
-header nav .menuTarjeta ul li{
-    list-style: none;
-    font-size: 1.5em;
-    line-height: 40px;
-    text-align: center;
-    position: relative;
-    right: 40px;
-    margin: 0px;
-    border-bottom: 1px solid #333436;
-    width: 240px;
-}
-header nav .menuTarjeta ul li:hover{
-    background: #516d9a;
-}
-
-header nav .menuTarjeta ul li a{
-    text-decoration: none;
-    color: black;
-    border-bottom: 1px;
+*{
     padding: 0px;
-    cursor: pointer;
+    margin: 0px;
+}
+
+html, body {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+
+header {
+    padding: 0;
+    margin: 0px;
+    width:100%;
+    height: 70px;
+    background: black;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+header .isei{
+    color: white;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.navegacion ul{
+    text-decoration: none;
+    float: right;
+}
+
+.navegacion ul li{
+    display: inline-block;
+    padding: 0;
+    margin: 1em 1em;  
+}
+
+
+
+.navegacion li a:link,
+.navegacion li a:visited {
+    padding: 8px 0;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    -webkit-transition: border-bottom 0.2s;
+    transition: border-bottom 0.2s;
+}
+
+.navegacion li a:hover,
+.navegacion li a:active {
+    border-bottom: 2px solid #1e44e5;
+}
+
+.barra {
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    padding-top: 30px;
+    padding: 0;
+}
+
+
+.navegacion a:last-of-type {
+    margin: 0;
+}
+
+
+/*esto es de la pagina*/
+.direc{
+    padding: 0;
+    margin: 0rem 5rem;
+    display: block;
+}
+
+.renglon{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1{
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #000000;
+    font-size: 120%;
+    font-weight:400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 3px;
     text-align: center;
 }
+
+h2{
+    margin-top: 1rem;
+    margin-bottom: 20px;
+    color: #000000;
+    font-size: 160%;
+    font-weight:400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    text-align: center;
+}
+
+.todo{
+    display: flex;
+    justify-content: space-between;
+    margin: 1px;
+}
+
+.imagen
+{
+    margin: 1pc;
+    display: block;
+    border-radius: 13%;
+    background: url(../img/campus.jpg);
+    width: 50%;
+}
+
+
+.medio{
+    display: block;
+    background: white;
+    align-items: center;
+    padding: 0px;
+    margin: 1rem;
+    width: 35rem;
+    align-items: center;
+}
+
+p{
+    text-align: justify;
+}
+
+
+/*ESTO TAMBIEN LO TENGO QUE COPIAR DESPUES EN LAS SIGUIENTES PAGINAS*/
+.foot{
+    background: #6f6767;
+    padding: 0;
+    margin: 0;
+    
+}
+
+
+/*segunda pagina de pdf*/
+
+.cajapdf{
+    margin:0 12%;
+    padding: 0;
+    height: 60rem;
+    display: block;
+    align-content: center;
+   align-content: center;
+    
+}
+.cajapdf h1{
+    text-align: center;
+}
+
+.pdf{
+    display: block;
+    margin: auto auto;
+    padding: 1rem;
+    width: 70%;
+    height: 90%;
+}
+
+@media (max-width:447px){
+    .cajapdf{
+    margin:0 12%;
+    padding: 0;
+    height: 60%;
+    display: block;
+    align-content: center;
+   align-content: center;
+}
+.cajapdf h1{
+    text-align: center;
+}
+
+.pdf{
+    display: block;
+    margin: auto ;
+    padding: 0;
+    width: 100%;
+    height: 90%;
+}
+}
+
