@@ -1,0 +1,252 @@
+html{
+    font-size: 62.5%;
+}
+.barra{
+    display: none;
+}
+body{
+   font-family: 'Lato', sans-serif;
+    font-size: 1.6rem;
+}
+.index{
+    background: black;
+   height: 12rem;
+}
+.inicio{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding-top: 1.5rem
+}
+
+.contenedor{
+    max-width: 120rem;
+    margin: 0 auto 0 auto;
+}
+.navegacion a{
+    color: white;
+    text-decoration: none;
+    font-size: 2.2rem;
+    margin-right: 1.7rem;
+}
+ul, ol{
+    list-style: none;
+}
+.navegacion > li{
+    float: left;
+     margin-right: 2rem;
+}
+.navegacion li ul{
+    display: none;
+    padding: 0rem;
+    margin: 0rem;
+    position: absolute;
+}
+.navegacion li:hover > ul{
+    display: block;
+}
+.navegacion li ul li{
+    background-color: black;
+    
+}
+.navegacion a:hover{
+    color:dodgerblue;
+}
+.navegacion a:last-of-type{
+    margin: 0;
+}
+.pie{
+    background: #6f6767;
+    padding: 0;
+    margin-top: 10%;
+    
+
+}
+.contenido{
+    display: flex;
+    flex-direction: column;
+    
+}
+.contenedor{
+    max-width: 120rem;
+    margin: 0 auto 0 auto;
+}
+.todo{
+    display: flex;
+    justify-content: space-between;
+    margin: 1px;
+}
+.medio{
+    font-size: 1.8rem;
+    display: block;
+    background: white;
+    align-items: center;
+    padding: 0px;
+    margin: 1rem;
+    width: 60rem;
+   align-items: center;
+   
+}
+.direc{
+    padding: 0;
+    margin: 6rem;
+    display: block;
+}
+.imagen
+{
+    margin: 1pc;
+    display: block;
+    border-radius: 13%;
+    background: url(../img/campus.jpg);
+    width: 50%;
+}
+.cajapdf{
+    margin:0 12%;
+    padding: 4rem;
+    height: 70rem;
+    display: block;
+    align-content: center;
+   align-content: center;
+    
+}
+.cajapdf h1{
+    text-align: center;
+}
+
+.pdf{
+    display: block;
+    margin: 0 auto;
+    padding: 1rem;
+    width: 100%;
+    height: 75rem;
+    
+    
+}
+
+@media (max-width:447px){
+.cajapdf{
+    margin:0 12%;
+    padding: 0;
+    height: 60%;
+    display: block;
+    align-content: center;
+   align-content: center;
+    
+}
+.cajapdf h1{
+    text-align: center;
+}
+.pdf{
+    display: block;
+    margin: auto ;
+    padding: 0;
+    width: 100%;
+    height: 90%;
+    
+    
+}
+}
+form{
+    width: 20rem;
+    margin: 0 auto;    
+    background: white;
+    padding: 1rem;
+    height: auto 0;
+    
+}
+
+.cuadro{
+    border: solid 1px #cccc;
+    padding: 1rem;
+}
+imgc{
+    width: 25%;
+    padding: 0;
+    margin: 0;
+    background: #ffffff;
+    align-content: center;
+}
+imgc{
+    
+    width: 40rem;
+}
+.galeria{
+   
+    width: 40rem;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.galeria ul{
+    display: flex;
+    list-style: none;
+    width: 280rem;
+    animation: slide 20s infinite alternate;
+    
+}
+
+@keyframes slide{
+    0%{margin-left: 0rem;}
+    20%{margin-left: 0rem;}
+    25%{margin-left: -40rem;}
+    45%{margin-left: -40rem;}
+    50%{margin-left: -80rem;}
+    70%{margin-left: -80rem;}
+    75%{margin-left: -120rem;}
+    100%{margin-left: -120rem;}
+}
+
+
+.completa{
+    
+    margin: 0 auto;
+    display: block;
+    width: 75%;
+    background: #b7b4c1;
+        
+}
+
+.muchas {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+   padding: 1rem;
+    margin: 1rem;
+}
+.imgc {
+    padding: 1rem;
+    margin: 0.8rem;
+    width: 24%;
+    display: inline-block;
+   border: 0.1rem solid black;
+}
+
+.imgc imgc{
+    width: 100%;
+}
+
+h1{
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #000000;
+    font-size: 120%;
+    font-weight:400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    text-align: center;
+}
+h2{
+    margin-top: 1rem;
+    margin-bottom: 20px;
+    color: #000000;
+    font-size: 160%;
+    font-weight:400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    text-align: center;
+}
+h3{
+    font-size:3rem;
+}
