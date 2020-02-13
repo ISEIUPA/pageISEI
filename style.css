@@ -25,6 +25,12 @@ body{
     padding-top: 1.5rem;
     
 }
+header nav ul li .caret{
+    position: relative;
+    top: .3rem;
+    margin-left:.7rem;
+    margin-right: 0px;
+}
 
 .contenedor{
     max-width: 120rem;
@@ -51,6 +57,7 @@ ul, ol{
 }
 .navegacion li:hover > ul{
     display: block;
+    z-index: 1000;
 }
 .navegacion li ul li{
     background-color: black;
@@ -62,8 +69,41 @@ ul, ol{
 .navegacion a:last-of-type{
     margin: 0;
 }
+@media screen and (max-width: 52rem){
+    body{
+        padding-top: 8rem;
+    }
+    .barra{
+        display: block;
+        width: 100%;
+        position: fixed;
+        top: 0rem;
+        background: black;
+    }
+    .barra .bt-menu{
+        display: block;
+        padding: 2rem;
+        color: white;
+        overflow: hidden;
+        font-size: 2.5rem;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    .barra span{
+       float: right;
+        font-size: 4rem;
+    }
+    header nav{
+        width: 80%;
+        position: fixed;
+        right: 100%;
+        margin: 0;
+    }
+}
+
+
 .pie{
-    background: #6f6767;
+    background: #B7B4C1;
     padding: 0;
     margin-top: 10%;
   
@@ -98,7 +138,7 @@ ul, ol{
 }
 .imagen
 {
-    margin: 1pc;
+    margin: .1rem;
     display: block;
     border-radius: 13%;
     background: url(../img/campus.jpg);
