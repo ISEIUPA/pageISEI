@@ -1,12 +1,18 @@
 html{
     font-size: 62.5%;
 }
+
+*{
+    margin: 0;
+    padding: 0;
+}
 .barra{
     display: none;
 }
 body{
    font-family: 'Lato', sans-serif;
     font-size: 1.6rem;
+    flex-wrap: wrap;
 }
 .index{
     background: black;
@@ -16,7 +22,8 @@ body{
     display: flex;
     justify-content: space-between;
     align-items:center;
-    padding-top: 1.5rem
+    padding-top: 1.5rem;
+    
 }
 
 .contenedor{
@@ -59,7 +66,7 @@ ul, ol{
     background: #6f6767;
     padding: 0;
     margin-top: 10%;
-    
+  
 
 }
 .contenido{
@@ -67,10 +74,7 @@ ul, ol{
     flex-direction: column;
     
 }
-.contenedor{
-    max-width: 120rem;
-    margin: 0 auto 0 auto;
-}
+
 .todo{
     display: flex;
     justify-content: space-between;
@@ -159,17 +163,18 @@ form{
     border: solid 1px #cccc;
     padding: 1rem;
 }
-imgc{
-    width: 25%;
-    padding: 0;
-    margin: 0;
-    background: #ffffff;
-    align-content: center;
+
+/*CARRETE*/
+.completa h2{
+    padding-top: 1.5rem;
 }
-imgc{
+
+
+.completa img{
     
     width: 40rem;
 }
+
 .galeria{
    
     width: 40rem;
@@ -180,9 +185,14 @@ imgc{
 .galeria ul{
     display: flex;
     list-style: none;
-    width: 280rem;
+    width: 200rem;
     animation: slide 20s infinite alternate;
+    text-align:center;
     
+}
+
+.galeria img{
+    width: 40rem;
 }
 
 @keyframes slide{
@@ -202,7 +212,7 @@ imgc{
     margin: 0 auto;
     display: block;
     width: 75%;
-    background: #b7b4c1;
+    background: #B7B4C1;
         
 }
 
@@ -213,15 +223,15 @@ imgc{
    padding: 1rem;
     margin: 1rem;
 }
-.imgc {
-    padding: 1rem;
+.img {
+    padding: 0rem;
     margin: 0.8rem;
     width: 24%;
     display: inline-block;
-   border: 0.1rem solid black;
+ 
 }
 
-.imgc imgc{
+.img img{
     width: 100%;
 }
 
