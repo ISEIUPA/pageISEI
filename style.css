@@ -404,3 +404,46 @@ h2{
 h3{
     font-size:3rem;
 }
+
+/*******PARTE PARA LOS TEXTOS******/
+.textonav{
+    width: 70%;
+    height: 70rem;
+    margin: 0 auto;
+    margin: 5rem auto;
+    display: flex;
+    background: black;
+    height: inherit;
+    
+}
+
+.textolinea{
+    display: flex;
+    height: 80rem;
+    width: 20%;
+    background: white;
+    margin: 2rem;
+    overflow-y: scroll;
+}
+.textolinea a{
+    color:blue;
+    display: block;
+}
+
+.textoc{
+    direction: flex;
+    height: 80rem;
+    width: 75%;
+    margin: 2rem;
+    background: white;
+    overflow-y: scroll;
+}
+.textoc p{
+     text-align: justify;
+    margin: 3rem;
+}
+.textoc h3{
+    font-size: 4rem;
+    text-align: center;
+    margin: 3rem;
+}
