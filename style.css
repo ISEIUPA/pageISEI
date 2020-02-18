@@ -3,8 +3,11 @@ html{
 }
 
 *{
-    margin: 0;
-    padding: 0;
+	padding:0;
+	margin:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
 .barra{
     display: none;
@@ -14,10 +17,7 @@ body{
     font-size: 1.6rem;
     flex-wrap: wrap;
 }
-.index{
-    background: black;
-   height: 12rem;
-}
+
 .inicio{
     display: flex;
     justify-content: space-between;
@@ -25,82 +25,162 @@ body{
     padding-top: 1.5rem;
     
 }
-header nav ul li .caret{
-    position: relative;
-    top: .3rem;
-    margin-left:.7rem;
-    margin-right: 0px;
+
+.menu_bar {
+	display:none;
+}
+
+header {
+    background: black;
+	width: 100%;
+}
+
+header .navegacion{
+    display: flex;
+    justify-content: center;
+}
+header nav {
+	background:black;
+	z-index:1000;
+	max-width: 1000px;
+	width:95%;
+	margin:20px auto;
+}
+
+
+header nav ul {
+	list-style:none;
+}
+
+header nav ul li {
+	display:inline-block;
+	position: relative;
+}
+
+header nav ul li:hover {
+	background:black;
+}
+
+header nav ul li a {
+	color:white;
+	display:block;
+	text-decoration:none;
+	padding: 2rem;
+    font-size: 2rem;
+}
+
+header nav ul li a span {
+	margin-right:10px;
+}
+
+header nav ul li:hover .hijos {
+	display:block;
+}
+
+header nav ul li .hijos {
+	display: none;
+	background:black;
+	position: absolute;
+	width: 150%;
+	z-index:1000;
+}
+
+header nav ul li .hijos li {
+	display:block;
+	overflow: hidden;
+	border-bottom: 1px solid rgba(255,255,255,.5);
+}
+
+header nav ul li .hijos li a {
+	display: block;
+}
+
+header nav ul li .hijos li a span {
+	float: right;
+	position: relative;
+	top:3px;
+	margin-right:0;
+	margin-left:10px;
+}
+
+header nav ul li .caret {
+	position: relative;
+	top:3px;
+	margin-left:10px;
+	margin-right:0px;
+}
+
+@media screen and (max-width: 80rem) {
+	body {
+		padding-top:8rem;
+	}
+    .jq{
+        display: none;
+    }
+
+	.menu_bar {
+		display:block;
+		width:100%;
+		position: fixed;
+		top:0;
+		background:black;
+	}
+
+	.menu_bar .bt-menu {
+		display: block;
+		padding: 20px;
+		color: #fff;
+		overflow: hidden;
+		font-size: 25px;
+		font-weight: bold;
+		text-decoration: none;
+	}
+
+	.menu_bar span {
+		float: right;
+		font-size: 40px;
+	}
+
+	header nav {
+		width: 80%;
+		height: calc(100% - 80px);
+		position: fixed;
+		right:100%;
+		margin: 0;
+		overflow: scroll;
+	}
+
+	header nav ul li {
+		display: block;
+		border-bottom:1px solid rgba(255,255,255,.5);
+	}
+
+	header nav ul li a {
+		display: block;
+	}
+
+	header nav ul li:hover .hijos {
+		display: none;
+	}
+
+	header nav ul li .hijos {
+		width: 100%;
+		position: relative;
+	}
+
+	header nav ul li .hijos li a {
+		margin-left:20px;
+	}
+
+	header nav ul li .caret {
+		float: right;
+	}
 }
 
 .contenedor{
     max-width: 120rem;
     margin: 0 auto 0 auto;
 }
-.navegacion a{
-    color: white;
-    text-decoration: none;
-    font-size: 2.2rem;
-    margin-right: 1.7rem;
-}
-ul, ol{
-    list-style: none;
-}
-.navegacion > li{
-    float: left;
-     margin-right: 2rem;
-}
-.navegacion li ul{
-    display: none;
-    padding: 0rem;
-    margin: 0rem;
-    position: absolute;
-}
-.navegacion li:hover > ul{
-    display: block;
-    z-index: 1000;
-}
-.navegacion li ul li{
-    background-color: black;
-    
-}
-.navegacion a:hover{
-    color:dodgerblue;
-}
-.navegacion a:last-of-type{
-    margin: 0;
-}
-@media screen and (max-width: 52rem){
-    body{
-        padding-top: 8rem;
-    }
-    .barra{
-        display: block;
-        width: 100%;
-        position: fixed;
-        top: 0rem;
-        background: black;
-    }
-    .barra .bt-menu{
-        display: block;
-        padding: 2rem;
-        color: white;
-        overflow: hidden;
-        font-size: 2.5rem;
-        font-weight: bold;
-        text-decoration: none;
-    }
-    .barra span{
-       float: right;
-        font-size: 4rem;
-    }
-    header nav{
-        width: 80%;
-        position: fixed;
-        right: 100%;
-        margin: 0;
-    }
-}
-
 
 .pie{
     background: #B7B4C1;
@@ -273,6 +353,9 @@ form{
 
 .img img{
     width: 100%;
+}
+.medio{
+    text-align: justify;
 }
 
 h1{
