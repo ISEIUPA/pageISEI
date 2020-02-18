@@ -1,4 +1,11 @@
-*{
+
+
+
+
+
+
+
+{
     padding: 0px;
     margin: 0px;
 }
@@ -25,7 +32,7 @@ body {
 .navegacion{
     padding: 0;
     margin: 0;
-    display: block;
+    display: block;,
 }
 .navegacion ul{
     padding: 0;
@@ -96,30 +103,90 @@ img{
     
     margin: 1px;
 }
-/*Contactanos */
-
-.contactanos{
-   width: 50%;
-    padding: 1rem;
-    margin: 0 auto;
-    background: #9a8986;
+.c{
+    
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    background: black;    
 }
-form{
-    width: 20rem;
-    margin: 0 auto;    
-    background: white;
-    padding: 1rem;
-    height: auto 0;
+
+
+
+
+
+
+.contactl{
+    display: flex;
+    color: white;
+    margin: 2rem auto;
+    font-size: 2rem;
+    align-self: center;
+    height: inherit;
+    justify-content: center;
+    background: rgba(237, 228, 228, 0.28);
+}
+
+
+
+.seldl{
+    padding: 7rem;
+    height: 60rem;
+     font-family: 'Coda Caption', sans-serif;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    
+}
+.name{
+    padding: 2rem;
+    color: black;
+    margin-top: 2rem;
+    color: white;
+}
+
+.com{
+    padding: 2rem;
+    margin-top: 4rem;
+    height: 16rem;
+    color: whITE;
     
 }
 
 .cuadro{
-    border: solid 1px #cccc;
-    padding: 1rem;
+     background: rgba(0, 0, 0, 0.04);
+    text-decoration: none;
+    width: 45rem;
+    height: 4rem;
+    border: none;
+    color: white;
+     font-size: 2rem;
 }
 
+.com1{
+     background: rgba(0, 0, 0, 0.04);
+    color: white;
+    text-decoration: none;
+    width: 45rem;
+    height: 13rem;
+    border: none;
+    font-size: 2rem;
+}
+.bta{
+    margin: 0 auto;
+    display: flex;
+    margin-top: 3rem;
+    font-family: 'Coda Caption', sans-serif;
+    height: 6rem;
+    background: orange;
+    font-size: 4rem;
+    
+}
 
-
+.bta:hover{
+    background: green;
+    color: white;
+}
 
 
 .foot{
