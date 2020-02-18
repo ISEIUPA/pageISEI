@@ -43,7 +43,7 @@ header {
 }
 
 header .navegacion{
-    display: flex;
+    display: block;
     justify-content: center;
 }
 header nav {
@@ -51,7 +51,7 @@ header nav {
 	z-index:1000;
 	max-width: 1000px;
 	width:95%;
-	margin:20px auto;
+	margin:20px ;
 }
 
 
@@ -65,7 +65,7 @@ header nav ul li {
 }
 
 header nav ul li:hover {
-	background:black;
+	background:grey;;
 }
 
 header nav ul li a {
@@ -88,7 +88,7 @@ header nav ul li .hijos {
 	display: none;
 	background:black;
 	position: absolute;
-	width: 150%;
+	width: 180%;
 	z-index:1000;
 }
 
@@ -122,6 +122,10 @@ header nav ul li .caret {
 	body {
 		padding-top:8rem;
 	}
+    .isei{
+        padding-top:.7rem; 
+        width: 10rem;
+    }
     .jq{
         display: none;
     }
@@ -166,7 +170,7 @@ header nav ul li .caret {
 		width: 80%;
 		position: fixed;
 		overflow: scroll;
-    overflow:hidden;
+        overflow: hidden;
 	}
     .header nav ul{
         display: block;
