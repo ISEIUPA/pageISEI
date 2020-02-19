@@ -428,6 +428,7 @@ h3{
     background: white;
     margin: 2rem;
     overflow-y: scroll;
+   justify-content: space-around;
 }
 .textolinea a{
     color:blue;
@@ -450,4 +451,37 @@ h3{
     font-size: 4rem;
     text-align: center;
     margin: 3rem;
+}
+.textonav h3{
+    text-align: center;
+}
+
+/************* MEDIAQRY RESPONSIVE DE LA PARTE DE TEXTOS*/
+
+@media screen and (max-width: 80rem) 
+{
+    .textonav{
+        margin: 3rem ;
+        width: auto;
+        background: white;
+        display: block;
+    }
+    .textoc{
+    direction: block;
+    height: 100%;
+    width: auto;
+    margin: 2rem;
+    background: white;
+    overflow-y: scroll;
+    max-height: 50rem;
+    }
+    .textolinea{
+        width: auto;
+        overflow-y: scroll;
+        max-height: 20rem;
+    }
+    .textolinea{
+      display: block
+    }    
+    
 }
