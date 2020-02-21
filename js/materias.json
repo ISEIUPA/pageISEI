@@ -1,0 +1,19 @@
+
+[
+    {
+        "materia": "Inglés I",
+        "cuatrimestre": "Primer Cuatrimestre",
+        "NumUnidades":5,
+        "Unidades": ["unidad 1" , "unidad 2" ],
+        "Competencias":["Competencia 1", "Competencia 2"],
+        "Objetivo": "Objetivo Inglés I"    
+    },
+    {
+        "materia": "Inglés II",
+        "cuatrimestre": "Segundo Cuatrimestre",
+        "NumUnidades":2,
+        "Unidades": ["unidad 1" , "unidad 2" ],
+        "Competencias":["Competencia 1", "Competencia 2"],
+        "Objetivo": "Objetivo Inglés II"    
+    }    
+]
