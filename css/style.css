@@ -452,6 +452,23 @@ h3{
     text-align: center;
 }
 
+#tablaMapa {
+    border-spacing: 10px;
+    vertical-align: middle;
+    align-content: center;
+    text-align: center;
+}
+
+#tablaMapa th, td{
+    border: 1px solid black;
+    padding: 5px;
+    align-content: center;
+}
+
+#tablaMapa tr .materia{
+    height: 10rem;
+}
+
 /************* MEDIAQRY RESPONSIVE DE LA PARTE DE TEXTOS*/
 
 @media screen and (max-width: 80rem) 
