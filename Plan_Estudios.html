@@ -82,9 +82,10 @@
                     <th>10mo Cuatrimestre</th>
                 </tr>
                 <tr>
-                    <td class="materia" id="inglesI">
-                    <a id = "myBtn" nohref >Inglés I</a></td>
-                    <td class="materia">Inglés II</td>
+                    <td class="materia">
+                        <a id = "inglesI" onclick = "modalClick(this.id)" nohref >Inglés I</a></td>
+                    <td class="materia">
+                        <a id = "inglesII" onclick = "modalClick(this.id)" nohref >Inglés II</a></td>
                     <td class="materia">Inglés III</td>
                     <td class="materia">Inglés IV</td>
                     <td class="materia">Inglés V</td>
@@ -168,6 +169,7 @@
     <div id="myModal" class="modal">
         <div class="modal-content">
             <span class="close">&times;</span>
+            
             <p>Some text in the Modal..</p>
         </div>
     </div>
