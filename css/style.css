@@ -488,7 +488,22 @@ h3{
   text-decoration: none;
   cursor: pointer;
 }
-
+ .cajapdf a{
+        display: block;
+        max-height:auto;
+     min-height: 100%;
+         padding: 2rem;
+        justify-content: center;
+     background: WHITE;
+     color: black;
+     border: NONE;
+         
+        
+    }
+.materiae a:hover{
+    background: white;
+    color: black;
+}
 
 /************* MEDIAQRY RESPONSIVE DE LA PARTE DE TEXTOS*/
 
@@ -529,6 +544,5 @@ h3{
         max-height: 50rem;
     }
     
-
 
 }
