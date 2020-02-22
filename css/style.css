@@ -53,6 +53,7 @@ header nav {
 	max-width: 1000px;
 	width:95%;
 	margin:20px ;
+    right: 0%;
 }
 
 
@@ -173,7 +174,6 @@ header nav ul li .caret {
 		width: 80%;
 		position: fixed;
 		overflow: scroll;
-        overflow: hidden;
         right: 100%;
 	}
     .header nav ul{
