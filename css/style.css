@@ -15,6 +15,7 @@ html{
 body{
    font-family: 'Lato', sans-serif;
     font-size: 1.6rem;
+    display: flex;
     flex-wrap: wrap;
 }
 
@@ -47,6 +48,7 @@ header .navegacion{
     display: block;
     justify-content: center;
 }
+
 header nav {
 	background:black;
 	z-index:1000;
@@ -224,13 +226,7 @@ header nav ul li .caret {
     font-size: 2rem;
 }
 
-.pie{
-    background: #B7B4C1;
-    padding: 0;
-    margin-top: 10%;
-  
 
-}
 .contenido{
     display: flex;
     flex-direction: column;
@@ -269,7 +265,10 @@ header nav ul li .caret {
 }
 
 /************ contactanos********/
-
+.info1{
+    
+    width: 100%;
+}
 
 .c{
     
@@ -567,6 +566,36 @@ h3{
 }
 
 /************* MEDIAQRY RESPONSIVE DE LA PARTE DE TEXTOS*/
+
+/***nuevo footer*/
+footer{
+    width: 100%;
+    display: flex;
+    align-self: flex-end;
+    justify-content: space-between;
+}
+
+.pies{
+    display:flex;
+    width: 100%;
+    background: green;
+    background: #B7B4C1;
+    padding: 0;
+    margin-top: 10%;
+}
+.lugar{
+    display: block;
+    width: 45rem;
+    margin: 1rem;
+}
+.derechoss{
+    display: flex;
+    width: inherit;
+    align-self: flex-end;
+    justify-content: flex-end;
+}
+
+
 
 @media screen and (max-width: 80rem) 
 {
