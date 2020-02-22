@@ -29,6 +29,10 @@ body{
     background: black;
     width: 100%;
 }
+.contenedor{
+    max-width: 120rem;
+    margin: 0 auto 0 auto;
+}
 
 .menu_bar {
 	display:none;
