@@ -268,11 +268,62 @@ header nav ul li .caret {
     height: 75rem;
 }
 
+/************ contactanos********/
+
+
+.c{
+    
+    display: flex;
+    justify-content: center;
+    height: inherit;
+    background: white;    
+    margin: 2rem;
+}
+
+
+.seldl{
+    padding: 7rem;
+    width: 70rem;
+    height: 80rem;
+    display: flex;
+    margin: 0;
+    background:rgba(8, 8, 8, 0.08);
+    
+}
+.name{
+    padding: 2rem;
+    color: black;
+    margin-top: 2rem;
+}
+
+.com{
+    padding-right: 10rem;
+    padding: 2rem;
+    margin-top: 4rem;
+    height: 16rem;
+    color: black;
+    
+}
+.bta{
+    margin: 0 auto;
+    display: flex;
+    margin-top: 3rem;
+    font-family: 'Coda Caption', sans-serif;
+    height: 6rem;
+    background: orange;
+    font-size: 4rem;
+    
+}
+
+.bta:hover{
+    background: green;
+    color: white;
+}
 
 form{
-    width: 20rem;
+    width: inherit;
     margin: 0 auto;    
-    background: white;
+    background: rgba(8, 8, 8, 0.08);
     padding: 1rem;
     height: auto 0;
     
@@ -281,6 +332,16 @@ form{
 .cuadro{
     border: solid 1px #cccc;
     padding: 1rem;
+    width: 100%;
+    background: rgba(8, 8, 8, 0.08);
+}
+
+.com1{
+     border: solid 1px #cccc;
+    padding: 1rem;
+    width: 100%;
+    margin: 1rem;
+    background:  rgba(8, 8, 8, 0.08);
 }
 
 /*CARRETE*/
@@ -545,4 +606,62 @@ h3{
     }
     
 
+    /******contactanos responsive////*/
+    
+    
+
+.c{
+    
+    display: flex;
+    justify-content: center;
+    height: inherit;
+    width: auto;
+    background: white;    
+    margin: 2rem;
+}
+
+
+
+.seldl{
+    padding: 7rem;
+    width: auto;
+    height: inherit;
+    display: flex;
+    margin: 0;
+    background:rgba(8, 8, 8, 0.08);
+    
+}
+.name{
+    padding: 0;
+    color: black;
+    margin-top: 2rem;
+     background:rgba(8, 8, 8, 0.08);
+}
+
+.com{
+ background:rgba(8, 8, 8, 0.08);
+    
+    height: auto;
+    width: auto;
+    color: black;
+    
+}
+.bta{
+    margin: 0 auto;
+    display: block;
+    font-family: 'Coda Caption', sans-serif;
+    height: inherit;
+    background: orange;
+    font-size: 2rem;
+    width: 15rem;
+    
+    
+}
+
+.bta:hover{
+    background: green;
+    color: white;
+}
+ 
+    
 }
