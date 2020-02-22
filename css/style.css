@@ -120,6 +120,7 @@ header nav ul li .caret {
 @media screen and (max-width: 80rem) {
     .medio h3{
         text-align: center;
+        margin-bottom: 2.5rem;
     }
 	body {
 		padding-top:8rem;
@@ -173,6 +174,7 @@ header nav ul li .caret {
 		position: fixed;
 		overflow: scroll;
         overflow: hidden;
+        right: 100%;
 	}
     .header nav ul{
         display: block;
@@ -216,6 +218,7 @@ header nav ul li .caret {
 }
 .main h3{
     text-align: center;
+    margin-bottom: 2.5rem;
 }
 .main p{
     font-size: 2rem;
