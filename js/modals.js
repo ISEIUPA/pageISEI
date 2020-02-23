@@ -13,8 +13,9 @@ function modalClick(idClicked)
 
     // When the user clicks the button, open the modal 
     btn.onclick = function() {
-        modalText(idClicked);
-        modalContent.innerHTML = "<h3>" + idClicked + "</h3>";
+        materiaArray = modalText(idClicked);
+        console.log(materiaArray);
+        modalContent.innerHTML = "<h3>" + materiaArray.materia + "</h3>";
         modal.style.display = "block";
     }
 
@@ -32,13 +33,12 @@ function modalClick(idClicked)
 }
 
 function modalText(idClicked){
-    //Crear JSON con los datos y direccionarlos por el idClicked    
+    //Crear JSON con los datos y direccionarlos por el idClicked
     fetch("js/materias.json")
             .then(function(resp){
                 return resp.json();
             })
             .then(function(data){
-                console.log(data);
                 console.log(data[idClicked][0].materia);
             });
 }
