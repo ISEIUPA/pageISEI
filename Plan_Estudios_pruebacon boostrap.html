@@ -1,0 +1,1564 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ISEI</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+     <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/Normal.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/main.js"></script>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+   <header>
+      <div class="header d">
+       <div class="contenedor k">
+        <div class="inicio">
+            <div class="jq">
+                <a href="/">
+                    <img src="img/logo-upa.png" width="150" alt="">
+                </a>
+            </div>
+            <div class="linea">
+            <div class="menu_bar">
+                <a href="index.html" class="bt-menu"><img class="isei" src="img/isei.png" alt=""><span class="icon-menu"></span></a>
+            </div>
+            <div class="line">
+                <nav class="na3">
+                    <ul class="navegacion">
+                        <li class="submenu"><a href="#">Inicio <span class="caret icon-circle-down"></span></a>
+                            <ul class="hijos">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="">Perfil de Ingreso</a></li>
+                                <li><a href="Perfil_egresado.html">Perfil del Egresado</a></li>
+                                <li><a href="Mision%20y%20Vision.html">Mision y vision</a></li>
+                                <li><a href="">Campo de trabajo</a></li>
+                                <li><a href="">Acreditaciones</a></li>
+                                <li><a href="">Logros y distinciones</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="infraestructura.html">Infraestructura</a></li>
+                        <li><a href="#">Plan de Estudios</a></li>
+                        <li><a href="contactanos.html">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+            </div>
+            <div class="jq"><img src="img/logo%20isei.png" width="100" alt=""></div>
+        </div>
+        </div>
+        </div>
+    </header>
+    
+<!--
+    <div class="cajapdf">
+        <h2>Plan de estudios</h2>
+        <embed class="pdf" src="/pdf/Perfil_Ingreso_Egreso.pdf" type="application/pdf">
+    </div>
+-->
+   
+   
+   
+    <div class="cajapdf">
+        <table id= "tablaMapa">
+            <thead>
+                <tr>
+                    <th colspan="3">Primer Ciclo de Formación</th>
+                    <th colspan="3">Segundo Ciclo de Formación</th>
+                    <th colspan="4">Tercer Ciclo de Formación</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>1er Cuatrimestre</th>
+                    <th>2do Cuatrimestre</th>
+                    <th>3er Cuatrimestre</th>
+                    <th>4to Cuatrimestre</th>
+                    <th>5to Cuatrimestre</th>
+                    <th>6to Cuatrimestre</th>
+                    <th>7mo Cuatrimestre</th>
+                    <th>8vo Cuatrimestre</th>
+                    <th>9no Cuatrimestre</th>
+                    <th>10mo Cuatrimestre</th>
+                </tr>
+                <tr>
+                    <td class="materia">
+                        <a href="#ingles1" class="btn btn-primary btn-lg" data-toggle="modal">Inglés I</a></td>
+                    <td class="materia">
+                        <a href="#ingles2" class="btn btn-primary btn-lg" data-toggle="modal">Inglés II</a></td>
+                        
+                        
+                    <td class="materia"><a href="#ingles3" class="btn btn-primary btn-lg" data-toggle="modal"> Inglés III </a></td>
+                    <td class="materia"><a href="#ingles4" class="btn btn-primary btn-lg" data-toggle="modal"> Inglés IV </a></td>
+                    <td class="materia"><a href="#ingles5" class="btn btn-primary btn-lg" data-toggle="modal"> Inglés V </a></td>
+                    <td class="materia"><a href="#ingles6" class="btn btn-primary btn-lg" data-toggle="modal"> Inglés VI </a></td>
+                    <td class="materia"><a href="#ingles7" class="btn btn-primary btn-lg" data-toggle="modal"> Inglés VII </a></td>
+                    <td class="materia"><a href="#ingles8" class="btn btn-primary btn-lg" data-toggle="modal"> Inglés VIII </a></td>
+                    <td class="materia"><a href="#ingles9" class="btn btn-primary btn-lg" data-toggle="modal"> Inglés IX </a></td>
+                    <td class="materiae" rowspan="7"><a href="#estadia" class="btn btn-primary btn-lg" data-toggle="modal"> Estadía</a></td>
+                </tr>
+                <tr>
+                    <td class="materia"><a href="#valores1" class="btn btn-primary btn-lg" data-toggle="modal">Valores del Ser</a></td>
+                    <td class="materia"><a href="#valores2" class="btn btn-primary btn-lg" data-toggle="modal">Inteligencia Emocional</a></td>
+                    <td class="materia"><a href="#valores3" class="btn btn-primary btn-lg" data-toggle="modal">Desarrollo Interpersonal</a></td>
+                    <td class="materia"><a href="#valores4" class="btn btn-primary btn-lg" data-toggle="modal">Habilidades del Pensamiento</a></td>
+                    <td class="materia"><a href="#valores5" class="btn btn-primary btn-lg" data-toggle="modal">Habilidades Organizacionales</a></td>
+                    <td class="materia"><a href="#valores6" class="btn btn-primary btn-lg" data-toggle="modal">Ética Profesional</a></td>
+                    <td class="materia"><a href="#plataformasweb" class="btn btn-primary btn-lg" data-toggle="modal">Plataformas WEB</a></td>
+                    <td class="materia"><a href="#opt1" class="btn btn-primary btn-lg" data-toggle="modal">Optativa I</a></td>
+                    <td class="materia"><a href="#opt5" class="btn btn-primary btn-lg" data-toggle="modal">Optativa V</a></td>
+                </tr>
+                <tr>
+                    <td class="materia"><a href="#ho" class="btn btn-primary btn-lg" data-toggle="modal">Herramientas Ofimáticas</a></td>
+                    <td class="materia"><a href="#em" class="btn btn-primary btn-lg" data-toggle="modal">Electricidad y Magnetismo</a></td>
+                    <td class="materia"><a href="#ed" class="btn btn-primary btn-lg" data-toggle="modal">Estructura de Datos</a></td>
+                    <td class="materia"><a href="#ec" class="btn btn-primary btn-lg" data-toggle="modal">Electrónica y Comunicaciones</a></td>
+                    <td class="materia"><a href="#ral" class="btn btn-primary btn-lg" data-toggle="modal">Redes de Área Local</a></td>
+                    <td class="materia"><a href="#raa" class="btn btn-primary btn-lg" data-toggle="modal">Redes de Área Amplia</a></td>
+                    <td class="materia"><a href="#sia" class="btn btn-primary btn-lg" data-toggle="modal">Seguridad Informática Aplicada</a></td>
+                    <td class="materia"><a href="#opt2" class="btn btn-primary btn-lg" data-toggle="modal">Optativa II</a></td>
+                    <td class="materia"><a href="#opt6" class="btn btn-primary btn-lg" data-toggle="modal">Optativa VI</a></td>
+                </tr>
+                <tr>
+                    <td class="materia"><a href="#di" class="btn btn-primary btn-lg" data-toggle="modal">Dibujo para Ingeniería</a></td>
+                    <td class="materia"><a href="#ac" class="btn btn-primary btn-lg" data-toggle="modal">Arquitectura de Computadoras</a></td>
+                    <td class="materia"><a href="#mc" class="btn btn-primary btn-lg" data-toggle="modal">Mantenimiento a Equipo de Cómputo</a></td>
+                    <td class="materia"><a href="#db" class="btn btn-primary btn-lg" data-toggle="modal">Diseño de Base de Datos</a></td>
+                    <td class="materia"><a href="#adb" class="btn btn-primary btn-lg" data-toggle="modal">Administración de Base de Datos</a></td>
+                    <td class="materia"><a href="#bdd" class="btn btn-primary btn-lg" data-toggle="modal">Base de Datos Distribuidas</a></td>
+                    <td class="materia"><a href="#la" class="btn btn-primary btn-lg" data-toggle="modal">Lenguajes y Autómatas</a></td>
+                    <td class="materia"><a href="#opt3" class="btn btn-primary btn-lg" data-toggle="modal">Optativa III</a></td>
+                    <td class="materia"><a href="#opt7" class="btn btn-primary btn-lg" data-toggle="modal">Optativa VII</a></td>
+                </tr>
+                <tr>
+                    <td class="materia">
+                        <a href="#introisei" class="btn btn-primary btn-lg" data-toggle="modal">Introducción a ISEI</a></td>
+                    <td class="materia"><a href="#estad" class="btn btn-primary btn-lg" data-toggle="modal">Estática y Dinámica</a></td>
+                    <td class="materia"><a href="#pe" class="btn btn-primary btn-lg" data-toggle="modal">Probabilidad y Estadística</a></td>
+                    <td class="materia"><a href="#md" class="btn btn-primary btn-lg" data-toggle="modal">Matemáticas Discretas</a></td>
+                    <td class="materia"><a href="#mn" class="btn btn-primary btn-lg" data-toggle="modal">Métodos Numéricos</a></td>
+                    <td class="materia"><a href="#so" class="btn btn-primary btn-lg" data-toggle="modal">Sistemas Operativos</a></td>
+                    <td class="materia"><a href="#si" class="btn btn-primary btn-lg" data-toggle="modal">Sistemas de Información</a></td>
+                    <td class="materia"><a href="#opt4" class="btn btn-primary btn-lg" data-toggle="modal">Optativa IV</a></td>
+                    <td class="materia"><a href="#opt8" class="btn btn-primary btn-lg" data-toggle="modal">Optativa VIII</a></td>
+                </tr>
+                <tr>
+                    <td class="materia"><a href="#al" class="btn btn-primary btn-lg" data-toggle="modal">Álgebra Lineal</a></td>
+                    <td class="materia"><a href="#cdi" class="btn btn-primary btn-lg" data-toggle="modal">Cálculo Diferencial e Integral</a></td>
+                    <td class="materia"><a href="#ecd" class="btn btn-primary btn-lg" data-toggle="modal">Ecuaciones Diferenciales</a></td>
+                    <td class="materia"><a href="#pw" class="btn btn-primary btn-lg" data-toggle="modal">Programación WEB</a></td>
+                    <td class="materia"><a href="#proc" class="btn btn-primary btn-lg" data-toggle="modal">Programación Orientada a Componentes</a></td>
+                    <td class="materia"><a href="#orgp" class="btn btn-primary btn-lg" data-toggle="modal">Organización Empresarial</a></td>
+                    <td class="materia"><a href="#adp" class="btn btn-primary btn-lg" data-toggle="modal">Administración de Proyectos de TI</a></td>
+                    <td class="materia"><a href="#ief" class="btn btn-primary btn-lg" data-toggle="modal">Informática Estratégica</a></td>
+                    <td class="materia"><a href="#gii" class="btn btn-primary btn-lg" data-toggle="modal">Gestión Informática</a></td>
+                </tr>
+                <tr>
+                    <td class="materia"><a href="#fp" class="btn btn-primary btn-lg" data-toggle="modal">Fundamentos de Programación</a></td>
+                    <td class="materia"><a href="#pe" class="btn btn-primary btn-lg" data-toggle="modal">Programación Estructurada</a></td>
+                    <td class="materia"><a href="#po" class="btn btn-primary btn-lg" data-toggle="modal">Programación Orientada a Objetos</a></td>
+                    <td class="materia"><a href="#est1" class="btn btn-primary btn-lg" data-toggle="modal">Estancia I</a></td>
+                    <td class="materia"><a href="#ids" class="btn btn-primary btn-lg" data-toggle="modal">Ingeniería de Diseño de Software</a></td>
+                    <td class="materia"><a href="#ingds" class="btn btn-primary btn-lg" data-toggle="modal">Ingeniería de Desarrollo de Software</a></td>
+                    <td class="materia"><a href="#estadia2" class="btn btn-primary btn-lg" data-toggle="modal">Estancia II</a></td>
+                    <td class="materia"><a href="#programacion lineal" class="btn btn-primary btn-lg" data-toggle="modal">Programación Lineal</a></td>
+                    <td class="materia"><a href="#metode" class="btn btn-primary btn-lg" data-toggle="modal">Métodos Estocásticos</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div> 
+      
+
+        
+        <!--------- todo lo que esta apartir de aqui es parte del boostrap--->
+        
+        
+    <div class="modal fade" id="ingles1">
+        <div class="modal-dialog modal-dialog-centered " >
+            <div class="modal-content">
+                <div class="modal-header">
+                   <button type="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-tittle">INGLES I</h4>
+                </div>
+                
+                <!--parte de contenido del header--->
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam quo, reprehenderit natus eos. Maxime in vero distinctio alias, vel rerum, optio quidem explicabo qui voluptatibus assumenda perferendis et quasi aut!</p>
+                </div>
+                <!--fotten-->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+        
+      <div class="modal fade" id="ingles2">
+        <div class="modal-dialog modal-dialog-centered " >
+            <div class="modal-content">
+                <div class="modal-header">
+                   <button type="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-tittle">INGLES II</h4>
+                </div>
+                
+                <!--parte de contenido del header--->
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam quo, reprehenderit natus eos. Maxime in vero distinctio alias, vel rerum, optio quidem explicabo qui voluptatibus assumenda perferendis et quasi aut!</p>
+                </div>
+                <!--fotten-->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>   
+        
+         <div class="modal fade" id="ingles3">
+        <div class="modal-dialog modal-dialog-centered " >
+            <div class="modal-content">
+                <div class="modal-header">
+                   <button type="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-tittle">INGLES III</h4>
+                </div>
+                
+                <!--parte de contenido del header--->
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam quo, reprehenderit natus eos. Maxime in vero distinctio alias, vel rerum, optio quidem explicabo qui voluptatibus assumenda perferendis et quasi aut!</p>
+                </div>
+                <!--fotten-->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+       
+        <div class="modal fade" id="ingles4">
+        <div class="modal-dialog modal-dialog-centered " >
+            <div class="modal-content">
+                <div class="modal-header">
+                   <button type="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-tittle">INGLES IV</h4>
+                </div>
+                
+                <!--parte de contenido del header--->
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam quo, reprehenderit natus eos. Maxime in vero distinctio alias, vel rerum, optio quidem explicabo qui voluptatibus assumenda perferendis et quasi aut!</p>
+                </div>
+                <!--fotten-->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+       
+        <div class="modal fade" id="ingles5">
+        <div class="modal-dialog modal-dialog-centered " >
+            <div class="modal-content">
+                <div class="modal-header">
+                   <button type="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-tittle">INGLES V</h4>
+                </div>
+                
+                <!--parte de contenido del header--->
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam quo, reprehenderit natus eos. Maxime in vero distinctio alias, vel rerum, optio quidem explicabo qui voluptatibus assumenda perferendis et quasi aut!</p>
+                </div>
+                <!--fotten-->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+       
+        <div class="modal fade" id="ingles6">
+        <div class="modal-dialog modal-dialog-centered " >
+            <div class="modal-content">
+                <div class="modal-header">
+                   <button type="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-tittle">INGLES VI</h4>
+                </div>
+                
+                <!--parte de contenido del header--->
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam quo, reprehenderit natus eos. Maxime in vero distinctio alias, vel rerum, optio quidem explicabo qui voluptatibus assumenda perferendis et quasi aut!</p>
+                </div>
+                <!--fotten-->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+       
+        <div class="modal fade" id="ingles7">
+        <div class="modal-dialog modal-dialog-centered " >
+            <div class="modal-content">
+                <div class="modal-header">
+                   <button type="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-tittle">INGLES II</h4>
+                </div>
+                
+                <!--parte de contenido del header--->
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam quo, reprehenderit natus eos. Maxime in vero distinctio alias, vel rerum, optio quidem explicabo qui voluptatibus assumenda perferendis et quasi aut!</p>
+                </div>
+                <!--fotten-->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+       
+        <div class="modal fade" id="ingles8">
+        <div class="modal-dialog modal-dialog-centered " >
+            <div class="modal-content">
+                <div class="modal-header">
+                   <button type="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-tittle">INGLES VIII</h4>
+                </div>
+                
+                <!--parte de contenido del header--->
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam quo, reprehenderit natus eos. Maxime in vero distinctio alias, vel rerum, optio quidem explicabo qui voluptatibus assumenda perferendis et quasi aut!</p>
+                </div>
+                <!--fotten-->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+       
+        <div class="modal fade" id="ingles9">
+        <div class="modal-dialog modal-dialog-centered " >
+            <div class="modal-content">
+                <div class="modal-header">
+                   <button type="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-tittle">INGLES IX</h4>
+                </div>
+                
+                <!--parte de contenido del header--->
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam quo, reprehenderit natus eos. Maxime in vero distinctio alias, vel rerum, optio quidem explicabo qui voluptatibus assumenda perferendis et quasi aut!</p>
+                </div>
+                <!--fotten-->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+             
+        <div class="modal fade" id="estadia">
+        <div class="modal-dialog modal-dialog-centered " >
+            <div class="modal-content">
+                <div class="modal-header">
+                   <button type="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-tittle">ESTADIA</h4>
+                </div>
+                
+                <!--parte de contenido del header--->
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam quo, reprehenderit natus eos. Maxime in vero distinctio alias, vel rerum, optio quidem explicabo qui voluptatibus assumenda perferendis et quasi aut!</p>
+                </div>
+                <!--fotten-->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+           
+            <!----         LINEA 2   --->
+            
+        <div class="modal fade" id="valores1">
+        <div class="modal-dialog modal-dialog-centered " >
+            <div class="modal-content">
+                <div class="modal-header">
+                   <button type="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-tittle">VALORES DEL SER</h4>
+                </div>
+                
+                <!--parte de contenido del header--->
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam quo, reprehenderit natus eos. Maxime in vero distinctio alias, vel rerum, optio quidem explicabo qui voluptatibus assumenda perferendis et quasi aut!</p>
+                </div>
+                <!--fotten-->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+             
+        <div class="modal fade" id="valores2">
+        <div class="modal-dialog modal-dialog-centered " >
+            <div class="modal-content">
+                <div class="modal-header">
+                   <button type="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-tittle">INTELIGENCIA EMOCIONAL</h4>
+                </div>
+                
+                <!--parte de contenido del header--->
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam quo, reprehenderit natus eos. Maxime in vero distinctio alias, vel rerum, optio quidem explicabo qui voluptatibus assumenda perferendis et quasi aut!</p>
+                </div>
+                <!--fotten-->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+            
+        <div class="modal fade" id="valores3">
+        <div class="modal-dialog modal-dialog-centered " >
+            <div class="modal-content">
+                <div class="modal-header">
+                   <button type="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-tittle">DESARROLLO INTERPERSONAL</h4>
+                </div>
+                
+                <!--parte de contenido del header--->
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam quo, reprehenderit natus eos. Maxime in vero distinctio alias, vel rerum, optio quidem explicabo qui voluptatibus assumenda perferendis et quasi aut!</p>
+                </div>
+                <!--fotten-->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+           
+        <div class="modal fade" id="valores4">
+        <div class="modal-dialog modal-dialog-centered " >
+            <div class="modal-content">
+                <div class="modal-header">
+                   <button type="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-tittle">HABILIDADES DEL PENSAMIENTO</h4>
+                </div>
+                
+                <!--parte de contenido del header--->
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam quo, reprehenderit natus eos. Maxime in vero distinctio alias, vel rerum, optio quidem explicabo qui voluptatibus assumenda perferendis et quasi aut!</p>
+                </div>
+                <!--fotten-->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+                        
+        <div class="modal fade" id="valores5">
+        <div class="modal-dialog modal-dialog-centered " >
+            <div class="modal-content">
+                <div class="modal-header">
+                   <button type="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-tittle">HABILIDADES ORGANIZACIONALES</h4>
+                </div>
+                
+                <!--parte de contenido del header--->
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam quo, reprehenderit natus eos. Maxime in vero distinctio alias, vel rerum, optio quidem explicabo qui voluptatibus assumenda perferendis et quasi aut!</p>
+                </div>
+                <!--fotten-->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>       
+       
+        <div class="modal fade" id="valores6">
+        <div class="modal-dialog modal-dialog-centered " >
+            <div class="modal-content">
+                <div class="modal-header">
+                   <button type="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-tittle">ETICA PROFECIONAL</h4>
+                </div>
+                
+                <!--parte de contenido del header--->
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam quo, reprehenderit natus eos. Maxime in vero distinctio alias, vel rerum, optio quidem explicabo qui voluptatibus assumenda perferendis et quasi aut!</p>
+                </div>
+                <!--fotten-->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>       
+             
+        <div class="modal fade" id="plataformasweb">
+        <div class="modal-dialog modal-dialog-centered " >
+            <div class="modal-content">
+                <div class="modal-header">
+                   <button type="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-tittle">PLATAFORMAS WEB</h4>
+                </div>
+                
+                <!--parte de contenido del header--->
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam quo, reprehenderit natus eos. Maxime in vero distinctio alias, vel rerum, optio quidem explicabo qui voluptatibus assumenda perferendis et quasi aut!</p>
+                </div>
+                <!--fotten-->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>      
+       
+        <div class="modal fade" id="opt1">
+        <div class="modal-dialog modal-dialog-centered " >
+            <div class="modal-content">
+                <div class="modal-header">
+                   <button type="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-tittle">OPTATIVA I</h4>
+                </div>
+                
+                <!--parte de contenido del header--->
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam quo, reprehenderit natus eos. Maxime in vero distinctio alias, vel rerum, optio quidem explicabo qui voluptatibus assumenda perferendis et quasi aut!</p>
+                </div>
+                <!--fotten-->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>      
+       
+        <div class="modal fade" id="opt5">
+        <div class="modal-dialog modal-dialog-centered " >
+            <div class="modal-content">
+                <div class="modal-header">
+                   <button type="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-tittle">OPTATIVA V</h4>
+                </div>
+                
+                <!--parte de contenido del header--->
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam quo, reprehenderit natus eos. Maxime in vero distinctio alias, vel rerum, optio quidem explicabo qui voluptatibus assumenda perferendis et quasi aut!</p>
+                </div>
+                <!--fotten-->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+           
+            <!----         LINEA 3   --->
+    
+        <div class="modal fade" id="ho">
+        <div class="modal-dialog modal-dialog-centered " >
+            <div class="modal-content">
+                <div class="modal-header">
+                   <button type="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-tittle">HERRAMIENTAS OFIMATICAS</h4>
+                </div>
+                
+                <!--parte de contenido del header--->
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam quo, reprehenderit natus eos. Maxime in vero distinctio alias, vel rerum, optio quidem explicabo qui voluptatibus assumenda perferendis et quasi aut!</p>
+                </div>
+                <!--fotten-->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>       
+       
+        <div class="modal fade" id="em">
+        <div class="modal-dialog modal-dialog-centered " >
+            <div class="modal-content">
+                <div class="modal-header">
+                   <button type="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-tittle">ELECTRICIDAD Y MAGNETISMO</h4>
+                </div>
+                
+                <!--parte de contenido del header--->
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam quo, reprehenderit natus eos. Maxime in vero distinctio alias, vel rerum, optio quidem explicabo qui voluptatibus assumenda perferendis et quasi aut!</p>
+                </div>
+                <!--fotten-->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+       
+        <div class="modal fade" id="ed">
+        <div class="modal-dialog modal-dialog-centered " >
+            <div class="modal-content">
+                <div class="modal-header">
+                   <button type="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-tittle">ESTRUCTURA DE DATOS</h4>
+                </div>
+                
+                <!--parte de contenido del header--->
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam quo, reprehenderit natus eos. Maxime in vero distinctio alias, vel rerum, optio quidem explicabo qui voluptatibus assumenda perferendis et quasi aut!</p>
+                </div>
+                <!--fotten-->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>       
+       
+        <div class="modal fade" id="ec">
+        <div class="modal-dialog modal-dialog-centered " >
+            <div class="modal-content">
+                <div class="modal-header">
+                   <button type="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-tittle">ELECTRONICA Y COMUNICACIONES</h4>
+                </div>
+                
+                <!--parte de contenido del header--->
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam quo, reprehenderit natus eos. Maxime in vero distinctio alias, vel rerum, optio quidem explicabo qui voluptatibus assumenda perferendis et quasi aut!</p>
+                </div>
+                <!--fotten-->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>       
+              
+        <div class="modal fade" id="ral">
+        <div class="modal-dialog modal-dialog-centered " >
+            <div class="modal-content">
+                <div class="modal-header">
+                   <button type="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-tittle">REDES DE AREA LOCAL</h4>
+                </div>
+                
+                <!--parte de contenido del header--->
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam quo, reprehenderit natus eos. Maxime in vero distinctio alias, vel rerum, optio quidem explicabo qui voluptatibus assumenda perferendis et quasi aut!</p>
+                </div>
+                <!--fotten-->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>       
+              
+        <div class="modal fade" id="raa">
+        <div class="modal-dialog modal-dialog-centered " >
+            <div class="modal-content">
+                <div class="modal-header">
+                   <button type="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-tittle">REDES DE AREA AMPLIA</h4>
+                </div>
+                
+                <!--parte de contenido del header--->
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam quo, reprehenderit natus eos. Maxime in vero distinctio alias, vel rerum, optio quidem explicabo qui voluptatibus assumenda perferendis et quasi aut!</p>
+                </div>
+                <!--fotten-->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>      
+       
+        <div class="modal fade" id="sia">
+        <div class="modal-dialog modal-dialog-centered " >
+            <div class="modal-content">
+                <div class="modal-header">
+                   <button type="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-tittle">SEGURIDAD INFORMATICA APLICADA</h4>
+                </div>
+                
+                <!--parte de contenido del header--->
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam quo, reprehenderit natus eos. Maxime in vero distinctio alias, vel rerum, optio quidem explicabo qui voluptatibus assumenda perferendis et quasi aut!</p>
+                </div>
+                <!--fotten-->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>       
+       
+        <div class="modal fade" id="opt2">
+        <div class="modal-dialog modal-dialog-centered " >
+            <div class="modal-content">
+                <div class="modal-header">
+                   <button type="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-tittle">OPTATIVA II</h4>
+                </div>
+                
+                <!--parte de contenido del header--->
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam quo, reprehenderit natus eos. Maxime in vero distinctio alias, vel rerum, optio quidem explicabo qui voluptatibus assumenda perferendis et quasi aut!</p>
+                </div>
+                <!--fotten-->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>            
+       
+        <div class="modal fade" id="opt6">
+        <div class="modal-dialog modal-dialog-centered " >
+            <div class="modal-content">
+                <div class="modal-header">
+                   <button type="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-tittle">OBTATIVA VI</h4>
+                </div>
+                
+                <!--parte de contenido del header--->
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam quo, reprehenderit natus eos. Maxime in vero distinctio alias, vel rerum, optio quidem explicabo qui voluptatibus assumenda perferendis et quasi aut!</p>
+                </div>
+                <!--fotten-->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>       
+       
+       
+                  
+       <!----         LINEA 4   --->
+       
+        <div class="modal fade" id="di">
+        <div class="modal-dialog modal-dialog-centered " >
+            <div class="modal-content">
+                <div class="modal-header">
+                   <button type="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-tittle">DIBUJO PARA INGENIERIA</h4>
+                </div>
+                
+                <!--parte de contenido del header--->
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam quo, reprehenderit natus eos. Maxime in vero distinctio alias, vel rerum, optio quidem explicabo qui voluptatibus assumenda perferendis et quasi aut!</p>
+                </div>
+                <!--fotten-->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>       
+       
+        <div class="modal fade" id="ac">
+        <div class="modal-dialog modal-dialog-centered " >
+            <div class="modal-content">
+                <div class="modal-header">
+                   <button type="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-tittle">ARQUITECTURA DE COMPUTADORAS</h4>
+                </div>
+                
+                <!--parte de contenido del header--->
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam quo, reprehenderit natus eos. Maxime in vero distinctio alias, vel rerum, optio quidem explicabo qui voluptatibus assumenda perferendis et quasi aut!</p>
+                </div>
+                <!--fotten-->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>       
+       
+        <div class="modal fade" id="mc">
+        <div class="modal-dialog modal-dialog-centered " >
+            <div class="modal-content">
+                <div class="modal-header">
+                   <button type="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-tittle">MANTENIMIENTO A EQUIPO DE COMPUTO</h4>
+                </div>
+                
+                <!--parte de contenido del header--->
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam quo, reprehenderit natus eos. Maxime in vero distinctio alias, vel rerum, optio quidem explicabo qui voluptatibus assumenda perferendis et quasi aut!</p>
+                </div>
+                <!--fotten-->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>              
+       
+        <div class="modal fade" id="db">
+        <div class="modal-dialog modal-dialog-centered " >
+            <div class="modal-content">
+                <div class="modal-header">
+                   <button type="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-tittle">DISENO DE BASE DE DATOS</h4>
+                </div>
+                
+                <!--parte de contenido del header--->
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam quo, reprehenderit natus eos. Maxime in vero distinctio alias, vel rerum, optio quidem explicabo qui voluptatibus assumenda perferendis et quasi aut!</p>
+                </div>
+                <!--fotten-->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>       
+       
+        <div class="modal fade" id="adb">
+        <div class="modal-dialog modal-dialog-centered " >
+            <div class="modal-content">
+                <div class="modal-header">
+                   <button type="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-tittle">ADMINITRACION DE BASE DE DATOS</h4>
+                </div>
+                
+                <!--parte de contenido del header--->
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam quo, reprehenderit natus eos. Maxime in vero distinctio alias, vel rerum, optio quidem explicabo qui voluptatibus assumenda perferendis et quasi aut!</p>
+                </div>
+                <!--fotten-->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>       
+       
+        <div class="modal fade" id="bdd">
+        <div class="modal-dialog modal-dialog-centered " >
+            <div class="modal-content">
+                <div class="modal-header">
+                   <button type="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-tittle">BASE DE DATOS DISTRIBUIDAS </h4>
+                </div>
+                
+                <!--parte de contenido del header--->
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam quo, reprehenderit natus eos. Maxime in vero distinctio alias, vel rerum, optio quidem explicabo qui voluptatibus assumenda perferendis et quasi aut!</p>
+                </div>
+                <!--fotten-->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>       
+              
+        <div class="modal fade" id="la">
+        <div class="modal-dialog modal-dialog-centered " >
+            <div class="modal-content">
+                <div class="modal-header">
+                   <button type="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-tittle">LENGUAJES Y AUTOMATAS</h4>
+                </div>
+                
+                <!--parte de contenido del header--->
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam quo, reprehenderit natus eos. Maxime in vero distinctio alias, vel rerum, optio quidem explicabo qui voluptatibus assumenda perferendis et quasi aut!</p>
+                </div>
+                <!--fotten-->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>       
+       
+        <div class="modal fade" id="op3">
+        <div class="modal-dialog modal-dialog-centered " >
+            <div class="modal-content">
+                <div class="modal-header">
+                   <button type="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-tittle">OPTATIVA III</h4>
+                </div>
+                
+                <!--parte de contenido del header--->
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam quo, reprehenderit natus eos. Maxime in vero distinctio alias, vel rerum, optio quidem explicabo qui voluptatibus assumenda perferendis et quasi aut!</p>
+                </div>
+                <!--fotten-->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+            
+        <div class="modal fade" id="opt7">
+        <div class="modal-dialog modal-dialog-centered " >
+            <div class="modal-content">
+                <div class="modal-header">
+                   <button type="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-tittle">OPTATIVA VII</h4>
+                </div>
+                
+                <!--parte de contenido del header--->
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam quo, reprehenderit natus eos. Maxime in vero distinctio alias, vel rerum, optio quidem explicabo qui voluptatibus assumenda perferendis et quasi aut!</p>
+                </div>
+                <!--fotten-->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+              
+              
+              
+       <!----         LINEA 5   --->
+              
+        <div class="modal fade" id="introisei">
+        <div class="modal-dialog modal-dialog-centered " >
+            <div class="modal-content">
+                <div class="modal-header">
+                   <button type="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-tittle">INTRODUCCION A ISEI</h4>
+                </div>
+                
+                <!--parte de contenido del header--->
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam quo, reprehenderit natus eos. Maxime in vero distinctio alias, vel rerum, optio quidem explicabo qui voluptatibus assumenda perferendis et quasi aut!</p>
+                </div>
+                <!--fotten-->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+      
+        <div class="modal fade" id="estad">
+        <div class="modal-dialog modal-dialog-centered " >
+            <div class="modal-content">
+                <div class="modal-header">
+                   <button type="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-tittle">ESTADISTICA Y DINAMICA</h4>
+                </div>
+                
+                <!--parte de contenido del header--->
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam quo, reprehenderit natus eos. Maxime in vero distinctio alias, vel rerum, optio quidem explicabo qui voluptatibus assumenda perferendis et quasi aut!</p>
+                </div>
+                <!--fotten-->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+       
+        <div class="modal fade" id="pe">
+        <div class="modal-dialog modal-dialog-centered " >
+            <div class="modal-content">
+                <div class="modal-header">
+                   <button type="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-tittle">PROBABILIDAD Y ESTADISTICA</h4>
+                </div>
+                
+                <!--parte de contenido del header--->
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam quo, reprehenderit natus eos. Maxime in vero distinctio alias, vel rerum, optio quidem explicabo qui voluptatibus assumenda perferendis et quasi aut!</p>
+                </div>
+                <!--fotten-->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+             
+        <div class="modal fade" id="md">
+        <div class="modal-dialog modal-dialog-centered " >
+            <div class="modal-content">
+                <div class="modal-header">
+                   <button type="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-tittle">MATEMATICAS DISCRETAS</h4>
+                </div>
+                
+                <!--parte de contenido del header--->
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam quo, reprehenderit natus eos. Maxime in vero distinctio alias, vel rerum, optio quidem explicabo qui voluptatibus assumenda perferendis et quasi aut!</p>
+                </div>
+                <!--fotten-->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>       
+       
+        <div class="modal fade" id="mn">
+        <div class="modal-dialog modal-dialog-centered " >
+            <div class="modal-content">
+                <div class="modal-header">
+                   <button type="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-tittle">METODOS NUMERICOS</h4>
+                </div>
+                
+                <!--parte de contenido del header--->
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam quo, reprehenderit natus eos. Maxime in vero distinctio alias, vel rerum, optio quidem explicabo qui voluptatibus assumenda perferendis et quasi aut!</p>
+                </div>
+                <!--fotten-->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>       
+       
+        <div class="modal fade" id="so">
+        <div class="modal-dialog modal-dialog-centered " >
+            <div class="modal-content">
+                <div class="modal-header">
+                   <button type="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-tittle">SISTEMAS OPERATIVOS</h4>
+                </div>
+                
+                <!--parte de contenido del header--->
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam quo, reprehenderit natus eos. Maxime in vero distinctio alias, vel rerum, optio quidem explicabo qui voluptatibus assumenda perferendis et quasi aut!</p>
+                </div>
+                <!--fotten-->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>       
+       
+        <div class="modal fade" id="si">
+        <div class="modal-dialog modal-dialog-centered " >
+            <div class="modal-content">
+                <div class="modal-header">
+                   <button type="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-tittle">SISTEMAS INFORMATICOS</h4>
+                </div>
+                
+                <!--parte de contenido del header--->
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam quo, reprehenderit natus eos. Maxime in vero distinctio alias, vel rerum, optio quidem explicabo qui voluptatibus assumenda perferendis et quasi aut!</p>
+                </div>
+                <!--fotten-->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>       
+       
+        <div class="modal fade" id="opt4">
+        <div class="modal-dialog modal-dialog-centered " >
+            <div class="modal-content">
+                <div class="modal-header">
+                   <button type="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-tittle">OPTATIVA IV</h4>
+                </div>
+                
+                <!--parte de contenido del header--->
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam quo, reprehenderit natus eos. Maxime in vero distinctio alias, vel rerum, optio quidem explicabo qui voluptatibus assumenda perferendis et quasi aut!</p>
+                </div>
+                <!--fotten-->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+              
+        <div class="modal fade" id="opt8">
+        <div class="modal-dialog modal-dialog-centered " >
+            <div class="modal-content">
+                <div class="modal-header">
+                   <button type="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-tittle">OPTATIVA VIII</h4>
+                </div>
+                
+                <!--parte de contenido del header--->
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam quo, reprehenderit natus eos. Maxime in vero distinctio alias, vel rerum, optio quidem explicabo qui voluptatibus assumenda perferendis et quasi aut!</p>
+                </div>
+                <!--fotten-->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+              
+              
+       <!----         LINEA 6   --->
+              
+              
+        <div class="modal fade" id="al">
+        <div class="modal-dialog modal-dialog-centered " >
+            <div class="modal-content">
+                <div class="modal-header">
+                   <button type="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-tittle">ALGEBRA LINEAL</h4>
+                </div>
+                
+                <!--parte de contenido del header--->
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam quo, reprehenderit natus eos. Maxime in vero distinctio alias, vel rerum, optio quidem explicabo qui voluptatibus assumenda perferendis et quasi aut!</p>
+                </div>
+                <!--fotten-->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>       
+       
+        <div class="modal fade" id="cdi">
+        <div class="modal-dialog modal-dialog-centered " >
+            <div class="modal-content">
+                <div class="modal-header">
+                   <button type="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-tittle">CALCULO DIFERENCIAL E INTEGRAL</h4>
+                </div>
+                
+                <!--parte de contenido del header--->
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam quo, reprehenderit natus eos. Maxime in vero distinctio alias, vel rerum, optio quidem explicabo qui voluptatibus assumenda perferendis et quasi aut!</p>
+                </div>
+                <!--fotten-->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>       
+       
+        <div class="modal fade" id="ecd">
+        <div class="modal-dialog modal-dialog-centered " >
+            <div class="modal-content">
+                <div class="modal-header">
+                   <button type="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-tittle">ECUACIONES DIFERENCIALES</h4>
+                </div>
+                
+                <!--parte de contenido del header--->
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam quo, reprehenderit natus eos. Maxime in vero distinctio alias, vel rerum, optio quidem explicabo qui voluptatibus assumenda perferendis et quasi aut!</p>
+                </div>
+                <!--fotten-->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>       
+              
+        <div class="modal fade" id="pw">
+        <div class="modal-dialog modal-dialog-centered " >
+            <div class="modal-content">
+                <div class="modal-header">
+                   <button type="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-tittle">PROGRAMACION WEB</h4>
+                </div>
+                
+                <!--parte de contenido del header--->
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam quo, reprehenderit natus eos. Maxime in vero distinctio alias, vel rerum, optio quidem explicabo qui voluptatibus assumenda perferendis et quasi aut!</p>
+                </div>
+                <!--fotten-->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>       
+       
+        <div class="modal fade" id="proc">
+        <div class="modal-dialog modal-dialog-centered " >
+            <div class="modal-content">
+                <div class="modal-header">
+                   <button type="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-tittle">PROGRAMACION ORIENTADA A COMPONENTES</h4>
+                </div>
+                
+                <!--parte de contenido del header--->
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam quo, reprehenderit natus eos. Maxime in vero distinctio alias, vel rerum, optio quidem explicabo qui voluptatibus assumenda perferendis et quasi aut!</p>
+                </div>
+                <!--fotten-->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>       
+              
+        <div class="modal fade" id="orgp">
+        <div class="modal-dialog modal-dialog-centered " >
+            <div class="modal-content">
+                <div class="modal-header">
+                   <button type="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-tittle">ORGANIZACION EMPRESARIAL</h4>
+                </div>
+                
+                <!--parte de contenido del header--->
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam quo, reprehenderit natus eos. Maxime in vero distinctio alias, vel rerum, optio quidem explicabo qui voluptatibus assumenda perferendis et quasi aut!</p>
+                </div>
+                <!--fotten-->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>       
+       
+        <div class="modal fade" id="adp">
+        <div class="modal-dialog modal-dialog-centered " >
+            <div class="modal-content">
+                <div class="modal-header">
+                   <button type="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-tittle">ADMINISTRACION DE PROYECTOS TI</h4>
+                </div>
+                
+                <!--parte de contenido del header--->
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam quo, reprehenderit natus eos. Maxime in vero distinctio alias, vel rerum, optio quidem explicabo qui voluptatibus assumenda perferendis et quasi aut!</p>
+                </div>
+                <!--fotten-->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+              
+        <div class="modal fade" id="ief">
+        <div class="modal-dialog modal-dialog-centered " >
+            <div class="modal-content">
+                <div class="modal-header">
+                   <button type="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-tittle">INFORMATICA ESTRATEGICA</h4>
+                </div>
+                
+                <!--parte de contenido del header--->
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam quo, reprehenderit natus eos. Maxime in vero distinctio alias, vel rerum, optio quidem explicabo qui voluptatibus assumenda perferendis et quasi aut!</p>
+                </div>
+                <!--fotten-->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>       
+       
+        <div class="modal fade" id="gii">
+        <div class="modal-dialog modal-dialog-centered " >
+            <div class="modal-content">
+                <div class="modal-header">
+                   <button type="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-tittle">GESTION INFORMATICA</h4>
+                </div>
+                
+                <!--parte de contenido del header--->
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam quo, reprehenderit natus eos. Maxime in vero distinctio alias, vel rerum, optio quidem explicabo qui voluptatibus assumenda perferendis et quasi aut!</p>
+                </div>
+                <!--fotten-->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>       
+       
+       
+       
+       <!----         LINEA 7   --->
+        <div class="modal fade" id="fp">
+        <div class="modal-dialog modal-dialog-centered " >
+            <div class="modal-content">
+                <div class="modal-header">
+                   <button type="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-tittle">FUNDAMENTOS DE PROGRAMACION</h4>
+                </div>
+                
+                <!--parte de contenido del header--->
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam quo, reprehenderit natus eos. Maxime in vero distinctio alias, vel rerum, optio quidem explicabo qui voluptatibus assumenda perferendis et quasi aut!</p>
+                </div>
+                <!--fotten-->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+       
+        <div class="modal fade" id="pe">
+        <div class="modal-dialog modal-dialog-centered " >
+            <div class="modal-content">
+                <div class="modal-header">
+                   <button type="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-tittle">PROGRAMACION ESTRUCTURADA</h4>
+                </div>
+                
+                <!--parte de contenido del header--->
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam quo, reprehenderit natus eos. Maxime in vero distinctio alias, vel rerum, optio quidem explicabo qui voluptatibus assumenda perferendis et quasi aut!</p>
+                </div>
+                <!--fotten-->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+              
+        <div class="modal fade" id="po">
+        <div class="modal-dialog modal-dialog-centered " >
+            <div class="modal-content">
+                <div class="modal-header">
+                   <button type="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-tittle">PROGRAMACION ORIENTADA A OBJETOS</h4>
+                </div>
+                
+                <!--parte de contenido del header--->
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam quo, reprehenderit natus eos. Maxime in vero distinctio alias, vel rerum, optio quidem explicabo qui voluptatibus assumenda perferendis et quasi aut!</p>
+                </div>
+                <!--fotten-->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>       
+              
+        <div class="modal fade" id="est1">
+        <div class="modal-dialog modal-dialog-centered " >
+            <div class="modal-content">
+                <div class="modal-header">
+                   <button type="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-tittle">ESTANCIA 1</h4>
+                </div>
+                
+                <!--parte de contenido del header--->
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam quo, reprehenderit natus eos. Maxime in vero distinctio alias, vel rerum, optio quidem explicabo qui voluptatibus assumenda perferendis et quasi aut!</p>
+                </div>
+                <!--fotten-->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>      
+             
+        <div class="modal fade" id="ids">
+        <div class="modal-dialog modal-dialog-centered " >
+            <div class="modal-content">
+                <div class="modal-header">
+                   <button type="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-tittle">INGENIERIA DE DISENO DE SOFWARE</h4>
+                </div>
+                
+                <!--parte de contenido del header--->
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam quo, reprehenderit natus eos. Maxime in vero distinctio alias, vel rerum, optio quidem explicabo qui voluptatibus assumenda perferendis et quasi aut!</p>
+                </div>
+                <!--fotten-->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>       
+       
+        <div class="modal fade" id="ingds">
+        <div class="modal-dialog modal-dialog-centered " >
+            <div class="modal-content">
+                <div class="modal-header">
+                   <button type="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-tittle">INGENIERIA EN DESARROLLO DE SOFWARE</h4>
+                </div>
+                
+                <!--parte de contenido del header--->
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam quo, reprehenderit natus eos. Maxime in vero distinctio alias, vel rerum, optio quidem explicabo qui voluptatibus assumenda perferendis et quasi aut!</p>
+                </div>
+                <!--fotten-->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>              
+       
+        <div class="modal fade" id="estadia2">
+        <div class="modal-dialog modal-dialog-centered " >
+            <div class="modal-content">
+                <div class="modal-header">
+                   <button type="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-tittle">ESTANCIA II</h4>
+                </div>
+                
+                <!--parte de contenido del header--->
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam quo, reprehenderit natus eos. Maxime in vero distinctio alias, vel rerum, optio quidem explicabo qui voluptatibus assumenda perferendis et quasi aut!</p>
+                </div>
+                <!--fotten-->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>      
+             
+        <div class="modal fade" id="programacion lineal">
+        <div class="modal-dialog modal-dialog-centered " >
+            <div class="modal-content">
+                <div class="modal-header">
+                   <button type="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-tittle">PROGRAMACION LINEAL</h4>
+                </div>
+                
+                <!--parte de contenido del header--->
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam quo, reprehenderit natus eos. Maxime in vero distinctio alias, vel rerum, optio quidem explicabo qui voluptatibus assumenda perferendis et quasi aut!</p>
+                </div>
+                <!--fotten-->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+                     
+        <div class="modal fade" id="metode">
+        <div class="modal-dialog modal-dialog-centered " >
+            <div class="modal-content">
+                <div class="modal-header">
+                   <button type="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-tittle">METODOS ESTOCASTICOS</h4>
+                </div>
+                
+                <!--parte de contenido del header--->
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam quo, reprehenderit natus eos. Maxime in vero distinctio alias, vel rerum, optio quidem explicabo qui voluptatibus assumenda perferendis et quasi aut!</p>
+                </div>
+                <!--fotten-->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+        <!------hasta aqui termina---->
+        
+   
+   <footer>
+       <div class="pies">
+           <div class="lugar">
+               <p>Calle Paseo San Gerardo No. 207</p>
+                    <p>Fracc. San Gerardo C.P. 20342.</p>
+                    <p>Aguascalientes, Ags., México</p>
+           </div>
+           <div class="derechoss">
+               <p>Todos los Derechos Reservados 2020 &copy;</p>  
+           </div>
+       </div>
+   </footer>
+   
+</body>
+</html>

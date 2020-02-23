@@ -1,198 +1,203 @@
-
-
-
-
-
-
-
-{
-    padding: 0px;
-    margin: 0px;
+html{
+    font-size: 62.5%;
 }
 
-body {
-    font-family: 'Lato', sans-serif;    
-
-    
+*{
+	padding:0;
+	margin:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.barra{
+    display: none;
+}
+body{
+   font-family: 'Lato', sans-serif;
+    font-size: 1.6rem;
+    flex-wrap: wrap;
 }
 
-.header {
-    padding: 0;
-   margin: 0px;
-    width:100%;
-    background: black;
-    
-}
-
-.contenedor {
-    max-width: 1200px;
-    margin: 0 auto 0 auto;
-}
-
-.navegacion{
-    padding: 0;
-    margin: 0;
-    display: block;,
-}
-.navegacion ul{
-    padding: 0;
-    margin: 0;
-      text-decoration: none;
-}
-
-.navegacion ul li{
-    display: inline-block;
-    padding: 0;
-    margin: 1em;  
-
-
-}
-
-.navegacion ul li a{
-   color: white;
-    display: block;
-    padding: 10px;
-   
-      text-decoration: none;
-}
-
-img{
-    width: 25%;
-    padding: 0;
-    margin: 0;
-    background: #ffffff;
-    align-content: center;
-}
-
-.barra {
-    display: flex;
-    justify-content:flex-start;
-    align-items: center;
-    padding-top: 30px;
-  
-    padding: 0;
-}
-
-.navegacion a:hover {
-    color: dodgerblue;
-    background: #000000;
-       background: #ffffff;
-}
-.isei:hover{
-     color: dodgerblue;
-    background: #ffffff;
-}
-
-.navegacion a:last-of-type {
-    margin: 0;
-}
-
-.isei{
-    color: white;
-    font-size: 4rem;
-    padding: 0;
-    margin: 0;
-      text-decoration: none;
-
-}
-
-
-.todo{
+.inicio{
     display: flex;
     justify-content: space-between;
-    
-    margin: 1px;
-}
-.c{
-    
-    display: flex;
-    flex-wrap: wrap;
-    height: 100%;
-    background: black;    
-}
-
-
-
-
-
-
-.contactl{
-    display: flex;
-    color: white;
-    margin: 2rem auto;
-    font-size: 2rem;
-    align-self: center;
-    height: inherit;
-    justify-content: center;
-    background: rgba(237, 228, 228, 0.28);
-}
-
-
-
-.seldl{
-    padding: 7rem;
-    height: 60rem;
-     font-family: 'Coda Caption', sans-serif;
-    display: flex;
-    justify-content: center;
-    margin: 0;
+    align-items:center;
+    padding-top: 1.5rem;
     
 }
-.name{
-    padding: 2rem;
-    color: black;
-    margin-top: 2rem;
-    color: white;
-}
-
-.com{
-    padding: 2rem;
-    margin-top: 4rem;
-    height: 16rem;
-    color: whITE;
-    
-}
-
-.cuadro{
-     background: rgba(0, 0, 0, 0.04);
-    text-decoration: none;
-    width: 45rem;
-    height: 4rem;
-    border: none;
-    color: white;
-     font-size: 2rem;
-}
-
-.com1{
-     background: rgba(0, 0, 0, 0.04);
-    color: white;
-    text-decoration: none;
-    width: 45rem;
-    height: 13rem;
-    border: none;
-    font-size: 2rem;
-}
-.bta{
-    margin: 0 auto;
-    display: flex;
-    margin-top: 3rem;
-    font-family: 'Coda Caption', sans-serif;
-    height: 6rem;
-    background: orange;
-    font-size: 4rem;
-    
-}
-
-.bta:hover{
-    background: green;
-    color: white;
-}
-
-
-.foot{
-    align-self: flex-end;
-    background: #6f6767;
-    padding: 0;
-    margin: 0;
+.d{
+    background: black;
     width: 100%;
+}
+
+.menu_bar {
+	display:none;
+}
+
+header {
+	width: 100%;
+    margin-bottom: 0;
+}
+
+header .navegacion{
+    display: block;
+    justify-content: center;
+}
+header nav {
+	background:black;
+	z-index:1000;
+	max-width: 1000px;
+	width:95%;
+	margin:20px ;
+}
+
+
+header nav ul {
+	list-style:none;
+}
+
+header nav ul li {
+	display:inline-block;
+	position: relative;
+}
+
+header nav ul li:hover {
+	background:grey;;
+}
+
+header nav ul li a {
+	color:white;
+	display:block;
+	text-decoration:none;
+	padding: 2rem;
+    font-size: 2rem;
+}
+
+header nav ul li a span {
+	margin-right:10px;
+}
+
+header nav ul li:hover .hijos {
+	display:block;
+}
+
+header nav ul li .hijos {
+	display: none;
+	background:black;
+	position: absolute;
+	width: 180%;
+	z-index:1000;
+}
+
+header nav ul li .hijos li {
+	display:block;
+	overflow: hidden;
+	border-bottom: 1px solid rgba(255,255,255,.5);
+}
+
+header nav ul li .hijos li a {
+	display: block;
+}
+
+header nav ul li .hijos li a span {
+	float: right;
+	position: relative;
+	top:3px;
+	margin-right:0;
+	margin-left:10px;
+}
+
+header nav ul li .caret {
+	position: relative;
+	top:3px;
+	margin-left:10px;
+	margin-right:0px;
+}
+@media screen and (max-width: 80rem) {
+  
+    
+	body {
+		padding-top:8rem;
+	}
+    .isei{
+        padding-top:.7rem; 
+        width: 10rem;
+    }
+    .jq{
+        display: none;
+    }
+
+	.menu_bar {
+		display:block;
+		width:100%;
+		position: fixed;
+		top:0;
+		background:black;
+	}
+    .na3{
+        margin: 0;
+    }
+    .d{
+        background: black;
+    }
+
+	.menu_bar .bt-menu {
+		display: block;
+		padding: 20px;
+		color: #fff;
+		overflow: hidden;
+		font-size: 25px;
+		font-weight: bold;
+		text-decoration: none;
+	}
+    
+  
+    /***/
+
+	.menu_bar span {
+		float: right;
+		font-size: 40px;
+	}
+    .header{
+        margin-bottom: 0;
+        padding: 0;
+    }
+
+	.header nav {
+		width: 80%;
+		position: fixed;
+		overflow: scroll;
+        overflow: hidden;
+	}
+    .header nav ul{
+        display: block;
+    }
+
+	.header nav ul li {
+		display: block;
+		border-bottom:1px solid rgba(255,255,255,.5);
+	}
+
+	.header nav ul li a {
+		display: block;
+	}
+
+	.header nav ul li:hover .hijos {
+		display: block;
+        width: 100%;
+		position: relative;
+	}
+  
+	.header nav ul li:hover .hijos li a {
+		margin-left:20px;
+	}
+
+	.header nav ul li .caret {
+		float: right;
+	}
+  
+}
+.contenedor{
+    max-width: 120rem;
+    margin: 0 auto 0 auto;
 }
