@@ -232,14 +232,34 @@ header nav ul li .caret {
     flex-direction: column;
 }
 
+.inicioc{
+    width: 100%;
+
+    display: inline-flex;
+    margin: 0;
+}
+.menus{
+    display: flex;
+    width: 15%;
+    margin: 2rem;
+    padding: 0;
+    position: fixed;
+    text-align: center;
+}
+.menus a{
+    font-size: 1.5rem;
+    
+}
 
 .direc{
-    display:
-    padding-top: 5rem;
-    width: 80%;
-    max-width: 1000rem;
-    margin: 0 auto;
-    overflow:hidden;
+    display:block;
+    width: 60%;
+    margin: auto;
+}
+.direct img{
+    min-width: 4rem;
+    
+
 }
 
 .cajapdf{
@@ -370,9 +390,6 @@ form{
     
 }
 
-.galeria img{
-    width: 40rem;
-}
 
 @keyframes slide{
     0%{margin-left: 0rem;}
@@ -599,6 +616,15 @@ footer{
 
 @media screen and (max-width: 80rem) 
 {
+    
+    /**INICIO*/
+    .menus{
+    display: none;
+   
+}
+
+    
+    /*FIN INICIO**/
     .textonav{
         margin: 3rem ;
         width: auto;
