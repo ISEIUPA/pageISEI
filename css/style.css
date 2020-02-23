@@ -71,6 +71,11 @@ header nav ul li {
 header nav ul li:hover {
 	background:grey;;
 }
+header nav ul li a:hover{
+    color: white;
+    text-decoration:underline;
+    text-decoration-style: solid;
+}
 
 header nav ul li a {
 	color:white;
@@ -86,6 +91,7 @@ header nav ul li a span {
 
 header nav ul li:hover .hijos {
 	display:block;
+  
 }
 
 header nav ul li .hijos {
@@ -622,7 +628,12 @@ footer{
     display: none;
    
 }
-
+    
+    .direc{
+        margin: 1rem;
+        display: block;
+        width: auto;
+    }
     
     /*FIN INICIO**/
     .textonav{
