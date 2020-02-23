@@ -69,7 +69,8 @@ header nav ul li {
 }
 
 header nav ul li:hover {
-	background:grey;;
+	background:grey;
+    
 }
 
 header nav ul li a {
