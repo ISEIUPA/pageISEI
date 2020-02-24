@@ -245,6 +245,15 @@ header nav ul li .caret {
     display: inline-flex;
     margin: 0;
 }
+.tittles{
+    display: block;
+    width: 100%;
+    background: #4b4242;
+    align-content: center;
+    text-align: center;
+    text-align: justify;
+    border-bottom: 1px solid rgba(11, 9, 9, 0.37);
+}
 .menus{
     display: flex;
     width: 15%;
