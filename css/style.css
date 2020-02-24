@@ -277,6 +277,33 @@ header nav ul li .caret {
     
 
 }
+.grafica{
+    display: block;
+    width: 100%;
+    height:inherit;
+   
+    
+}
+.grafics{
+   
+    display: inline-block;
+    max-width: 30rem;
+    max-height: 50rem;
+    margin: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+    overflow: hidden;
+    transition: all 0.25seg;
+    padding: 1rem;
+    
+}
+.grafc{
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+}
+
+
 
 .cajapdf{
     margin:2rem auto;
@@ -739,5 +766,25 @@ footer{
     color: white;
 }
  
+    .grafica{
+    display: block;
+    width: auto;
+    height:inherit;
+
+    }
+
+.grafics{
+   
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+.grafc{
+    
+    width: auto;
+    margin: 0 auto;
+    justify-content: center;
+    
+}
+
     
 }
