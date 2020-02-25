@@ -16,10 +16,26 @@ function modalClick(idClicked)
 //       });
         //var datosModal = window.actual_JSON;
         
-        datosModal = {"materias" : "Ingles J", "competencias" : ["Competencia 1", "Competencia 2"]};
+        datosModal =
+        {
+            "Materia": "Inglés I",
+            "cuatrimestre": "Primer Cuatrimestre",
+            "NumUnidades":4,
+            "Unidades": ["Introducción: Interacción en el aula" , "Descripción y ubicación de lugares y objetos", "Habilidades y acciones cotidianas", "Comunicar opiniones" ],
+            "Objetivo": "El alumno será capaz de manejar, comunicar y comprender ideas y/o textos simples abordando eventos cotidianos con bajo nivel de complejidad haciendo uso de la información de su entorno" 
+        };
+        
+        
         modalContent.innerHTML = "";
-        modalContent.innerHTML += "<h3>" + datosModal.materias + "</h3>";
-        modalContent.innerHTML += "<p>" + datosModal.competencias + "</p>";
+        modalContent.innerHTML += '<h3 class="modalH3">' + datosModal.Materia + '</h3>';
+        modalContent.innerHTML += '<h4 class="modalH4">Objetivo: ' + datosModal.Objetivo + '</h4>';
+        modalContent.innerHTML += '<h4 class="modalH4">Unidades de aprendizaje: </h4>';
+        var lista = '<ol class="modalList">';
+        for (var i =0; i< datosModal.Unidades.length; i++){
+            lista += '<li>' + datosModal.Unidades[i] + '</li>';}
+        lista += "</ol>";
+        console.log(lista);
+        modalContent.innerHTML += lista;
         modal.style.display = "block";
     }
 
