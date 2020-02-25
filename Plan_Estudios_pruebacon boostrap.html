@@ -92,7 +92,8 @@
                 </tr>
                 <tr>
                     <td class="materia">
-                        <a href="#ingles1" class="btn btn-primary btn-lg" data-toggle="modal">Inglés I</a></td>
+<!--                        <a href="#ingles1" class="btn btn-primary btn-lg" data-toggle="modal" >Inglés I</a></td>-->
+                   <a id = "inglesI" onclick = "modalClick(this.id)" nohref >Inglés I</a>
                     <td class="materia">
                         <a href="#ingles2" class="btn btn-primary btn-lg" data-toggle="modal">Inglés II</a></td>
                         
@@ -192,7 +193,8 @@
                 
                 <!--parte de contenido del header--->
                 <div class="modal-body">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam quo, reprehenderit natus eos. Maxime in vero distinctio alias, vel rerum, optio quidem explicabo qui voluptatibus assumenda perferendis et quasi aut!</p>
+                    <h4>Competencias</h4>
+                    
                 </div>
                 <!--fotten-->
                 <div class="modal-footer">
@@ -1546,6 +1548,13 @@
     </div>
         <!------hasta aqui termina---->
         
+            <!-- The Modal -->
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Some text in the Modal..</p>
+        </div>
+    </div>
    
    <footer>
        <div class="pies">
@@ -1559,6 +1568,6 @@
            </div>
        </div>
    </footer>
-   
+   <script src="js/modals.js"></script>
 </body>
 </html>

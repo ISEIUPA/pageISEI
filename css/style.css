@@ -551,7 +551,7 @@ h3{
 }
 /**********PARTE DE PLAN DE ESTUDIOS*/
 #tablaMapa {
-    border-spacing: 10px;
+    border-spacing: 1rem;
     vertical-align: middle;
     align-content: center;
     text-align: center;
