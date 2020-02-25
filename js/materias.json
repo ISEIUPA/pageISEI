@@ -1,5 +1,4 @@
-
-{
+{    
     "inglesI":[
         {
             "materia": "Inglés I",
@@ -9,10 +8,20 @@
             "Competencias":["Competencia 1", "Competencia 2"],
             "Objetivo": "Objetivo Inglés I"    
         }],
+    
     "inglesII":[
         {
             "materia": "Inglés II",
             "cuatrimestre": "Segundo Cuatrimestre",
+            "NumUnidades":2,
+            "Unidades": ["unidad 1" , "unidad 2" ],
+            "Competencias":["Competencia 1", "Competencia 2"],
+            "Objetivo": "Objetivo Inglés II"    
+        }],
+    "inglesIII":[
+        {
+            "materia": "Inglés III",
+            "cuatrimestre": "Tercer Cuatrimestre",
             "NumUnidades":2,
             "Unidades": ["unidad 1" , "unidad 2" ],
             "Competencias":["Competencia 1", "Competencia 2"],

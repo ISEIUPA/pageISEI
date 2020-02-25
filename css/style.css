@@ -571,7 +571,7 @@ h3{
     text-decoration: none;
 }
 
-.modal {
+.ventanaModal {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
@@ -586,7 +586,7 @@ h3{
 }
 
 /* Modal Content */
-.modal-content {
+.ventana-contenido {
   background-color: #fefefe;
   margin: auto;
   padding: 20px;
@@ -595,19 +595,20 @@ h3{
 }
 
 /* The Close Button */
-.close {
+.closeBtn {
   color: #aaaaaa;
   float: right;
   font-size: 28px;
   font-weight: bold;
 }
 
-.close:hover,
-.close:focus {
+.closeBtn:hover,
+.closeBtn:focus {
   color: #000;
   text-decoration: none;
   cursor: pointer;
 }
+
  .cajapdf a{
         display: block;
         max-height:auto;
