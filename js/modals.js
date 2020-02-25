@@ -16,7 +16,6 @@ function modalClick(idClicked)
         materiaArray = modalText(idClicked);
         console.log(materiaArray);
         modalContent.innerHTML = "<h3>" + materiaArray.materia + "</h3>";
-        modalContent.innerHTML .= "<p>" + materiaArray.competencias + "</p>"; 
         modal.style.display = "block";
     }
 
@@ -31,26 +30,7 @@ function modalClick(idClicked)
         modal.style.display = "none";
       }
     }
-}    <div class="modal fade" id="ingles1">
-        <div class="modal-dialog modal-dialog-centered " >
-            <div class="modal-content">
-                <div class="modal-header">
-                   <button type="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h4 class="modal-tittle">INGLES I</h4>
-                </div>
-                
-                <!--parte de contenido del header--->
-                <div class="modal-body">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam quo, reprehenderit natus eos. Maxime in vero distinctio alias, vel rerum, optio quidem explicabo qui voluptatibus assumenda perferendis et quasi aut!</p>
-                </div>
-                <!--fotten-->
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
-                    
-                </div>
-            </div>
-        </div>
-    </div>
+}    
 
 function modalText(idClicked){
     //Crear JSON con los datos y direccionarlos por el idClicked
