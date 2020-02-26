@@ -266,7 +266,6 @@ header nav ul li .caret {
 
 .inicioc{
     width: 100%;
-
     display: inline-flex;
     margin: 0;
 }
@@ -304,16 +303,37 @@ header nav ul li .caret {
     margin-left: 3rem;
 }
 
-.menus{
+.menuLateral{
     display: flex;
-    width: 15%;
-    margin: 2rem;
-    padding: 0;
+    margin: 2rem 2rem 2rem 2rem;
     position: fixed;
-    text-align: center;
+    border-radius: 1rem;
+    border: 1px solid black;
+    width: 15%;
+    overflow: hidden;
 }
-.menus a{
-    font-size: 1.5rem;
+
+.menuLateral ul{
+    list-style: none;
+    width: 146%;
+    display: block;
+}
+
+.menuLateral ul li{
+    border-bottom: 1px solid black;   
+}
+
+.menuLateral ul li:hover{
+    background: gray;
+}
+
+.menuLateral ul li a{
+    height: 6rem;
+    display: block;
+    vertical-align: middle;
+    color: black;
+    font-size: 2rem;
+    text-decoration: none;
 }
 
 
@@ -736,7 +756,7 @@ footer{
 {
     
     /**INICIO*/
-    .menus{
+    .menuLateral{
     display: none;
    
 }
