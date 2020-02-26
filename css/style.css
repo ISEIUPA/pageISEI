@@ -188,42 +188,53 @@ header nav ul li .caret {
 .menuLateral{
     display: flex;
     margin: 2rem 2rem 2rem 2rem;
+    padding: 0;
     position: fixed;
     border-radius: 1rem;
-    border: 1px solid black;
-    width: 15%;
-    overflow: hidden;
+   
+    width: 23rem;
+  
 }
-
-.menuLateral aside ul{
+.menuLateral ul{
     display: block;
-    list-style: none;
-    width: 146%;
-    right: 100%;
+    
+    width: 100%;
+    border-radius: 1rem;
+    margin: 0;
+    border:  solid black;
 }
-
-.menuLateral aside ul li{
-    border-bottom: 1px solid black;
-    vertical-align: middle;
+.menuLateral .active{
+    display: block;
+    background: black;
+    width: 100%;
+    height: 100%;
+    margin-top: 0;
+    border:  solid black;
 }
-
-.menuLateral aside ul li:hover{
-    background: gray;
+.menuLateral ul li{
+    display: block;
+    width: 23rem;
+    margin-bottom: 0;
+    
 }
+.menuLateral ul li a{
+    display: block;
+    margin:0;
+    padding: 2rem;
+    font-size: 2rem;
+    color: black;
+}
+.menuLateral ul li a:hover{
+    background: black;
+    color: white;
+    background: black;
 
-.menuLateral aside ul .active{
-    background-color: black;
+
+}
+.menuLateral .active a{
     color: white;
 }
 
-.menuLateral ul li a{
-    height: 5rem;
-    display: block;
-    vertical-align: middle;
-    color: black;
-    font-size: 2rem;
-    text-decoration: none;
-}
 
 .main{
     width: 100%;
