@@ -185,6 +185,46 @@ header nav ul li .caret {
     margin: 0;
 }
 
+.menuLateral{
+    display: flex;
+    margin: 2rem 2rem 2rem 2rem;
+    position: fixed;
+    border-radius: 1rem;
+    border: 1px solid black;
+    width: 15%;
+    overflow: hidden;
+}
+
+.menuLateral aside ul{
+    display: block;
+    list-style: none;
+    width: 146%;
+    right: 100%;
+}
+
+.menuLateral aside ul li{
+    border-bottom: 1px solid black;
+    vertical-align: middle;
+}
+
+.menuLateral aside ul li:hover{
+    background: gray;
+}
+
+.menuLateral aside ul .active{
+    background-color: black;
+    color: white;
+}
+
+.menuLateral ul li a{
+    height: 5rem;
+    display: block;
+    vertical-align: middle;
+    color: black;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
 .main{
     width: 100%;
     padding: 2rem;
@@ -218,38 +258,7 @@ header nav ul li .caret {
     margin-left: 3rem;
 }
 
-.menuLateral{
-    display: flex;
-    margin: 2rem 2rem 2rem 2rem;
-    position: fixed;
-    border-radius: 1rem;
-    border: 1px solid black;
-    width: 15%;
-    overflow: hidden;
-}
 
-.menuLateral ul{
-    list-style: none;
-    width: 146%;
-    display: block;
-}
-
-.menuLateral ul li{
-    border-bottom: 1px solid black;   
-}
-
-.menuLateral ul li:hover{
-    background: gray;
-}
-
-.menuLateral ul li a{
-    height: 6rem;
-    display: block;
-    vertical-align: middle;
-    color: black;
-    font-size: 2rem;
-    text-decoration: none;
-}
 
 
 
