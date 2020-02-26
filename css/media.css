@@ -68,6 +68,7 @@
 
 	.header nav ul li a {
 		display: block;
+        padding: 1rem;
 	}
 
 	.header nav ul li:hover .hijos {
