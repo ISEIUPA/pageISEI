@@ -223,6 +223,12 @@
         display: block;
         width: auto;
     }
+    .direcp{
+        display: flex;
+        margin: auto;
+        overflow-x: scroll;
+        width: auto;
+    }
     
     /*FIN INICIO**/
     .textonav{
