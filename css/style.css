@@ -563,12 +563,28 @@ h3{
     align-content: center;
 }
 
+#tablaMapa th{
+    background: #bcb7b7;
+}
+
 #tablaMapa tr .materia{
     height: 10rem;
 }
 
-#tablaMapa a{
+#tablaMapa td a{
     text-decoration: none;
+    padding-top: 3rem;
+    width: 100%;
+}
+
+#tablaMapa td:hover,
+#tablaMapa td:active{
+    background: #7b798e;
+}
+
+#tablaMapa td a:hover,
+#tablaMapa td a:checked{
+    background: #7b798e;
 }
 
 .ventanaModal {
