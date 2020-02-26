@@ -1,14 +1,222 @@
-/* Para movil */
-@media only screen and (min-width: 520px){
 
-}
+@media screen and (max-width: 80rem) {
+    .medio h3{
+        text-align: center;
+        margin-bottom: 2.5rem;
+    }
+	body {
+		padding-top:8rem;
+	}
+    .isei{
+        padding-top:.7rem; 
+        width: 10rem;
+    }
+    .jq{
+        display: none;
+    }
 
-/* Table screen*/
-@media only screen and (min-width: 768px){
+	.menu_bar {
+		display:block;
+		width:100%;
+		position: fixed;
+		top:0;
+		background:black;
+	}
+    .na3{
+        margin: 0;
+    }
+    .d{
+        background: black;
+    }
+
+	.menu_bar .bt-menu {
+		display: block;
+		padding: 20px;
+		color: #fff;
+		overflow: hidden;
+		font-size: 25px;
+		font-weight: bold;
+		text-decoration: none;
+	}
     
+  
+    /***/
+
+	.menu_bar span {
+		float: right;
+		font-size: 40px;
+	}
+    .header{
+        margin-bottom: 0;
+        padding: 0;
+    }
+
+	.header nav {
+		width: 80%;
+		position: fixed;
+		overflow: scroll;
+        right: 100%;
+	}
+    .header nav ul{
+        display: block;
+    }
+
+	.header nav ul li {
+		display: block;
+		border-bottom:1px solid rgba(255,255,255,.5);
+	}
+
+	.header nav ul li a {
+		display: block;
+	}
+
+	.header nav ul li:hover .hijos {
+		display: block;
+        width: 100%;
+		position: relative;
+	}
+  
+	.header nav ul li:hover .hijos li a {
+		margin-left:20px;
+	}
+
+	.header nav ul li .caret {
+		float: right;
+	}
+  
+}
+
+@media screen and (max-width: 80rem) 
+{
+    
+    /**INICIO*/
+    .menus{
+    display: none;
+   
+}
+    
+    .direc{
+        margin: 1rem;
+        display: block;
+        width: auto;
+    }
+    
+    /*FIN INICIO**/
+    .textonav{
+        margin: 3rem ;
+        width: auto;
+        background: white;
+        display: block;
+    }
+    .textoc{
+    direction: block;
+    height: 100%;
+    width: auto;
+    margin: 2rem;
+    background: white;
+    overflow-y: scroll;
+    max-height: 50rem;
+    }
+    .textolinea{
+        width: auto;
+        overflow-y: scroll;
+        max-height: 20rem;
+    }
+    .textolinea{
+      display: block
+    }    
+    
+    
+    
+    /**PARTE DE CRONOGRAMA DE ACTIVIDADES RESPONSIVE*****/
+    .cajapdf{
+        display: flex;
+        margin: 0;
+        width: auto;
+        overflow-y: scroll;
+        max-height: 50rem;
+    }
+    
+
+    /******contactanos responsive////*/
+    
+    
+
+.c{
+    
+    display: flex;
+    justify-content: center;
+    height: inherit;
+    width: auto;
+    background: white;    
+    margin: 2rem;
+}
+
+
+
+.seldl{
+    padding: 7rem;
+    width: auto;
+    height: inherit;
+    display: flex;
+    margin: 0;
+    background:rgba(8, 8, 8, 0.08);
+    
+}
+.name{
+    padding: 0;
+    color: black;
+    margin-top: 2rem;
+     background:rgba(8, 8, 8, 0.08);
+}
+
+.com{
+ background:rgba(8, 8, 8, 0.08);
+    
+    height: auto;
+    width: auto;
+    color: black;
+    
+}
+.bta{
+    margin: 0 auto;
+    display: block;
+    font-family: 'Coda Caption', sans-serif;
+    height: inherit;
+    background: orange;
+    font-size: 2rem;
+    width: 15rem;
+    
+    
+}
+
+.bta:hover{
+    background: green;
+    color: white;
+}
  
+    .grafica{
+    display: block;
+    width: auto;
+    height:inherit;
+
+    }
+
+.grafics{
+   
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+.grafc{
+    
+    width: auto;
+    margin: 0 auto;
+    justify-content: center;
+    
+}
+
+    
 }
 
 
-@media screen and (min-width: 950px){
-}
+
