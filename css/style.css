@@ -19,6 +19,7 @@ body{
     flex-wrap: wrap;
 }
 
+/*--------- CABECERA ----------------*/
 .inicio{
     display: flex;
     justify-content: space-between;
@@ -213,6 +214,68 @@ header nav ul li .caret {
 	}
   
 }
+
+.contenido{
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*---------- PAGINA INICIO ------------*/
+.tittles{
+    display: block;
+    width: 100%;
+    align-content: center;
+    text-align: center;
+    text-align: justify;
+    border-bottom: 1px solid rgba(11, 9, 9, 0.37);
+}
+
+.tittles h1{
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #000000;
+    font-size: 2rem;
+    font-weight:400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    text-align: center;
+}
+
+.tittles h2{
+    margin-top: 1rem;
+    margin-bottom: 20px;
+    color: #000000;
+    font-size: 2.5rem;
+    font-weight:400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    text-align: center;
+}
+
+h3{
+    font-size: 10rem;
+    font-weight: 200;
+}
+
+.direc{
+    display:block;
+    width: 60%;
+    margin: auto;
+}
+.direct img{
+    min-width: 4rem;
+}
+
+.inicioc{
+    width: 100%;
+
+    display: inline-flex;
+    margin: 0;
+}
+
 .main{
     width: 100%;
     padding: 2rem;
@@ -233,27 +296,6 @@ header nav ul li .caret {
     font-size: 2rem;
 }
 
-
-.contenido{
-    display: flex;
-    flex-direction: column;
-}
-
-.inicioc{
-    width: 100%;
-
-    display: inline-flex;
-    margin: 0;
-}
-.tittles{
-    display: block;
-    width: 100%;
-    background: #4b4242;
-    align-content: center;
-    text-align: center;
-    text-align: justify;
-    border-bottom: 1px solid rgba(11, 9, 9, 0.37);
-}
 .menus{
     display: flex;
     width: 15%;
@@ -264,19 +306,10 @@ header nav ul li .caret {
 }
 .menus a{
     font-size: 1.5rem;
-    
 }
 
-.direc{
-    display:block;
-    width: 60%;
-    margin: auto;
-}
-.direct img{
-    min-width: 4rem;
-    
 
-}
+
 .grafica{
     display: block;
     width: 100%;
@@ -477,31 +510,7 @@ form{
     text-align: justify;
 }
 
-h1{
-    margin-top: 0;
-    margin-bottom: 20px;
-    color: #000000;
-    font-size: 140%;
-    font-weight:400;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    word-spacing: 3px;
-    text-align: center;
-}
-h2{
-    margin-top: 1rem;
-    margin-bottom: 20px;
-    color: #000000;
-    font-size: 170%;
-    font-weight:400;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    word-spacing: 3px;
-    text-align: center;
-}
-h3{
-    font-size:3rem;
-}
+
 
 /*******PARTE PARA LOS TEXTOS******/
 .textonav{
@@ -549,6 +558,8 @@ h3{
 .textonav h3{
     text-align: center;
 }
+
+
 /**********PARTE DE PLAN DE ESTUDIOS*/
 #tablaMapa {
     border-spacing: 1rem;
@@ -568,12 +579,11 @@ h3{
 }
 
 #tablaMapa tr .materia{
-    height: 10rem;
+    height: 5rem;
 }
 
 #tablaMapa td a{
     text-decoration: none;
-    padding-top: 3rem;
     width: 100%;
 }
 
@@ -648,11 +658,11 @@ h3{
     margin: -2rem 3rem 6rem 6rem;
 }
 
+
 .ventana-contenido .modalList li{
 
 }
 
-/* The Close Button */
 .closeBtn {
   color: #aaaaaa;
   float: right;
