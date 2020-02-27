@@ -206,7 +206,7 @@ header nav ul li .caret {
     display: block;
     width: 100%;
     border-radius: 1rem;
-    margin: 0;
+    margin-left: 4rem;
     border: 1px solid black;
     overflow: hidden;
 }
@@ -674,22 +674,36 @@ footer{
     display: flex;
     align-self: flex-end;
     justify-content: space-between;
+    z-index: 1;
 }
 
 #pies{
-    display:flex;
     width: 100%;
     background: #2a2e46;
     padding: 0;
     margin-top: 1%;
 }
 
+footer .contenedor-3{
+    display: grid;
+    grid-template: "auto auto auto";
+    grid-gap: 0rem;
+    width: 70%;
+    margin: auto;    
+}
+
+footer .contenedor-3 >div{
+    color: white;
+    font-size: 1.8rem;
+}
+
+footer .contenedor-3>div>ul{
+    list-style: none;
+}
 
 .lugar{
     display: block;
-    width: 25%;
-    margin: 2rem;
-    margin-left: 20%;
+    justify-self: center;
 }
 
 .lugar li{
@@ -698,11 +712,27 @@ footer{
     font-size: 1.8rem;
 }
 
+.socialmedia{
+    align-self: center;
+    justify-self: center;
+}
+
+
+.socialmedia li{
+    display: inline;
+    margin: 1rem;
+}
+
+.contactosTel{
+    justify-self: center;
+}
+
 .derechoss{
-    display: flex;
-    width: inherit;
-    align-self: flex-end;
-    justify-content: flex-end;
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    margin: auto;
+    width: 50%;
 }
 
 
