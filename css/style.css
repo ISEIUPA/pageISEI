@@ -679,7 +679,7 @@ footer{
 #pies{
     display:flex;
     width: 100%;
-    background: #313c52;
+    background: #2a2e46;
     padding: 0;
     margin-top: 1%;
 }
@@ -692,9 +692,10 @@ footer{
     margin-left: 20%;
 }
 
-.lugar p{
+.lugar li{
     color: white;
-    font-size: 1.5rem;
+    text-decoration: none;
+    font-size: 1.8rem;
 }
 
 .derechoss{
@@ -704,8 +705,6 @@ footer{
     justify-content: flex-end;
 }
 
-
-<<<<<<< HEAD
 
 @media screen and (max-width: 80rem) 
 {
@@ -838,5 +837,4 @@ footer{
 
     
 }
-=======
->>>>>>> a227483d733cd48752d1a411538842c5afed6c96
+
