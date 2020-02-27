@@ -14,16 +14,16 @@ function modalClick(idClicked)
 
     var btn = document.getElementById(idClicked);
     var span = document.getElementsByClassName("closeBtn")[0];
-    //var datosModal = window.actual_JSON[idClicked][0];
+    var datosModal = window.actual_JSON[idClicked][0];
     
     
-    datosModal =   {
-            "Materia": "Inglés I",
-            "Cuatrimestre": "Primer Cuatrimestre",
-            "NumUnidades":4,
-            "Unidades": ["Introducción: Interacción en el aula" , "Descripción y ubicación de lugares y objetos", "Habilidades y acciones cotidianas", "Comunicar opiniones" ],
-            "Objetivo": "El alumno será capaz de manejar, comunicar y comprender ideas y/o textos simples abordando eventos cotidianos con bajo nivel de complejidad haciendo uso de la información de su entorno"    
-        };
+//    datosModal =   {
+//            "Materia": "Inglés I",
+//            "Cuatrimestre": "Primer Cuatrimestre",
+//            "NumUnidades":4,
+//            "Unidades": ["Introducción: Interacción en el aula" , "Descripción y ubicación de lugares y objetos", "Habilidades y acciones cotidianas", "Comunicar opiniones" ],
+//            "Objetivo": "El alumno será capaz de manejar, comunicar y comprender ideas y/o textos simples abordando eventos cotidianos con bajo nivel de complejidad haciendo uso de la información de su entorno"    
+//        };
     
     
     modalContent.innerHTML = "";

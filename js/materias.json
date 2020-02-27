@@ -12,19 +12,330 @@
         {
             "Materia": "Inglés II",
             "Cuatrimestre": "Segundo Cuatrimestre",
-            "NumUnidades":2,
-            "Unidades": ["unidad 1" , "unidad 2" ],
-            "Competencias":["Competencia 1", "Competencia 2"],
-            "Objetivo": "Objetivo Inglés II"    
+            "NumUnidades":3,
+            "Unidades": ["Gestionando Información" , "Detallando Acciones Generales" , "Generando Opiniones" ],
+            "Objetivo": "El alumno será capaz de manejar, comunicar y comprender ideas y/o textos simples abordando eventos cotidianos con bajo nivel de complejidad haciendo uso de las herramientas de su entorno"    
         }],
+    
     "inglesIII":[
         {
             "Materia": "Inglés III",
             "Cuatrimestre": "Tercer Cuatrimestre",
-            "NumUnidades":2,
-            "Unidades": ["unidad 1" , "unidad 2" ],
-            "Competencias":["Competencia 1", "Competencia 2"],
-            "Objetivo": "Objetivo Inglés II"    
+            "NumUnidades":4,
+            "Unidades": ["Interactuando y emitiendo opinión" , "Contrastando" , "Planeando" , "Selección y emisión de información y opinión" ],
+            "Objetivo": "El alumno será capaz de dar y solicitar información personal y del entorno con acciones simples, de textos breves y sencillos, a través de la práctica de las cuatro habilidades comunicativas haciendo uso de las funciones gramaticales del idioma inglés de acuerdo al nivel A1 del marco común Europeo"    
+        }],
+    "inglesIV":[
+        {
+            "Materia": "Inglés IV",
+            "Cuatrimestre": "Cuarto Cuatrimestre",
+            "NumUnidades":3,
+            "Unidades": ["Conversaciones comunes en el ámbito social y laboral." , "Descripciones del ámbito laboral y académico" , "Retransmisión de textos orales y escritos"],
+            "Objetivo": "El alumno será capaz de abordar textos propios de su área de estudio, laboral y cultural a partir de su contexto inmediato, narrando, estableciendo planes y hablando de eventos en diferentes etapas de su vida. Así como dando consejos a terceros y hablando de situaciones reales e irreales; para comunicarse en un idioma extranjero. (A nivel A2 de acuerdo al Marco Común Europeo)"    
+        }],
+    "inglesV":[
+        {
+            "Materia": "Inglés V",
+            "Cuatrimestre": "Quinto Cuatrimestre",
+            "NumUnidades":4,
+            "Unidades": ["Países anglosajones: cultural, educación, ámbito laboral y de costumbres de países anglosajones." , "Señalizaciones, recomendaciones, mandatos y prohibiciones" , "Escribiendo acerca de los países anglosajones" , "Interpretación de ideas centrales de mensajes orales y escritos" ],
+            "Objetivo": "El alumno será capaz de expresar sus propios puntos de vista y reportar la opinión de terceras personas sobre temas diversos, señales internacionales y de costumbres para abordar en su conversación diversos temas culturales"    
+        }],
+    "inglesVI":[
+        {
+            "Materia": "Inglés VI",
+            "Cuatrimestre": "Sexto Cuatrimestre",
+            "NumUnidades":4,
+            "Unidades": ["Interactuando y emitiendo opinión" , "Contrastando" , "Planeando" , "Selección y emisión de información y opinión" ],
+            "Objetivo": "El alumno será capaz de entablar comunicación usando estructuras más complejas de la lengua y aplicando el registro propio del ámbito académico, social y laboral para comunicarse de manera efectiva con sus interlocutores en distintas áreas a nivel A2 de acuerdo al Marco Común Europeo"    
+        }],
+    "inglesVII":[
+        {
+            "Materia": "Inglés VII",
+            "Cuatrimestre": "Septimo Cuatrimestre",
+            "NumUnidades":3,
+            "Unidades": ["Literatura. Estudio y Ocio" , "Estilo de vida y trabajo" , "Productos, servicios y publicidad" ],
+            "Objetivo": "El alumno será capaz de expresar sus ideas de manera clara y precisa sobre temas laborales, académicos, culturales y sociales, así como entablar conversaciones en diferentes contextos"    
+        }],
+    "inglesVIII":[
+        {
+            "Materia": "Inglés VIII",
+            "Cuatrimestre": "Octavo Cuatrimestre",
+            "NumUnidades":4,
+            "Unidades": ["Procesos y manuales" , "Informes de carácter técnico" , "El mundo en la actualidad: Sociedad, ciencia y tecnología" , "Negociación y persuasión" ],
+            "Objetivo": "El alumno será capaz de interpretar información presentada en diversos medios de comunicación y generar textos expresando ideas y opiniones sobre asuntos habituales y de su especialidad"    
+        }],
+    "inglesIX":[
+        {
+            "Materia": "Inglés IX",
+            "Cuatrimestre": "Noveno Cuatrimestre",
+            "NumUnidades":4,
+            "Unidades": ["Textos académicos" , "Información en clases, conferencias y medios de comunicación diversos" , "Proyectos integradores de competencias" , "Inserción laboral" ],
+            "Objetivo": "El alumno será capaz de interpretar, explicar e intercambiar información relevante de textos especializados así como de comunicarse de forma oral y escrita en contextos académicos y laborales"    
+        }],
+    "estadia":[
+        {
+            "Materia": "Estadia",
+            "Cuatrimestre": "Decimo Cuatrimestre",
+            "NumUnidades":3,
+            "Unidades": ["" , "" , "" , "" ],
+            "Objetivo": " "    
+        }],
+    "valores":[
+        {
+            "Materia": "Valores Del Ser",
+            "Cuatrimestre": "Primer Cuatrimestre",
+            "NumUnidades":4,
+            "Unidades": ["Naturaleza humana" , "Noción y clasificación de valores" , "El valor de ser persona"],
+            "Objetivo": "El alumno será capaz de identificar y reconocer la naturaleza humana, así como la trascendencia de vivir los valores universales en todos los ámbitos del quehacer humano para su propio desarrollo y en función del bien común"    
+        }],
+    "inteligencia":[
+        {
+            "Materia": "Inteligencia Emocional",
+            "Cuatrimestre": "Segundo Cuatrimestre",
+            "NumUnidades":3,
+            "Unidades": ["Multidimensionalidad" , "Emoción y motivación" , "Manejo de las emociones" ],
+            "Objetivo": "El alumno conocerá la inteligencia emocional para aplicarla como herramienta práctica en la vida, y que le permita manejar sus emociones inteligentemente y de esta manera elevar la calidad de sus relaciones consigo mismo y con los demás"    
+        }],
+    "desarrolloI":[
+        {
+            "Materia": "Desarrollo Interpersonal",
+            "Cuatrimestre": "Tercer Cuatrimestre",
+            "NumUnidades":3,
+            "Unidades": ["DESARROLLO INTERPERSONAL" , "COMUNICACIÓN INTERPERSONAL" , "TRABAJO COOPERATIVO Y COLABORATIVO"],
+            "Objetivo": "El alumno construirá relaciones efectivas, desde la comunicación y el diálogo, para abrir espacios hacia una auténtica humanización que hace referencia a la autorrealización"    
+        }],
+    "habilidadesP":[
+        {
+            "Materia": "Habilidades Del Pensamiento",
+            "Cuatrimestre": "Cuarto Cuatrimestre",
+            "NumUnidades":3,
+            "Unidades": ["Herramientas de pensamiento concreto", "Herramientas inferenciales" , "Pensamiento crítico" ],
+            "Objetivo": "El alumno será capaz de integrar las herramientas de pensamiento concreto e inferencial a través del aprendizaje por descubrimiento y la práctica sistemática para desarrollar estructuras mentales que les permitan aplicar el pensamiento crítico y resolver problemas de manera creativa"    
+        }],
+    "habilidadesO":[
+        {
+            "Materia": "Habilidades Organizacionales",
+            "Cuatrimestre": "Quinto Cuatrimestre",
+            "NumUnidades":3,
+            "Unidades": ["Visión Organizacional" , "Comunicación Organizaciona" , "Liderazgo Y Trabajo en Equipo" ],
+            "Objetivo": "El alumno será capaz de identificar sus habilidades organizacionales, tomando en cuenta las fortalezas internas con las que cuentan, y coadyuvando al desarrollo y aplicación de las mismas tanto en su vida personal como en su entorno"    
+        }],
+    "etica":[
+        {
+            "Materia": "Etica Profesional",
+            "Cuatrimestre": "Sexto Cuatrimestre",
+            "NumUnidades":3,
+            "Unidades": ["Generalidades de la Ética" , "Implicaciones éticas en el ámbito personal y profesional" , "Código ético" ],
+            "Objetivo": "El alumno será capaz de reconocer el sentido de la ética como ciencia especulativamente practica del obrar humano que pretende la perfección y felicidad humana, así como, la reflexión acerca de las cuestiones éticas básicas del hombre en función de su vida actual y de su futura vida profesional"    
+        }],
+    "plataformasWEB":[
+        {
+            "Materia": "Plataformas Web",
+            "Cuatrimestre": "Septimo Cuatrimestre",
+            "NumUnidades":3,
+            "Unidades": ["" , "" , "" ],
+            "Objetivo": " "    
+        }],
+    "optativaI":[
+        {
+            "Materia": "Estadia",
+            "Cuatrimestre": "Decimo Cuatrimestre",
+            "NumUnidades":3,
+            "Unidades": ["" , "" , "" ],
+            "Objetivo": " "    
+        }],
+    "optativaV":[
+        {
+            "Materia": "Estadia",
+            "Cuatrimestre": "Decimo Cuatrimestre",
+            "NumUnidades":3,
+            "Unidades": ["" , "" , "" , "" ],
+            "Objetivo": " "    
+        }],
+    "herramientasO":[
+        {
+            "Materia": "Herramientas Ofimaticas",
+            "Cuatrimestre": "Primer Cuatrimestre",
+            "NumUnidades":4,
+            "Unidades": ["Procesador de texto" , "Hoja de cálculo" , "Presentaciones electrónicas" , "Temas selectos de ofimática" ],
+            "Objetivo": "El alumno será capaz de elaborar documentos de texto, hojas de cálculo y presentaciones gráficas utilizando herramientas de cómputo"    
+        }],
+    "electricidad":[
+        {
+            "Materia": "Electricidad Y Magnetismo",
+            "Cuatrimestre": "Segundo Cuatrimestre",
+            "NumUnidades":4,
+            "Unidades": ["Electrostática" , "Circuitos Eléctricos" , "Campo Magnético" , "Inducción Electromagnética" ],
+            "Objetivo": "El alumno será capaz de los resolver problemas relacionados con la electrostática, corriente eléctrica y campo magnético utilizando las herramientas proporcionadas por la física para comprender los fenómenos electromagnéticos"    
+        }],
+    "estructuraDatos":[
+        {
+            "Materia": "Estructura De Datos",
+            "Cuatrimestre": "Tercer Cuatrimestre",
+            "NumUnidades":4,
+            "Unidades": ["Introducción a la programación orientada a objetos" , "Estructuras de datos de tamaño fijo basadas en objetos" , "Estructuras dinámicas de datos basadas en objetos" , "Ordenación y búsqueda de estructuras de datos basadas en objetos" ],
+            "Objetivo": "El alumno será capaz de optimizar el rendimiento de una aplicación mediante el uso de estructuras de datos y algoritmos de búsqueda y ordenamiento"    
+        }],
+    "electronica":[
+        {
+            "Materia": "Electronica Y Telecomunicaciones",
+            "Cuatrimestre": "Cuarto Cuatrimestre",
+            "NumUnidades":4,
+            "Unidades": ["Electrónica Básica" , "Aplicaciones de dispositivos semiconductores" , "Elementos de un sistema de comunicaciones" , "Modulación y Demodulación" ],
+            "Objetivo": "El alumno será capaz de identificar el equipo electrónico y los principios básicos de electrónica y telecomunicaciones"    
+        }],
+    "redesLocal":[
+        {
+            "Materia": "Redes De Area Local",
+            "Cuatrimestre": "Quinto Cuatrimestre",
+            "NumUnidades":4,
+            "Unidades": ["Comunicación a través de la red" , "Protocolos y Funcionalidad de la Capa de Aplicación y Transporte" , "Capa de red y direccionamiento" , "Capa de enlace de datos y física del modelo OSI" ],
+            "Objetivo": "El alumno será capaz de identificar, diseñar y configurar redes WAN"    
+        }],
+    "redesAmplia":[
+        {
+            "Materia": "Redes De Area Amplia",
+            "Cuatrimestre": "Sexto Cuatrimestre",
+            "NumUnidades":4,
+            "Unidades": [" Introducción a la seguridad de la información en redes WAN y LAN" , "Administración de la Seguridad en redes WAN y LAN" , "Métodos de Autenticación y Firewal" , "VPN Y Deteccion De Instrucciones" ],
+            "Objetivo": "El alumno será capaz de configurar y administrar redes LAN y WAN mediante el uso de protocolos de enrutamiento"    
+        }],
+    "seguridad":[
+        {
+            "Materia": "Seguridad Informatica Aplicada",
+            "Cuatrimestre": "Septimo Cuatrimestre",
+            "NumUnidades":5,
+            "Unidades": ["Introducción" , "Seguridad Física" , "Seguridad Lógica" , "Seguridad Perimetral y en Redes" , "Otros temas de Seguridad" ],
+            "Objetivo": "El alumno será capaz de aplicar lineamientos y medidas de seguridad así como de organizar políticas de seguridad informática del control de accesos, criptografía, ingeniería social, esteganografía y seguridad física"    
+        }],
+    "":[
+        {
+            "Materia": "",
+            "Cuatrimestre": " Cuatrimestre",
+            "NumUnidades":3,
+            "Unidades": ["" , "" , "" ],
+            "Objetivo": " "    
+        }],
+    "":[
+        {
+            "Materia": "",
+            "Cuatrimestre": " Cuatrimestre",
+            "NumUnidades":3,
+            "Unidades": ["" , "" , "" ],
+            "Objetivo": " "    
+        }],
+    "":[
+        {
+            "Materia": "",
+            "Cuatrimestre": " Cuatrimestre",
+            "NumUnidades":3,
+            "Unidades": ["" , "" , "" ],
+            "Objetivo": " "    
+        }],
+    "":[
+        {
+            "Materia": "",
+            "Cuatrimestre": " Cuatrimestre",
+            "NumUnidades":3,
+            "Unidades": ["" , "" , "" ],
+            "Objetivo": " "    
+        }],
+    "":[
+        {
+            "Materia": "",
+            "Cuatrimestre": " Cuatrimestre",
+            "NumUnidades":3,
+            "Unidades": ["" , "" , "" ],
+            "Objetivo": " "    
+        }],
+    "":[
+        {
+            "Materia": "",
+            "Cuatrimestre": " Cuatrimestre",
+            "NumUnidades":3,
+            "Unidades": ["" , "" , "" ],
+            "Objetivo": " "    
+        }],
+    "":[
+        {
+            "Materia": "",
+            "Cuatrimestre": " Cuatrimestre",
+            "NumUnidades":3,
+            "Unidades": ["" , "" , "" ],
+            "Objetivo": " "    
+        }],
+    "":[
+        {
+            "Materia": "",
+            "Cuatrimestre": " Cuatrimestre",
+            "NumUnidades":3,
+            "Unidades": ["" , "" , "" ],
+            "Objetivo": " "    
+        }],
+    "":[
+        {
+            "Materia": "",
+            "Cuatrimestre": " Cuatrimestre",
+            "NumUnidades":3,
+            "Unidades": ["" , "" , "" ],
+            "Objetivo": " "    
+        }],
+    "":[
+        {
+            "Materia": "",
+            "Cuatrimestre": " Cuatrimestre",
+            "NumUnidades":3,
+            "Unidades": ["" , "" , "" ],
+            "Objetivo": " "    
+        }],
+    "":[
+        {
+            "Materia": "",
+            "Cuatrimestre": " Cuatrimestre",
+            "NumUnidades":3,
+            "Unidades": ["" , "" , "" ],
+            "Objetivo": " "    
+        }],
+    "":[
+        {
+            "Materia": "",
+            "Cuatrimestre": " Cuatrimestre",
+            "NumUnidades":3,
+            "Unidades": ["" , "" , "" ],
+            "Objetivo": " "    
+        }],
+    "":[
+        {
+            "Materia": "",
+            "Cuatrimestre": " Cuatrimestre",
+            "NumUnidades":3,
+            "Unidades": ["" , "" , "" ],
+            "Objetivo": " "    
+        }],
+    "":[
+        {
+            "Materia": "",
+            "Cuatrimestre": " Cuatrimestre",
+            "NumUnidades":3,
+            "Unidades": ["" , "" , "" ],
+            "Objetivo": " "    
+        }],
+    "":[
+        {
+            "Materia": "",
+            "Cuatrimestre": " Cuatrimestre",
+            "NumUnidades":3,
+            "Unidades": ["" , "" , "" ],
+            "Objetivo": " "    
+        }],
+    "":[
+        {
+            "Materia": "",
+            "Cuatrimestre": " Cuatrimestre",
+            "NumUnidades":3,
+            "Unidades": ["" , "" , "" ],
+            "Objetivo": " "    
         }],
     "introISEI":[
         {
@@ -32,7 +343,6 @@
             "Cuatrimestre": "Segundo Cuatrimestre",
             "NumUnidades":2,
             "Unidades": ["unidad 1" , "unidad 2" ],
-            "Competencias":["Competencia 1", "Competencia 2"],
             "Objetivo": "Objetivo Inglés II"    
         }]
 }

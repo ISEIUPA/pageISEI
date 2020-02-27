@@ -191,18 +191,17 @@ header nav ul li .caret {
     padding: 0;
     position: fixed;
     border-radius: 1rem;
-   
     width: 23rem;
   
 }
 .menuLateral ul{
     display: block;
-    
     width: 100%;
     border-radius: 1rem;
     margin: 0;
-    border:  solid black;
+    border: 1px solid black;
 }
+
 .menuLateral .active{
     display: block;
     background: black;
