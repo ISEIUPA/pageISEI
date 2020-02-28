@@ -1,8 +1,16 @@
+
 /*------PALETA DE COLORES --------*/
 /*
     seleccion de hover: #4d5f77
     elemento seleccionado: #2a2e46
 */
+/****ICONS***/
+.fa-facebook-square{
+    font-size: 5rem;
+}
+
+
+
 
 html{
     font-size: 62.5%;
@@ -302,6 +310,8 @@ header nav ul li .caret {
     display: block;
     width: 90%;
     margin: 0 auto;
+    padding: 8rem;
+    justify-content: center;
 }
 
 .grafica img{
@@ -411,6 +421,7 @@ form{
 }
 
 /*CARRETE*/
+
 .completa h2{
     padding-top: 1.5rem;
 }
@@ -423,16 +434,25 @@ form{
 
 .galeria{
    
-    width: 40rem;
+    width: 124rem;
+    height: 50rem;
     margin: 0 auto;
     overflow: hidden;
 }
+.galeria img{
+    max-width:160rem;
+    min-width: 160rem;
+     min-height:50rem;
+    max-height: 50rem;
+    
+}
+
 
 .galeria ul{
     display: flex;
     list-style: none;
-    width: 200rem;
-    animation: slide 20s infinite alternate;
+    width: 350rem;
+    animation: slide 30s infinite alternate;
     text-align:center;
     
 }
@@ -441,12 +461,12 @@ form{
 @keyframes slide{
     0%{margin-left: 0rem;}
     20%{margin-left: 0rem;}
-    25%{margin-left: -40rem;}
-    45%{margin-left: -40rem;}
-    50%{margin-left: -80rem;}
-    70%{margin-left: -80rem;}
-    75%{margin-left: -120rem;}
-    100%{margin-left: -120rem;}
+    25%{margin-left: -160rem;}
+    45%{margin-left: -160rem;}
+    50%{margin-left: -320rem;}
+    70%{margin-left: -320rem;}
+    75%{margin-left: -480rem;}
+    100%{margin-left: -480rem;}
 }
 
 
@@ -455,7 +475,7 @@ form{
     margin: 0 auto;
     display: block;
     width: 75%;
-    background: #B7B4C1;
+    
         
 }
 

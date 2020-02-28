@@ -208,6 +208,7 @@
 .grafc{
     
     width: auto;
+    padding: 0;
     margin: 0 auto;
     justify-content: center;
     
@@ -344,6 +345,7 @@
     justify-content: center;
     
 }
+
 
     
 }
