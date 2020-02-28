@@ -457,6 +457,12 @@ form{
     
 }
 
+.i img{
+    width: 100%;
+    margin: 1px;
+    min-height: 20rem;
+}
+
 
 @keyframes slide{
     0%{margin-left: 0rem;}
