@@ -282,13 +282,10 @@ header nav ul li .caret {
 
 .grafica{
     display: block;
-    width: 100%;
-    height:inherit;
-   
-    
+    width: 100%; height:inherit;
 }
+
 .grafics{
-   
     display: inline-block;
     max-width: 30rem;
     max-height: 50rem;
@@ -298,7 +295,8 @@ header nav ul li .caret {
     overflow: hidden;
     transition: all 0.25seg;
     padding: 1rem;
-    
+    text-align: justify;
+    margin: 2rem 2rem; 
 }
 .grafc{
     display: block;
@@ -308,6 +306,7 @@ header nav ul li .caret {
 
 .grafica img{
     width: 100%;
+    margin: auto;
 }
 
 .cajapdf{
