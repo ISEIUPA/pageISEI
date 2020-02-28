@@ -16,7 +16,6 @@
             "Unidades": ["Gestionando Información" , "Detallando Acciones Generales" , "Generando Opiniones" ],
             "Objetivo": "El alumno será capaz de manejar, comunicar y comprender ideas y/o textos simples abordando eventos cotidianos con bajo nivel de complejidad haciendo uso de las herramientas de su entorno"    
         }],
-    
     "inglesIII":[
         {
             "Materia": "Inglés III",
@@ -138,20 +137,36 @@
             "Objetivo": " "    
         }],
     "optativaI":[
-        {
-            "Materia": "Estadia",
-            "Cuatrimestre": "Decimo Cuatrimestre",
-            "NumUnidades":3,
-            "Unidades": ["" , "" , "" ],
-            "Objetivo": " "    
+        {   
+        	"Especialidad": "Software",
+            "Materia": "Administracion Del Conocimiento",
+            "Cuatrimestre": "Octavo Cuatrimestre",
+            "NumUnidades":4,
+            "Unidades": ["Panorama de la Administración del Conocimiento" , "Sistemas de Administración del Conocimiento a nivel Empresarial" , "Técnicas de Inteligencia Artificial como apoyo para la Administración del Conocimiento" , "Sistemas Expertos en Administración del Conocimiento" ],
+            "Objetivo": "El alumno será capaz de elaborar algoritmos, diseñar estrategias o aplicar técnicas para extraer conocimiento a partir de datos y resolver problemas específicos de una organización a través del cómputo",
+            
+            "Especialidad": "Redes",
+            "Materia": "Sistemas Distribuidos de Red",
+            "Cuatrimestre": "Octavo Cuatrimestre",
+            "NumUnidades":4,
+            "Unidades": ["Sistemas Distribuidos" , "Modelos Orientados a Objetos Distribuidos" , "Estándar CORBA" , "Modelos de Cliente y Servidor Orientados a Agentes Móviles" ],
+            "Objetivo": "El alumno será capaz de proponer sistemas de telefonía y de realizar programas en algún lenguaje especializado"    
         }],
     "optativaV":[
         {
-            "Materia": "Estadia",
-            "Cuatrimestre": "Decimo Cuatrimestre",
-            "NumUnidades":3,
-            "Unidades": ["" , "" , "" , "" ],
-            "Objetivo": " "    
+        	"Especialidad": "Software",
+            "Materia": "Sistemas Automatizados De Producción",
+            "Cuatrimestre": "Noveno Cuatrimestre",
+            "NumUnidades":4,
+            "Unidades": ["Los Sistemas de Producción: Características, Implantación y Modelos de Gestión" , "Sistemas Automatizados de Producción: Concepto y Tecnología Involucrada" , "Automatización de las Áreas de Diseño del Producto, Ingeniería y Planeación de Procesos de Manufactura" , "Automatización de las Áreas de Operación y de Control de Calidad" ],
+            "Objetivo": "El alumno será capaz de establecer procesos que ayuden a la toma de decisiones, la reducción de costos, la optimación y el establecimiento de posibles cadenas de suministro",
+
+            "Especialidad": "Redes",
+            "Materia": "Sistemas Operativos De Servidores",
+            "Cuatrimestre": "Noveno Cuatrimestre",
+            "NumUnidades":4,
+            "Unidades": ["Introducción a la Administración " , "Integración de recursos empresariales" , "Estrategias en la organización" , "Toma de decisiones en el área empresarial " ],
+            "Objetivo": "El estudiante obtendrá las habilidades y el conocimiento práctico para seleccionar, instalar, configurar, administrar, optimizar y utilizar diferentes sistemas operativos para lograr un uso más eficiente y de acuerdo a las necesidades de cualquier organización"
         }],
     "herramientasO":[
         {
@@ -209,140 +224,357 @@
             "Unidades": ["Introducción" , "Seguridad Física" , "Seguridad Lógica" , "Seguridad Perimetral y en Redes" , "Otros temas de Seguridad" ],
             "Objetivo": "El alumno será capaz de aplicar lineamientos y medidas de seguridad así como de organizar políticas de seguridad informática del control de accesos, criptografía, ingeniería social, esteganografía y seguridad física"    
         }],
-    "":[
+    "optativaII":[
         {
-            "Materia": "",
-            "Cuatrimestre": " Cuatrimestre",
-            "NumUnidades":3,
-            "Unidades": ["" , "" , "" ],
-            "Objetivo": " "    
+            "Especialidad": "Software",
+            "Materia": "Calidad Del Software",
+            "Cuatrimestre": "Octavo Cuatrimestre",
+            "NumUnidades":4,
+            "Unidades": ["" , "" , "" , "" ],
+            "Objetivo": " ",
+
+            "Especialidad": "Redes",
+            "Materia": "Administración de Sitios de Redes y Telecomunicaciones",
+            "Cuatrimestre": "Octavo Cuatrimestre",
+            "NumUnidades":4,
+            "Unidades": ["Introducción al cableado estructurado" , "Conmutación de datos y enrutamiento" , "Redes Locales Virtuales de Área Local (VLAN) " , "Redes Privadas Virtuales (RPV). Virtual Private Network (VPN)" ],
+            "Objetivo": "Para satisfacer las necesidades de telecomunicaciones en las organizaciones"    
         }],
-    "":[
+    "optativaVI":[
         {
-            "Materia": "",
-            "Cuatrimestre": " Cuatrimestre",
-            "NumUnidades":3,
-            "Unidades": ["" , "" , "" ],
-            "Objetivo": " "    
+            "Especialidad": "Software",
+            "Materia": "Mineria De Datos",
+            "Cuatrimestre": "Noveno Cuatrimestre",
+            "NumUnidades":4,
+            "Unidades": ["Introducción a la Minería de Datos" , "Datawarehouse y la Minería de Datos" , "Técnicas de Minería de Datos" , "Herramientas de Minería de Datos" ],
+            "Objetivo": "El alumno será capaz de elaborar algoritmos, diseñar estrategias o aplicar técnicas para extraer conocimiento a partir de datos y resolver problemas específicos de una organización a través del cómputo",
+
+            "Especialidad": "Redes",
+            "Materia": "Redes Satelitales",
+            "Cuatrimestre": "Noveno Cuatrimestre",
+            "NumUnidades":4,
+            "Unidades": ["Fundamentos técnicos y de la industria" , "Aplicación de enlaces de transmisión (simplex) a varios usuarios" , "Enlaces dúplex para servicios bidireccionales interactivos" , "Asuntos regulatorios y de negocio que impulsan la inversión y el rendimiento financieroEnlaces dúplex para servicios bidireccionales interactivos" ],
+            "Objetivo": "El estudiante entenderá los conceptos y principios de las redes por Satélite, analizará el funcionamiento de los sistemas de transmisión y recepción por satélite"    
         }],
-    "":[
+    "dibujo":[
         {
-            "Materia": "",
-            "Cuatrimestre": " Cuatrimestre",
-            "NumUnidades":3,
-            "Unidades": ["" , "" , "" ],
-            "Objetivo": " "    
+            "Materia": "Dibujo Para Ingenieria",
+            "Cuatrimestre": "Primer Cuatrimestre",
+            "NumUnidades":4,
+            "Unidades": ["Introducción a la Geometría y Dibujo Técnico" , "Software de dibujo asistido por computadora (Parte I, Introducción y dibujos en 2D)" , "Software de dibujo asistido por computadora (Parte II, Dibujos en 3D)" , "Planeación de un proyecto de Diseño. Presenta la propuesta de diseño de los recursos computacionales considerando los estándares establecidos" ],
+            "Objetivo": "El alumno será capaz de identificar los fundamentos básicos de la geometría"    
         }],
-    "":[
+    "arquitectura":[
         {
-            "Materia": "",
-            "Cuatrimestre": " Cuatrimestre",
-            "NumUnidades":3,
-            "Unidades": ["" , "" , "" ],
-            "Objetivo": " "    
+            "Materia": "Arquitectura De Computadoras",
+            "Cuatrimestre": "Segundo Cuatrimestre",
+            "NumUnidades":4,
+            "Unidades": ["Principios de Lógica Digital" , "Circuitos lógicos combinacionales" , "Circuitos lógicos secuenciales" , "Circuitos lógicos programables" ],
+            "Objetivo": "El alumno será capaz de diseñar circuitos integrales, reconocer y saber cómo funcionan internamente los componentes que constituyen una computadora y periféricos"    
         }],
-    "":[
+    "mantenimiento":[
         {
-            "Materia": "",
-            "Cuatrimestre": " Cuatrimestre",
-            "NumUnidades":3,
-            "Unidades": ["" , "" , "" ],
-            "Objetivo": " "    
+            "Materia": "Mantenimiento De Equipo De Computo",
+            "Cuatrimestre": "Tercer Cuatrimestre",
+            "NumUnidades":5,
+            "Unidades": ["Ensamble de una computadora" , "Mantenimiento preventivo de una computadora" , "Mantenimiento correctivo de una computadora" , "Instalación de software y hardware" , "Instalación de sistemas operativos" ],
+            "Objetivo": "El alumno será capaz de prevenir, diagnosticar y resolver problemas comunes con el equipo de cómputo"    
         }],
-    "":[
+    "diseñoBD":[
         {
-            "Materia": "",
-            "Cuatrimestre": " Cuatrimestre",
-            "NumUnidades":3,
-            "Unidades": ["" , "" , "" ],
-            "Objetivo": " "    
+            "Materia": "Diseño De Bases De Datos",
+            "Cuatrimestre": "Cuarto Cuatrimestre",
+            "NumUnidades":5,
+            "Unidades": ["Introducción a las Bases de Datos" , "Modelo Entidad-Relación" , "Modelo Relacional" , "Algebra Relacional" , "Lenguaje Relacional" ],
+            "Objetivo": "El alumno será capaz de manejar el funcionamiento de los sistemas de bases de datos y plantear modelos de datos que describen problemas reales"    
         }],
-    "":[
+    "administracionBD":[
         {
-            "Materia": "",
-            "Cuatrimestre": " Cuatrimestre",
-            "NumUnidades":3,
-            "Unidades": ["" , "" , "" ],
-            "Objetivo": " "    
+            "Materia": "Administración de Base de Datos",
+            "Cuatrimestre": "Quinto Cuatrimestre",
+            "NumUnidades":5,
+            "Unidades": ["Fundamentos de la administración de las bases de datos" , "Administración de Bases de Datos" , "Administración de Usuarios" , "Seguridad e Integridad" , "Respaldo y Recuperación" ],
+            "Objetivo": "El alumno será capaz de identificar los procesos de almacenamiento, acceso a la información y administración de un SGBD"    
         }],
-    "":[
+    "BDdistribuida":[
         {
-            "Materia": "",
-            "Cuatrimestre": " Cuatrimestre",
-            "NumUnidades":3,
-            "Unidades": ["" , "" , "" ],
-            "Objetivo": " "    
+            "Materia": "Bases De Datos Distribuidas",
+            "Cuatrimestre": "Sexto Cuatrimestre",
+            "NumUnidades":4,
+            "Unidades": ["Fundamentos de computación distribuida" , "Diseño de Base de Datos Distribuidas" , "Procesamiento de Consultas Distribuidas" , "Manejo de transacciones distribuidas" ],
+            "Objetivo": "El alumno será capaz de identificar inconsistencias en los sistemas distribuidos y analizar las distintas técnicas para su desarrollo e implementación de aplicaciones reales"    
         }],
-    "":[
+    "lenguajes":[
         {
-            "Materia": "",
-            "Cuatrimestre": " Cuatrimestre",
-            "NumUnidades":3,
-            "Unidades": ["" , "" , "" ],
-            "Objetivo": " "    
+            "Materia": "Lenguajes y Autómatas",
+            "Cuatrimestre": "Septimo Cuatrimestre",
+            "NumUnidades":5,
+            "Unidades": ["Autómatas finitos" , "Autómatas finitos" , "Lenguajes y Expresiones Regulares" , "Gramáticas" , "Máquina de Turing" ],
+            "Objetivo": "El alumno será capaz de desarrollar las estructuras principales de un lenguaje formal de computación"    
         }],
-    "":[
+    "optativaIII":[
         {
-            "Materia": "",
-            "Cuatrimestre": " Cuatrimestre",
-            "NumUnidades":3,
-            "Unidades": ["" , "" , "" ],
-            "Objetivo": " "    
+            "Especialidad": "Software",
+            "Materia": "Planeación de Recursos Materiales",
+            "Cuatrimestre": "Octavo Cuatrimestre",
+            "NumUnidades":5,
+            "Unidades": ["Operación de un MRP" , "Operación de un MRP" , "Planeación de los Recursos de Manufactura" , "Planeación de los Requerimientos de Capacidad" , "Planeación de los Recursos de Distribución" ],
+            "Objetivo": " El alumno será capaz de optimizar los recursos materiales a partir de los resultados de la planeación y gestión de la producción",
+
+            "Especialidad": "Redes",
+            "Materia": "Protocolos de enrutamiento",
+            "Cuatrimestre": "Octavo Cuatrimestre",
+            "NumUnidades":4,
+            "Unidades": ["Introducción al enrutamiento y envío de paquetes" , "Protocolos de Enrutamiento VectorDistancia" , "Protocolos de Enrutamiento Dinámicos" , "Protocolos Avanzados de Enrutamiento" ],
+            "Objetivo": "El alumno será capaz de utilizar los protocolos de enrutamiento."    
         }],
-    "":[
+    "optativaVII":[
         {
-            "Materia": "",
-            "Cuatrimestre": " Cuatrimestre",
-            "NumUnidades":3,
-            "Unidades": ["" , "" , "" ],
-            "Objetivo": " "    
-        }],
-    "":[
-        {
-            "Materia": "",
-            "Cuatrimestre": " Cuatrimestre",
-            "NumUnidades":3,
-            "Unidades": ["" , "" , "" ],
-            "Objetivo": " "    
-        }],
-    "":[
-        {
-            "Materia": "",
-            "Cuatrimestre": " Cuatrimestre",
-            "NumUnidades":3,
-            "Unidades": ["" , "" , "" ],
-            "Objetivo": " "    
-        }],
-    "":[
-        {
-            "Materia": "",
-            "Cuatrimestre": " Cuatrimestre",
-            "NumUnidades":3,
-            "Unidades": ["" , "" , "" ],
-            "Objetivo": " "    
-        }],
-    "":[
-        {
-            "Materia": "",
-            "Cuatrimestre": " Cuatrimestre",
-            "NumUnidades":3,
-            "Unidades": ["" , "" , "" ],
-            "Objetivo": " "    
-        }],
-    "":[
-        {
-            "Materia": "",
-            "Cuatrimestre": " Cuatrimestre",
-            "NumUnidades":3,
-            "Unidades": ["" , "" , "" ],
+            "Especialidad": "Software",
+            "Materia": "Planeación De Recursos Empresariales",
+            "Cuatrimestre": "Noveno Cuatrimestre",
+            "NumUnidades":4,
+            "Unidades": ["Fundamentos: Los procesos de negocio y su relación con los sistemas de planeación de los recursos empresariales" , "Los sistemas de planeación de los recursos empresariales (ERP): Conceptos y arquitectura" , "Módulos funcionales de un sistema de planeación de recursos empresariales" , "El alumno será capaz de integrar los elementos de un sistema tipo ERP en todas las cuestiones estratégicas que permitan lograr una exitosa implementación del mismo" , "El alumno será capaz de integrar los elementos de un sistema tipo ERP en todas las cuestiones estratégicas que permitan lograr una exitosa implementación del mismo"],
+            "Objetivo": "El alumno será capaz de integrar los elementos de un sistema tipo ERP en todas las cuestiones estratégicas que permitan lograr una exitosa implementación del mismo",
+
+            "Especialidad": "Redes",
+            "Materia": "Protocolos de Redes Virtuales",
+            "Cuatrimestre": "Noveno Cuatrimestre",
+            "NumUnidades":4,
+            "Unidades": ["" , "" , "" , "" ],
             "Objetivo": " "    
         }],
     "introISEI":[
         {
             "Materia": "Introducción a ISEI",
+            "Cuatrimestre": "Primer Cuatrimestre",
+            "NumUnidades":4,
+            "Unidades": ["Los principios de la ingeniería en SEI" , "Diferencias entre la informática, los sistemas y los sistemas" , "El Contexto de la Ingeniería de Software" , "El Contexto de las Redes de Comunicación" ],
+            "Objetivo": "El alumno será capaz de describir el campo laboral del ingeniero en sistemas estratégicos de información, a partir de la identificación de los antecedentes, historia y conceptos relacionados con la Informática (hardware y software)"    
+        }],
+    "estatica":[
+        {
+            "Materia": "Estática y Dinámica",
             "Cuatrimestre": "Segundo Cuatrimestre",
-            "NumUnidades":2,
-            "Unidades": ["unidad 1" , "unidad 2" ],
-            "Objetivo": "Objetivo Inglés II"    
-        }]
+            "NumUnidades":4,
+            "Unidades": ["Introducción a la Estática: Fuerzas y Sistema de Fuerzas" , "Cinemática de cuerpos rígidos" , "Cinemática de cuerpos rígidos" , "Cinemática de cuerpos rígidos" ],
+            "Objetivo": "El alumno será capaz de comprender los principios fisicoquímicos en los que se sustenta la informática y su entorno"    
+        }],
+    "probabilidad":[
+        {
+            "Materia": "Probabilidad y Estadística",
+            "Cuatrimestre": "Tercer Cuatrimestre",
+            "NumUnidades":5,
+            "Unidades": ["Elementos de probabilidad" , "Elementos de probabilidad" , "Variables aleatorias discretas y continuas" , "Prueba de hipótesis" , "Parámetros estadísticos" ],
+            "Objetivo": "El alumno será capaz de manejar las técnicas de estadística descriptiva e inferencial para organizar, representar y analizar datos obtenidos de situación simulada y/o real"    
+        }],
+    "matematicasD":[
+        {
+            "Materia": "Matemáticas Discretas",
+            "Cuatrimestre": "Cuarto Cuatrimestre",
+            "NumUnidades":6,
+            "Unidades": ["Conjuntos y Conteo" , "Principios de lógica" , "Demostraciones" , "Planteamiento de problemas" , "Teoría de grafos y árboles" , "Modelos de redes y redes de Petri" ],
+            "Objetivo": "El alumno será capaz de comprender los conceptos y el lenguaje básico de la matemática universitaria, aplicando modelos y herramientas para el razonamiento y solución de problemas"    
+        }],
+    "metodosN":[
+        {
+            "Materia": "Metodos Numericos",
+            "Cuatrimestre": "Quinto Cuatrimestre",
+            "NumUnidades":5,
+            "Unidades": ["Modelos Matemáticos y Análisis de Errores" , "Métodos de Solución de Ecuaciones No Lineales" , "Métodos de Interpolación Polinomial" , "Métodos de Diferenciación e Integración Numérica" , "Métodos de Solución de Ecuaciones Diferenciales Ordinarias" ],
+            "Objetivo": "El alumno será capaz de formular, programar y utilizar métodos de aproximación numérica para la solución de modelos matemáticos"    
+        }],
+    "sistemasO":[
+        {
+            "Materia": "Sistemas Operativos",
+            "Cuatrimestre": "Sexto Cuatrimestre",
+            "NumUnidades":4,
+            "Unidades": ["Introducción a los sistemas operativos" , "Procesos" , "Entrada / Salida" , "Administración de memoria" ],
+            "Objetivo": "El alumno será capaz de identificar los elementos y el funcionamiento básico del sistema operativo multiusuario de una computadora"    
+        }],
+    "sistemasI":[
+        {
+            "Materia": "Sistemas De Informacion",
+            "Cuatrimestre": "Septimo Cuatrimestre",
+            "NumUnidades":4,
+            "Unidades": ["Aplicaciones analíticas en la gestión empresarial" , "ERP y CRM" , "Tendencias futuras de los sistemas corporativos" , "Experiencias reales en los sistemas de información" ],
+            "Objetivo": "El alumno será capaz de utilizar diversas técnicas para obtener la solución integrales de sistemas empresariales"    
+        }],
+    "optativaIV":[
+        {
+            "Especialidad": "Software",
+            "Materia": "Finanzas Para ingenieros",
+            "Cuatrimestre": "Octavo Cuatrimestre",
+            "NumUnidades":4,
+            "Unidades": ["Introducción a la Contabilidad" , "Introducción a las Finanzas" , "Finanzas Corporativas" , "Matemáticas Financieras" , "Evaluación de Proyectos" ],
+            "Objetivo": "El alumno será capaz de desarrollar estrategias para la tomar decisiones empresarias mediante en la Ingeniería de Planta y la Administración de la Empresa",
+
+            "Especialidad": "Redes",
+            "Materia": "Intercomunicación",
+            "Cuatrimestre": "Octavo Cuatrimestre",
+            "NumUnidades":5,
+            "Unidades": [" Introducción de conceptos de diseño de red" , " Estimación del impacto de aplicaciones en el diseño de redes" , " Creación y direccionamiento del diseño de la red" , "Prototipos de Redes" , "Preparación de la Propuesta" ],
+            "Objetivo": "El alumno será capaz de implementar los servicios de telecomunicación en organizaciones con áreas de riesgo informático"    
+        }],
+    "optativaVIII":[
+        {
+            "Especialidad": "Software",
+            "Materia": "Sistema de Apoyo a la Toma de Decisiones",
+            "Cuatrimestre": "Noveno Cuatrimestre",
+            "NumUnidades":7,
+            "Unidades": ["La toma de decisiones organizacional" , "Sistemas de soporte a la decisión (DSS)" , "Sistemas de soporte a la decisión (DSS)" , "Sistemas de información ejecutiva (EIS)" , "Sistemas Expertos, Sistemas basados en conocimiento (ES/KBS) y otros DMSS" , "Diseño e implementación de un sistema de soporte a la toma de decisiones" , "Tecnología de información utilizada en los sistemas de soporte a la toma de decisiones" ],
+            "Objetivo": "El alumno conocerá el proceso de toma de decisiones y cuál es su relevancia en la organización. Comprenderá los conceptos fundamentales de los sistemas de soporte a la toma de decisiones, conocerá su arquitectura y algunos métodos de diseño e implementación de este tipo de sistemas, con el fin de que sea capaz de proponer soluciones a requerimientos de información estratégica para la toma de decisiones",
+
+            "Especialidad": "Redes",
+            "Materia": "Sistemas De Telefonía",
+            "Cuatrimestre": "Noveno Cuatrimestre",
+            "NumUnidades":4,
+            "Unidades": ["Introducción a los sistemas de telefonía" , "Telefonía analógica y digital" , "Telefonía celular y programación para dispositivos móviles" , "VOIP. Voz sobre IP" ],
+            "Objetivo": "El alumno será capaz de construir sistemas con los elementos involucrados en los sistemas de telefonía"    
+        }],
+    "algebra":[
+        {
+            "Materia": "Algebra Lineal",
+            "Cuatrimestre": "Primer Cuatrimestre",
+            "NumUnidades":5,
+            "Unidades": ["Operaciones Matriciales" , "Matriz Inversa" , "Sistemas de Ecuaciones Lineales" , "Espacios Vectoriales" , "Transformaciones Lineales" ],
+            "Objetivo": "El alumno será capaz de analizar y resolver problemas relacionados con el álgebra matricial, sistemas de ecuaciones lineales aplicadas a la ingeniería, espacios vectoriales, transformaciones lineales, valores y vectores"    
+        }],
+    "calculoD":[
+        {
+            "Materia": "Cálculo diferencial e integral",
+            "Cuatrimestre": "Segundo Cuatrimestre",
+            "NumUnidades":4,
+            "Unidades": ["Funciones, límites y continuidad" , "Derivación" , "Integración" , "Aplicaciones básicas del calculo" ],
+            "Objetivo": "Que el alumno desarrolle las capacidades y habilidades necesarias para aplicar el cálculo, como una herramienta matemática, para solucionar problemas prácticos reales de ingeniería"    
+        }],
+    "ecuaciones":[
+        {
+            "Materia": "Ecuaciones Diferenciales",
+            "Cuatrimestre": "Tercer Cuatrimestre",
+            "NumUnidades":6,
+            "Unidades": ["Introducción a las ecuaciones diferenciales" , "Ecuaciones diferenciales ordinarias de primer orden" , "Aplicación de EDO de primer orden" , "Ecuaciones diferenciales ordinarias de orden superior" , "Aplicación de EDO de orden superior" , "Transformada de Laplace" ],
+            "Objetivo": "El alumnos será capaz de analizar y resolver problemas aplicados a la ingeniería que involucren ecuaciones diferenciales ordinarias"    
+        }],
+    "programacionWEB":[
+        {
+            "Materia": "Programacion WEB",
+            "Cuatrimestre": "Cuarto Cuatrimestre",
+            "NumUnidades":4,
+            "Unidades": ["Introducción" , "Puesta a punto de servidores para aplicaciones Web" , "Lenguajes de Programación Web" , "Publicación de páginas y seguridad en Internet" ],
+            "Objetivo": "El alumno será capaz de distinguir los elementos específicos de la arquitectura de las aplicaciones Web y determinar el tipo de programación que se debe realizar en cada uno de ellos"    
+        }],
+    "poc":[
+        {
+            "Materia": "Programcacion Orientada A Componentes",
+            "Cuatrimestre": "Quinto Cuatrimestre",
+            "NumUnidades":5,
+            "Unidades": ["Introducción a la Programación Orientada a Componentes" , "Modelos, Plataformas y Entornos de Desarrollo para Programación Basada en Componentes" , "Ingeniería de Software Basada en Componentes" , "Desarrollo de Software Basado en Componentes" , "Economía de la Ingeniería de Sistemas Basada en Componentes" ],
+            "Objetivo": "El alumno será capaz de manejar un lenguaje visual haciendo uso de las características adicionales de la programación gráfica"    
+        }],
+    "organizacionE":[
+        {
+            "Materia": "Organizacion Empresarial",
+            "Cuatrimestre": "Sexto Cuatrimestre",
+            "NumUnidades":4,
+            "Unidades": ["Introducción a la Administración" , "Integración de recursos empresariales" , "Estrategias en la organización" , "Toma de decisiones en el área empresarial" ],
+            "Objetivo": "El alumno será capaz de identificar las etapas del proceso administrativo, la estructura organizacional y funcional en las empresas"    
+        }],
+    "administracionTI":[
+        {
+            "Materia": "Administración de Proyectos de Tecnologías de Información",
+            "Cuatrimestre": "Septimo Cuatrimestre",
+            "NumUnidades":5,
+            "Unidades": ["Introducción" , "Planificación de un proyecto" , "Estimación de costes y plazos" , "Estudios de viabilidad y gestión de riesgos" , "Seguimiento y supervisión" ],
+            "Objetivo": "El alumno será capaz de aplicar las técnicas, métodos y procesos para el desarrollo, planeación, control y finiquito de proyectos en el área de TICs dentro de las organizaciones"    
+        }],
+    "informaticaE":[
+        {
+            "Materia": "Informatica Estrategica",
+            "Cuatrimestre": "Octavo Cuatrimestre",
+            "NumUnidades":3,
+            "Unidades": ["Planeacion Estrategica" , "Plan de negocios" , "Tramites para abrir una microempresa" ],
+            "Objetivo": "El alumno sera capaz de interpretar los requerimientos, humanos, economicos, legales para establecer una microempresa "    
+        }],
+    "gestionI":[
+        {
+            "Materia": "Gestión Informática",
+            "Cuatrimestre": "Noveno Cuatrimestre",
+            "NumUnidades":4,
+            "Unidades": ["Introducción a las tecnologías de información en la administración de la empresa" , "La Ingeniería de Software en la Administración de Proyectos Empresariales" , "Estrategias para la Gestión de Información de una Empresa" , "Modelos o técnicas para la gestión del conocimiento de la información" ],
+            "Objetivo": "El alumno será capaz de identificar las etapas del proceso administrativo, la estructura organizacional y funcional en las empresas"    
+        }],
+    "fundamentos":[
+        {
+            "Materia": "Fundamentos De Programación",
+            "Cuatrimestre": "Primer Cuatrimestre",
+            "NumUnidades":5,
+            "Unidades": ["Lógica de Conjuntos" , "Algebra Booleana" , "Estructuras de datos" , "Algoritmos y diagramas de Flujo" , "Pseudocódigo"],
+            "Objetivo": "El alumno será capaz de elaborar algoritmos, diagramas de flujo, estructuras de datos y lenguajes de programación en el desarrollo de software en problemas específicos de la programación, resueltos mediante el uso del cómputo"    
+        }],
+    "programacionE":[
+        {
+            "Materia": "Programación Estructurada",
+            "Cuatrimestre": "Segundo Cuatrimestre",
+            "NumUnidades":5,
+            "Unidades": ["Introducción a la Programación Estructurada" , "Variables, Constantes y Sentencias" , "Estructuras de Control Selectivas Y Repetitivas" , "Procedimientos y Funciones" , "Listas y Recursividad" ],
+            "Objetivo": "El alumno será capaz de manipular los elementos básicos de abstracción de la filosofía orientada a objetos de problemas en el entorno real para su aplicación"    
+        }],
+    "poo":[
+        {
+            "Materia": "Programación Orientada A Objetos",
+            "Cuatrimestre": "Tercer Cuatrimestre",
+            "NumUnidades":5,
+            "Unidades": ["Paradigma orientado a objetos" , "Lenguajes de programación orientada a objetos y entornos de trabajo" , "Creación de tipos de datos" , "El alumno será capaz de programar utilizando el paradigma orientado a objetos, a través de línea de comandos e interfaces de usuario gráficas" , "Programación orientada a objetos" ],
+            "Objetivo": "El alumno será capaz de programar utilizando el paradigma orientado a objetos, a través de línea de comandos e interfaces de usuario gráficas"    
+        }],
+    "estanciaI":[
+        {
+            "Materia": "",
+            "Cuatrimestre": "Cuarto Cuatrimestre",
+            "NumUnidades":3,
+            "Unidades": ["" , "" , "" ],
+            "Objetivo": " "    
+        }],
+    "diseñoSW":[
+        {
+            "Materia": "Ingenieria De Diseño De Software",
+            "Cuatrimestre": "Quinto Cuatrimestre",
+            "NumUnidades":5,
+            "Unidades": ["Introducción a la ingeniería de software" , "Gestión de proyectos de software" , "Requerimientos del sistema" , "Diseño y construcción" , "Validación del Software" ],
+            "Objetivo": "El alumno será capaz de desarrollar proyectos de software haciendo uso de técnicas, herramientas y metodologías utilizadas en la empresa"    
+        }],
+    "desarrolloSW":[
+        {
+            "Materia": "Ingenieria De Desarrollo De Software",
+            "Cuatrimestre": "Sexto Cuatrimestre",
+            "NumUnidades":5,
+            "Unidades": ["Mantenimiento del software" , "Verificación y validación del software" , "Métricas del software" , "Gestión de la calidad del software" , "Mejora de los procesos de software" ],
+            "Objetivo": "El alumno será capaz de implementar estándares para el control de calidad de software de las aplicaciones desarrolladas"    
+        }],
+    "estanciaII":[
+        {
+            "Materia": "",
+            "Cuatrimestre": "Septimo Cuatrimestre",
+            "NumUnidades":3,
+            "Unidades": ["" , "" , "" ],
+            "Objetivo": " "    
+        }],
+    "programacionL":[
+        {
+            "Materia": "Programación Lineal",
+            "Cuatrimestre": "Octavo Cuatrimestre",
+            "NumUnidades":4,
+            "Unidades": ["Uso de la Programación Lineal" , "Modelos de Redes e Inventarios" , "Programación Dinámica" , "Programación Dinámica" ],
+            "Objetivo": "El alumno será capaz de utilizar las diferentes técnicas, algorítmicas y modelos comoç herramientas para resolver problemas de programación lineal, dinámica y de proyectos"    
+        }],
+    "metodosE":[
+        {
+            "Materia": "Metodos Estocasticos",
+            "Cuatrimestre": "Noveno Cuatrimestre",
+            "NumUnidades":4,
+            "Unidades": ["Introducción a los métodos estocásticos" , "Teoría de colas y modelos de simulación" , "Teoría de colas y modelos de simulación" , "Programación Dinámica" ],
+            "Objetivo": "El alumno será capaz de modelar y comprender cómo opera un proceso, cuál es la estructura probabilística que subyace al comportamiento aleatorio del mismo y cuál es el propósito que nos lleva a su análisis"    
+        }],
+    
 }
