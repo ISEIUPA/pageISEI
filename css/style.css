@@ -445,29 +445,37 @@ form{
 
 /*CARRETE*/
 
+.completa{
+    margin: 0 auto;
+    display: block;
+    width: 75%;  
+} 
+
 .completa h2{
     padding-top: 1.5rem;
 }
 
-
-.completa img{
-    
-    width: 40rem;
+.muchas {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
 }
 
 .galeria{
-   
     width: 124rem;
     height: 50rem;
     margin: 0 auto;
     overflow: hidden;
+    margin-bottom: 4rem;
 }
+
 .galeria img{
     max-width:160rem;
     min-width: 160rem;
-     min-height:50rem;
+    min-height:50rem;
     max-height: 50rem;
-    
 }
 
 
@@ -477,15 +485,24 @@ form{
     width: 350rem;
     animation: slide 30s infinite alternate;
     text-align:center;
-    
 }
+
+.galeria-infraestructura>h2{
+    font-size: 3rem;
+    border-bottom: 1px solid black;
+}
+.grafics>h3{
+    font-size: 2rem;
+    text-align: center;
+}
+
 
 .i img{
     width: 100%;
     margin: 1px;
     min-height: 20rem;
+    border-radius: 1rem;
 }
-
 
 @keyframes slide{
     0%{margin-left: 0rem;}
@@ -498,29 +515,11 @@ form{
     100%{margin-left: -480rem;}
 }
 
-
-.completa{
-    
-    margin: 0 auto;
-    display: block;
-    width: 75%;
-    
-        
-}
-
-.muchas {
-    width: 100%;
-    margin: 0 auto;
-    text-align: center;
-   padding: 1rem;
-    margin: 1rem;
-}
 .img {
     padding: 0rem;
     margin: 0.8rem;
     width: 24%;
     display: inline-block;
- 
 }
 
 .img img{

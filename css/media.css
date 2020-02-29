@@ -346,7 +346,49 @@
     
 }
 
+    #pies{
+        margin-top: 1%;
+    }
+    
+    footer .contenedor-3{
+        width: 90%;
+    }
 
+    .lugar li{
+        font-size: 1rem;
+    }
+    
+    .lugar span{
+        font-size: 1rem;
+    }
+    
+    .socialmedia .img-upa{
+        width: 3rem;
+    }
+    
+    .socialmedia .img-face{
+        width: 2rem;
+    }
+    
+    .contactosTel li{
+        font-size: 1rem;
+    }
+    
+    .contactosTel span{
+        font-size: 1rem;
+    }
+    
+    footer .icon-text{
+        margin-left: auto;
+    }
+    
+    footer .icon-text2{
+        margin-left: auto;
+    }
+    
+    .derechoss{
+        font-size: 1rem;
+    }
     
 }
 
