@@ -9,6 +9,9 @@
     font-size: 5rem;
 }
 
+
+
+
 html{
     font-size: 62.5%;
 }
@@ -31,51 +34,54 @@ body{
 }
 
 /*--------- CABECERA ----------------*/
-header {
-	width: 100%;
-    margin-bottom: 0;
-    background: black;
-}
-
-.contenedor{
-    max-width: 80%;
-    margin: 0 auto;
-}
-
 .inicio{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items:center;
     padding-top: 1.5rem;
-    background: red;
+    
 }
-
-.inicio img{
-    width: 30%;
+.d{
+    background: black;
+    width: 100%;
+}
+.contenedor{
+    max-width: 120rem;
+    margin: 0 auto 0 auto;
 }
 
 .menu_bar {
 	display:none;
 }
 
-.inicio nav {
-	z-index:1;
-	/* max-width: 1000px; */
-	width:100%;
-	margin:2px;
+header {
+	width: 100%;
+    margin-bottom: 0;
 }
 
-.inicio nav ul{
+header .navegacion{
     display: block;
     justify-content: center;
-    list-style: none;
-} 
+}
 
-.inicio nav .active{
+header nav {
+	
+	z-index:1000;
+	max-width: 1000px;
+	width:95%;
+	margin:20px ;
+    right: 0%;
+}
+
+header nav .active{
     border-bottom: 0.3rem solid #2a2e46;
 }
 
-.inicio nav ul li {
+header nav ul {
+	list-style:none;
+}
+
+header nav ul li {
 	display:inline-block;
 	position: relative;
 }
@@ -139,6 +145,13 @@ header nav ul li .caret {
 	margin-right:0px;
 }
 
+
+.contenido{
+    display: flex;
+    flex-direction: column;
+}
+
+
 /*---------- PAGINA INICIO ------------*/
 .tittles{
     display: block;
@@ -178,13 +191,6 @@ header nav ul li .caret {
     width: 60%;
     margin: auto;
 }
-
-.direc_plan{
-    display:block;
-    width: 70%;
-    margin: auto;
-}
-
 .direct img{
     min-width: 4rem;
 }
@@ -236,7 +242,6 @@ header nav ul li .caret {
     font-size: 2rem;
     color: black;
     font-weight:bold;
-    text-decoration: none;
 }
 
 .menuLateral ul li a:hover{
@@ -693,16 +698,13 @@ footer{
     align-self: flex-end;
     justify-content: space-between;
     z-index: 1;
-    /* position: absolute; */
-    bottom: 0;
-    /* height: 50px; */
 }
 
 #pies{
     width: 100%;
     background: #2a2e46;
     padding: 0;
-    margin-top: 3%;
+    margin-top: 1%;
 }
 
 footer .contenedor-3{
@@ -737,18 +739,12 @@ footer .contenedor-3>div>ul{
 .socialmedia{
     align-self: center;
     justify-self: center;
-    
 }
+
 
 .socialmedia li{
-    display: inline-block;
+    display: inline;
     margin: 1rem;
-    vertical-align: middle;
-}
-
-.socialmedia img{
-    width: 7rem; 
-    align-self: center;
 }
 
 .contactosTel{
@@ -759,7 +755,7 @@ footer .contenedor-3>div>ul{
     text-align: center;
     color: white;
     font-size: 1.5rem;
-    margin: 2rem auto;
+    margin: auto;
     width: 50%;
 }
 
@@ -770,6 +766,7 @@ footer .contenedor-3>div>ul{
     /**INICIO*/
     .menuLateral{
     display: none;
+   
 }
     
     .direc{
