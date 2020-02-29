@@ -242,6 +242,7 @@ header nav ul li .caret {
     font-size: 2rem;
     color: black;
     font-weight:bold;
+    text-decoration: none;
 }
 
 .menuLateral ul li a:hover{
@@ -704,7 +705,7 @@ footer{
     width: 100%;
     background: #2a2e46;
     padding: 0;
-    margin-top: 1%;
+    margin-top: 5%;
 }
 
 footer .contenedor-3{
@@ -712,7 +713,8 @@ footer .contenedor-3{
     grid-template: "auto auto auto";
     grid-gap: 0rem;
     width: 70%;
-    margin: auto;    
+    margin: auto;  
+    margin-bottom: 1rem;
 }
 
 footer .contenedor-3 >div{
@@ -745,6 +747,10 @@ footer .contenedor-3>div>ul{
 .socialmedia li{
     display: inline;
     margin: 1rem;
+}
+
+.socialmedia img{
+    width: 4rem;
 }
 
 .contactosTel{
