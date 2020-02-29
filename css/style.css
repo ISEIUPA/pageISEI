@@ -154,15 +154,38 @@ header nav ul li .caret {
 
 /*---------- PAGINA INICIO ------------*/
 .tittles{
-    display: block;
-    width: 100%;
+    display: flex;
+    width: 80%;
     align-content: center;
+    justify-content:space-between;
+    place-items: center;
     text-align: center;
     text-align: justify;
     border-bottom: 1px solid rgba(11, 9, 9, 0.37);
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.tittles h1{
+.tittles>div{
+    margin-top: 2rem;
+}
+
+.tittles .imagen-cabecera,
+.tittles .imagen-cabecera2,
+.tittles .titulos-cabecera{
+    text-align: center;
+}
+
+.tittles .imagen-cabecera img{
+    width: 70%;
+}
+
+.tittles .imagen-cabecera2 img{
+    width: 50%;
+}
+
+.tittles .titulos-cabecera h1{
     margin-top: 0;
     margin-bottom: 20px;
     color: #000000;
@@ -174,7 +197,7 @@ header nav ul li .caret {
     text-align: center;
 }
 
-.tittles h2{
+.tittles .titulos-cabecera h2{
     margin-top: 1rem;
     margin-bottom: 20px;
     color: #000000;
@@ -705,7 +728,7 @@ footer{
     width: 100%;
     background: #2a2e46;
     padding: 0;
-    margin-top: 5%;
+    margin-top: 6%;
 }
 
 footer .contenedor-3{
@@ -714,13 +737,14 @@ footer .contenedor-3{
     grid-gap: 0rem;
     width: 70%;
     margin: auto;  
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 footer .contenedor-3 >div{
     margin-top: 2rem;
     color: white;
     font-size: 1.8rem;
+    align-self: center;
 }
 
 footer .contenedor-3>div>ul{
@@ -739,7 +763,7 @@ footer .contenedor-3>div>ul{
 }
 
 .socialmedia{
-    align-self: center;
+    /* align-self: center; */
     justify-self: center;
 }
 
@@ -750,7 +774,7 @@ footer .contenedor-3>div>ul{
 }
 
 .socialmedia img{
-    width: 4rem;
+    width: 5rem;
 }
 
 .contactosTel{
@@ -763,6 +787,7 @@ footer .contenedor-3>div>ul{
     font-size: 1.5rem;
     margin: auto;
     width: 50%;
+    margin-bottom: 2rem;
 }
 
 
