@@ -89,14 +89,32 @@
   
     /**INICIO*/
     .menus{
-    display: none;
-   
-}
+    display: none;}
     
     .direc{
         margin: 1rem;
         display: block;
         width: auto;
+    }
+    
+    .direc-materias{
+        overflow: auto;
+    }
+    
+    .ventana-modal{
+        width: 70%;
+    }
+    
+    .ventana-contenido .modalH3{
+        font-size: 100%;
+    }
+    
+    .ventana-contenido .modalH4{
+        font-size: 80%;
+    }
+    
+    .ventana-contenido .modalList{
+        font-size: 70%;
     }
     
     /*FIN INICIO**/
