@@ -366,29 +366,34 @@ header nav ul li .caret {
 
 /************ contactanos********/
 .info1{
-    
-    width: 100%;
-}
-
-.c{
-    
+    width: 80%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-content: center;
+    text-align: center;
+    place-items: center;
     height: inherit;
     background: white;    
-    margin: 2rem;
+    margin: 2rem auto;
 }
 
+.ubicacion{
+    width: 40%;
+    border-radius: 1rem;
+}
+
+.contactl{
+    width: 50%;
+}
 
 .seldl{
-    padding: 7rem;
-    width: 70rem;
-    height: 80rem;
+    padding: 3rem;
     display: flex;
     margin: 0;
-    background:rgba(8, 8, 8, 0.08);
-    
+    background:white;
+    border-radius: 1rem;
 }
+
 .name{
     padding: 2rem;
     color: black;
@@ -396,33 +401,36 @@ header nav ul li .caret {
 }
 
 .com{
-    padding-right: 10rem;
-    padding: 2rem;
-    margin-top: 4rem;
-    height: 16rem;
+    /* padding-right: 1rem; */
+    /* padding: 2rem; */
+    margin-top: 2rem;
     color: black;
-    
+}
+.com #mensaje{
+    margin: 0 auto;
 }
 .bta{
     margin: 0 auto;
     display: flex;
-    margin-top: 3rem;
+    margin-top: 2rem;
     font-family: 'Coda Caption', sans-serif;
     height: 6rem;
-    background: orange;
-    font-size: 4rem;
-    
+    background: #2a2e46;
+    color:white;
+    font-size: 2rem;
+    padding: 1rem;
+    border-radius: 2rem:
 }
 
 .bta:hover{
-    background: green;
+    background: #4d5f77;
     color: white;
 }
 
 form{
     width: inherit;
     margin: 0 auto;    
-    background: rgba(8, 8, 8, 0.08);
+    background: white; /* rgba(8, 8, 8, 0.08); */
     padding: 1rem;
     height: auto 0;
     
