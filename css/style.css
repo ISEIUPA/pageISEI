@@ -365,6 +365,28 @@ header nav ul li .caret {
 }
 
 /************ contactanos********/
+.informacion{
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.informacion>div{
+    width: 50%;
+}
+
+.informacion .informacion1>ul,
+.informacion .informacion2>ul{
+    list-style: none;
+    font-size: 2rem;
+}
+
+.informacion .informacion1>ul>li,
+.informacion .informacion2>ul>li{
+    padding: 1rem;
+}
 .info1{
     width: 80%;
     display: flex;
