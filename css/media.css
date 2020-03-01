@@ -184,60 +184,64 @@
 
     /******contactanos responsive////*/
     
+    .informacion{
+        width: 90%;
+    }
     
+    .informacion .informacion1>ul,
+    .informacion .informacion2>ul{
+        list-style: none;
+        font-size: 1rem;
+    }
 
-.c{
+    .informacion .informacion1>ul>li,
+    .informacion .informacion2>ul>li{
+        padding: 0.2rem;
+    }
     
-    display: flex;
-    justify-content: center;
-    height: inherit;
-    width: auto;
-    background: white;    
-    margin: 2rem;
-}
+    .info1{
+        width: 90%;
+        display: block;
+        margin: 1rem auto;
+        right: 0;
+    }
+    
+    .ubicacion{
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 2rem;
+        display: block;
+        height: inherit;
+    }
+    
+    .ubicacion>iframe{
+        height: 30rem;
+        width: 100%;
+    }
+    
+    .contactl{
+        width: 100%;
+        display: block;
+    }
+    
+    .seldl{
+        padding: 1rem;
+        font-size: 1.2rem;
+    }
+    
+    .name{
+        padding: 1rem;
+        margin-top: 1rem;
+    }
 
-
-
-.seldl{
-    padding: 7rem;
-    width: auto;
-    height: inherit;
-    display: flex;
-    margin: 0;
-    background:rgba(8, 8, 8, 0.08);
+    .com{
+        margin-top: 1rem;
+    }
     
-}
-.name{
-    padding: 0;
-    color: black;
-    margin-top: 2rem;
-     background:rgba(8, 8, 8, 0.08);
-}
-
-.com{
- background:rgba(8, 8, 8, 0.08);
-    
-    height: auto;
-    width: auto;
-    color: black;
-    
-}
-.bta{
-    margin: 0 auto;
-    display: block;
-    font-family: 'Coda Caption', sans-serif;
-    height: inherit;
-    background: orange;
-    font-size: 2rem;
-    width: 15rem;
-    
-    
-}
-
-.bta:hover{
-    background: green;
-    color: white;
-}
+    .bta{
+        margin: 0 auto;
+        font-size: 1.3rem;   
+    }
  
     .grafica{
     display: block;
@@ -259,7 +263,7 @@
     justify-content: center;
     
 }
-    
+        
     /**INICIO*/
     .menuLateral{
     display: none;
@@ -305,92 +309,7 @@
     
     
     
-    /**PARTE DE CRONOGRAMA DE ACTIVIDADES RESPONSIVE*****/
-    .cajapdf{
-        display: flex;
-        margin: 0;
-        width: auto;
-        overflow-y: scroll;
-        max-height: 50rem;
-    }
-    
-
-    /******contactanos responsive////*/
-    
-    
-
-.c{
-    
-    display: flex;
-    justify-content: center;
-    height: inherit;
-    width: auto;
-    background: white;    
-    margin: 2rem;
-}
-
-
-
-.seldl{
-    padding: 7rem;
-    width: auto;
-    height: inherit;
-    display: flex;
-    margin: 0;
-    background:rgba(8, 8, 8, 0.08);
-    
-}
-.name{
-    padding: 0;
-    color: black;
-    margin-top: 2rem;
-     background:rgba(8, 8, 8, 0.08);
-}
-
-.com{
- background:rgba(8, 8, 8, 0.08);
-    
-    height: auto;
-    width: auto;
-    color: black;
-    
-}
-.bta{
-    margin: 0 auto;
-    display: block;
-    font-family: 'Coda Caption', sans-serif;
-    height: inherit;
-    background: orange;
-    font-size: 2rem;
-    width: 15rem;
-    
-    
-}
-
-.bta:hover{
-    background: green;
-    color: white;
-}
- 
-    .grafica{
-    display: block;
-    width: auto;
-    height:inherit;
-
-    }
-
-.grafics{
-   
-    margin-left: 10rem;
-    margin-right: 10rem;
-}
-.grafc{
-    
-    width: auto;
-    margin: 0 auto;
-    justify-content: center;
-    
-}
+    /**PARTE DE CRONOGRAMA DE ACTIVIDADES RESPONSIVE*****/    
 
     #pies{
         margin-top: 1%;
