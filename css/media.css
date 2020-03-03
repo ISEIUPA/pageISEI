@@ -55,8 +55,8 @@
 	.header nav {
 		width: 80%;
 		position: fixed;
-		overflow: scroll;
         right: 100%;
+        background-color: black;
 	}
     
     .header nav ul{
