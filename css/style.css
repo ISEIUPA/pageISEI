@@ -283,6 +283,7 @@ header nav ul li .caret {
     float: left;
     box-sizing: border-box;
 }
+
 .main img{
     width: 50%; 
     height: auto;
@@ -313,7 +314,8 @@ header nav ul li .caret {
 
 .grafica{
     display: block;
-    width: 100%; height:inherit;
+    width: 100%; 
+    height:inherit;
 }
 
 .grafics{
@@ -324,11 +326,12 @@ header nav ul li .caret {
     border-radius: 8px;
     box-shadow: 0 2px 2px rgba(0,0,0,0.2);
     overflow: hidden;
-    transition: all 0.25seg;
+    /* transition: all 0.25seg; */
     padding: 1rem;
     text-align: justify;
-    margin: 2rem 2rem; 
+    
 }
+
 .grafc{
     display: block;
     width: 90%;
@@ -340,6 +343,7 @@ header nav ul li .caret {
 .grafica img{
     width: 100%;
     margin: auto;
+    
 }
 
 .cajapdf{
@@ -445,7 +449,7 @@ header nav ul li .caret {
     color:white;
     font-size: 2rem;
     padding: 1rem;
-    border-radius: 2rem:
+    border-radius: 2rem;
 }
 
 .bta:hover{

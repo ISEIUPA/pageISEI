@@ -1,9 +1,6 @@
 
 @media screen and (max-width: 80rem) {
-    .medio h3{
-        text-align: center;
-        margin-bottom: 2.5rem;
-    }
+
 	body {
 		padding-top:8rem;
 	}
@@ -125,6 +122,27 @@
         width: auto;
     }
     
+    .medio h3{
+        text-align: center;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+    }
+    
+    .main p{
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .main img{
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 2rem;
+    }
+    .medio ul{
+        font-size: 1.5rem;
+    }
+    
+    
     .direc-materias{
         overflow: auto;
     }
@@ -182,7 +200,7 @@
     }
     
 
-    /******contactanos responsive////*/
+    /******contactanos res.medioponsive////*/
     
     .informacion{
         width: 90%;
@@ -244,25 +262,38 @@
     }
  
     .grafica{
-    display: block;
-    width: auto;
-    height:inherit;
-
+        display: block;
+        width: 100%;
+        height:inherit;
+    }
+    
+    .grafica h3{
+        margin-top: 1rem;
     }
 
-.grafics{
-   
-    margin-left: 10rem;
-    margin-right: 10rem;
-}
-.grafc{
+    .grafics{
+        display: flex;
+        margin: 1rem;
+        /* margin-left: 1rem; */
+        /* margin-right: 1rem; */
+    }
     
-    width: auto;
-    padding: 0;
-    margin: 0 auto;
-    justify-content: center;
+    .grafics p{
+        font-size: 1.5rem;
+        margin-left: 1rem;
+    }
     
-}
+    .grafics img{
+        width: 100%;
+        margin: auto;
+    }
+
+    .grafc{
+        width: auto;
+        padding: 0;
+        margin: 0 auto;
+        justify-content: center;
+    }
         
     /**INICIO*/
     .menuLateral{
