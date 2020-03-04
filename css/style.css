@@ -641,16 +641,20 @@ form{
 #tablaMapa td a{
     text-decoration: none;
     width: 100%;
+
+    display: block;
 }
 
 #tablaMapa td:hover,
 #tablaMapa td:active{
     background: #7b798e;
+   
 }
 
 #tablaMapa td a:hover,
 #tablaMapa td a:checked{
     background: #7b798e;
+     cursor: pointer;
 }
 
 .ventanaModal {
