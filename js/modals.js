@@ -2,6 +2,7 @@ $(document).ready(function(){
     readTextFile(function(text){
             var data = JSON.parse(text);
             window.actual_JSON = data;
+            console.log(data);
        });
 });
 
@@ -17,26 +18,40 @@ function modalClick(idClicked)
     var datosModal = window.actual_JSON[idClicked][0];
     
     
-//    datosModal =   {
-//            "Materia": "Inglés I",
-//            "Cuatrimestre": "Primer Cuatrimestre",
-//            "NumUnidades":4,
-//            "Unidades": ["Introducción: Interacción en el aula" , "Descripción y ubicación de lugares y objetos", "Habilidades y acciones cotidianas", "Comunicar opiniones" ],
-//            "Objetivo": "El alumno será capaz de manejar, comunicar y comprender ideas y/o textos simples abordando eventos cotidianos con bajo nivel de complejidad haciendo uso de la información de su entorno"    
-//        };
-    
-    
-    modalContent.innerHTML = "";
-    modalContent.innerHTML = '<h3 class="modalH3">' + datosModal.Materia + '</h3>';
-    modalContent.innerHTML += '<h4 class="modalH4">Objetivo: ' + datosModal.Objetivo + '</h4>';
-    modalContent.innerHTML += '<h4 class="modalH4">Unidades de aprendizaje: </h4>';
-    var lista = '<ol class="modalList">';
-    for (var i =0; i< datosModal.Unidades.length; i++){
-        lista += '<li>' + datosModal.Unidades[i] + '</li>';}
-    lista += "</ol>";
-    modalContent.innerHTML += lista;
+    if (idClicked.includes("optativa")){
+        modalContent.innerHTML = "";
+        modalContent.innerHTML = '<h3 class="modalH3">' + datosModal.Especialidad1 + '</h3>';
+        modalContent.innerHTML += '<h3 class="modalH3">' + datosModal.Materia1 + '</h3>';
+        modalContent.innerHTML += '<h4 class="modalH4">Objetivo: ' + datosModal.Objetivo1 + '</h4>';
+        modalContent.innerHTML += '<h4 class="modalH4">Unidades de aprendizaje: </h4>';
+        var lista = '<ol class="modalList">';
+        for (var i =0; i< datosModal.Unidades1.length; i++){
+            lista += '<li>' + datosModal.Unidades1[i] + '</li>';}
+        lista += "</ol>";
+        modalContent.innerHTML += lista;
+        
+        modalContent.innerHTML += '<h3 class="modalH3">' + datosModal.Especialidad2 + '</h3>';
+        modalContent.innerHTML += '<h3 class="modalH3">' + datosModal.Materia2 + '</h3>';
+        modalContent.innerHTML += '<h4 class="modalH4">Objetivo: ' + datosModal.Objetivo2 + '</h4>';
+        modalContent.innerHTML += '<h4 class="modalH4">Unidades de aprendizaje: </h4>';
+        var lista = '<ol class="modalList">';
+        for (var i =0; i< datosModal.Unidades2.length; i++){
+            lista += '<li>' + datosModal.Unidades2[i] + '</li>';}
+        lista += "</ol>";
+        modalContent.innerHTML += lista;
+    }
+    else{
+        modalContent.innerHTML = "";
+        modalContent.innerHTML = '<h3 class="modalH3">' + datosModal.Materia + '</h3>';
+        modalContent.innerHTML += '<h4 class="modalH4">Objetivo: ' + datosModal.Objetivo + '</h4>';
+        modalContent.innerHTML += '<h4 class="modalH4">Unidades de aprendizaje: </h4>';
+        var lista = '<ol class="modalList">';
+        for (var i =0; i< datosModal.Unidades.length; i++){
+            lista += '<li>' + datosModal.Unidades[i] + '</li>';}
+        lista += "</ol>";
+        modalContent.innerHTML += lista;
+    }
     modal.style.display = "block";
-    
     //When the user clicks on <span> (x), close the modal
     span.onclick = function() {
         modal.style.display = "none";
