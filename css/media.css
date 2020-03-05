@@ -1,5 +1,5 @@
 
-@media screen and (max-width: 80rem) {
+@media screen and (max-width: 1000px) {
 
 	body {
 		padding-top:8rem;
@@ -37,13 +37,16 @@
 		text-decoration: none;
 	}
     
-  
-    /***/
+    .bt-menu .icon-menu{
+        /* background: red; */
+    }
 
 	.menu_bar span {
 		float: right;
 		font-size: 40px;
 	}
+    
+    
     .header{
         margin-bottom: 0;
         padding: 0;

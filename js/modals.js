@@ -2,7 +2,6 @@ $(document).ready(function(){
     readTextFile(function(text){
             var data = JSON.parse(text);
             window.actual_JSON = data;
-            console.log(data);
        });
 });
 

@@ -1,8 +1,9 @@
-$(document).ready(main);
+
 
 var contador = 1;
 
-function main () {
+
+$(document).ready(function() {
 	$('.menu_bar').click(function(){
 		if (contador == 1) {
 			$('nav').animate({
@@ -21,4 +22,4 @@ function main () {
 	$('.submenu').click(function(){
 		$(this).hijos('.hijos').slideToggle();
 	});
-}
+});
