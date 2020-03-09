@@ -231,9 +231,10 @@ header nav ul li .caret {
     padding: 0;
     position: fixed;
     border-radius: 1rem;
-    width: 24rem;
+    width: 18%;
     margin-left: 8rem;
 }
+
 .menuLateral ul{
     display: block;
     width: 100%;
@@ -254,7 +255,7 @@ header nav ul li .caret {
 
 .menuLateral ul li{
     display: block;
-    width: 23rem;
+    width: 20rem;
     margin-bottom: 0;
     border-bottom: 1px solid black;
 }
