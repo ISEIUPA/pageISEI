@@ -1,0 +1,68 @@
+{
+    "lab01": [
+        {
+            "imagen": "img/vida02.png",
+            "texto": "Contamos con un laboratorio de software libre donde podrás desarrollar tus proyectos en un ambiente de trabajo colaborativo.",
+            "titulo": "Laboratorio de Software Libre"
+        }],
+    "lab02": [
+        {
+            "imagen": "img/redes.png",
+            "texto": "Actualmente tenemos un laboratorio exclusivo de redes y formamos parte del CISCO Academy, por lo que al salir de la carrera puedes tener tu certificado CCNA R&S.",
+            "titulo": "Laboratorio de Software Libre"
+        }],
+    "lab03": [
+        {
+            "imagen": "img/labs.jpg",
+            "texto": "Se tienen 5 laboratorios de cómputo para uso general.",
+            "titulo": "Laboratorios de cómputo"
+        }],
+    "campus01": [
+        {
+            "imagen": "img/campus.jpg",
+            "texto": "",
+            "titulo": "Campus universitario"
+        }],
+    "campus02":[
+        {
+            "imagen": "img/pasion.jpg",
+            "texto": "",
+            "titulo": "Campus universitario"
+        }],
+    "campus03": [
+        {
+            "imagen": "img/biblioteca.png",
+            "texto": "",
+            "titulo": "Biblioteca"
+        }],
+    "campus04": [
+        {
+            "imagen": "img/campus01.jpg",
+            "texto": "",
+            "titulo": "Libreros Libres"
+        }],
+    "vida01":[
+        {
+            "imagen": "img/vida01.jpg",
+            "texto": "",
+            "titulo": "Vida universitaria"
+        }],
+    "vida02":[
+        {
+            "imagen": "img/vida.jpg",
+            "texto": "",
+            "titulo": "Vida universitaria"
+        }],
+    "vida03":[
+        {
+            "imagen": "img/Limpieza.jpg",
+            "texto": "",
+            "titulo": "Vida universitaria"
+        }],
+    "vida04":[
+        {
+            "imagen": "img/libreros.jpg",
+            "texto": "Espacios dedicados a la lectura, puedes tomar cualquier libro y devolverlo cuando lo hayas terminado.",
+            "titulo": "Libreros libres"
+        }]
+}

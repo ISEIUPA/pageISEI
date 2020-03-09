@@ -76,4 +76,3 @@ function readTextFile(callback){
     rawFile.send(null);
 }
 
-

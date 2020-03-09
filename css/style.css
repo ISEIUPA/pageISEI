@@ -323,30 +323,31 @@ header nav ul li .caret {
 
 .grafics{
     display: inline-block;
-    max-width: 30rem;
-    max-height: 50rem;
+    /* max-width: 30rem; */
+    /* max-height: 40em; */
+    width: 30rem;
     margin: 2rem;
-    border-radius: 8px;
+    border-radius: 0.8rem;
     box-shadow: 0 2px 2px rgba(0,0,0,0.2);
     overflow: hidden;
     /* transition: all 0.25seg; */
     padding: 1rem;
     text-align: justify;
-    
 }
+
 
 .grafc{
     display: block;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     padding: 8rem;
     justify-content: center;
 }
 
-.grafica img{
+.grafics img{
     width: 100%;
     margin: auto;
-    
+    border-radius: 0.8rem;
 }
 
 .cajapdf{
@@ -503,9 +504,10 @@ form{
     padding: 1rem;
     margin: 1rem;
 }
+    
 .galeria{
-    width: 100%;
-    height: 50rem;
+    width: 80%;
+    height: inherit;
     margin: 0 auto;
     overflow: hidden;
     margin-bottom: 4rem;
@@ -527,22 +529,32 @@ form{
     text-align:center;
 }
 
+.galeria-infraestructura{
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    padding: 8rem;
+    justify-content: center;  
+}
+
 .galeria-infraestructura>h2{
     font-size: 3rem;
     border-bottom: 1px solid black;
 }
+
 .grafics>h3{
     font-size: 2rem;
     text-align: center;
 }
 
 
-.i img{
+
+/* .i img{
     width: 100%;
-    margin: 1px;
+    margin: 0.1rem;
     min-height: 20rem;
     border-radius: 1rem;
-}
+} */
 
 @keyframes slide{
     0%{margin-left: 0rem;}
@@ -681,6 +693,7 @@ form{
   border: 1px solid #888;
   width: 50%;
   border-radius: 2rem;
+  text-align: center;
 }
 
 .ventana-contenido .modalH3{
@@ -701,7 +714,7 @@ form{
     font-family: 'Lato', sans-serif;
     margin: 0 3rem 3rem 3rem;
     color: #000000;
-    font-size: 100%;
+    font-size: 150%;
     font-weight: 100;
     letter-spacing: 1px;
     word-spacing: 3px;
@@ -712,11 +725,17 @@ form{
     text-align: justify;
     font-family: 'Lato', sans-serif;
     color: #000000;
-    font-size: 100%;
+    font-size: 140%;
     font-weight: 100;
     letter-spacing: 1px;
     word-spacing: 3px;
     margin: -2rem 3rem 6rem 6rem;
+}
+
+.ventana-contenido img{
+    border-radius: 1rem;
+    width: 100%;
+    margin-bottom: 2rem;
 }
 
 .closeBtn {
