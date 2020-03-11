@@ -64,5 +64,11 @@
             "imagen": "img/libreros.jpg",
             "texto": "Espacios dedicados a la lectura, puedes tomar cualquier libro y devolverlo cuando lo hayas terminado.",
             "titulo": "Libreros libres"
+        }],
+    "vida05":[
+        {
+            "imagen": "img/vida03.jpg",
+            "texto": "",
+            "titulo": "Vida Universitaria"
         }]
 }
